@@ -1,0 +1,256 @@
+location_id,facility_name,location_type,city,country,region,operating_status,opening_date
+LOC_00001,North Judithbury Service Center,Service Center,North Judithbury,India,Latin America,Active,2022-03-24
+LOC_00002,Lake Joyside Manufacturing Plant,Manufacturing Plant,Lake Joyside,United Kingdom,North America,Active,2021-06-24
+LOC_00003,Johnsonland Warehouse,Warehouse,Johnsonland,Germany,Asia Pacific,Active,2022-03-15
+LOC_00004,New Jamesside Headquarters,Headquarters,New Jamesside,Japan,Asia Pacific,Inactive,2023-04-22
+LOC_00005,Lawrencetown Manufacturing Plant,Manufacturing Plant,Lawrencetown,Sweden,Europe,Active,2025-03-03
+LOC_00006,Lake Roberto Manufacturing Plant,Manufacturing Plant,,United Kingdom,,Active,2022-07-12
+LOC_00007,Port Matthew Manufacturing Plant,Manufacturing Plant,Port Matthew,Sweden,North America,Active,2021-07-06
+LOC_00008,West Melanieview Manufacturing Plant,Manufacturing Plant,West Melanieview,Canada,Latin America,Active,2025-06-08
+LOC_00009,Herrerafurt Warehouse,Warehouse,,France,Europe,Active,2021-06-08
+LOC_00010,Mariastad Distribution Center,Distribution Center,Mariastad,India,Latin America,Active,2024-03-04
+LOC_00011,North Donnaport Manufacturing Plant,Manufacturing Plant,North Donnaport,Germany,Asia Pacific,Active,2026-05-31
+LOC_00012,Port Craig Service Center,Service Center,,Sweden,North America,Active,2022-07-12
+LOC_00013,Franciscostad Headquarters,Headquarters,Franciscostad,United States,Europe,Active,2022-02-25
+LOC_00014,Jacquelineland Manufacturing Plant,Manufacturing Plant,Jacquelineland,India,Latin America,Active,2024-05-06
+LOC_00015,New Jessica Service Center,Service Center,New Jessica,India,Asia Pacific,Active,2021-11-24
+LOC_00016,Nelsonside Manufacturing Plant,Manufacturing Plant,Nelsonside,Japan,Latin America,Active,2022-03-17
+LOC_00017,Meganton Manufacturing Plant,Manufacturing Plant,Meganton,Canada,Latin America,Inactive,2022-04-05
+LOC_00018,Port Leslieview Service Center,Service Center,Port Leslieview,Canada,Latin America,Active,2021-05-13
+LOC_00019,Jasonfort Service Center,Service Center,Jasonfort,France,Asia Pacific,Active,2023-03-05
+LOC_00020,Thomasberg Headquarters,Headquarters,Thomasberg,India,Latin America,Active,2022-05-10
+LOC_00021,Juliechester Manufacturing Plant,Manufacturing Plant,Juliechester,Japan,North America,Active,2025-12-07
+LOC_00022,Coxberg Manufacturing Plant,Manufacturing Plant,Coxberg,Canada,North America,Active,2023-10-20
+LOC_00023,Port Brandonville Warehouse,Warehouse,Port Brandonville,United States,North America,Active,2021-11-03
+LOC_00024,Port Erin Warehouse,Warehouse,Port Erin,India,North America,Active,2024-04-11
+LOC_00025,Jamesmouth Warehouse,Warehouse,Jamesmouth,Japan,Asia Pacific,Active,2023-11-28
+LOC_00026,Lake Jenniferside Warehouse,Warehouse,Lake Jenniferside,Germany,Asia Pacific,Active,2025-02-15
+LOC_00027,Danielchester Manufacturing Plant,Manufacturing Plant,Danielchester,India,Europe,Active,2021-11-14
+LOC_00028,Lake Nancyview Manufacturing Plant,Manufacturing Plant,Lake Nancyview,Japan,,Active,2026-05-04
+LOC_00029,New Rita Manufacturing Plant,Manufacturing Plant,New Rita,India,Europe,Active,2025-10-13
+LOC_00030,Meaganhaven Warehouse,Warehouse,Meaganhaven,Japan,Europe,Active,2024-05-06
+LOC_00031,West Kathryn Warehouse,Warehouse,West Kathryn,United Kingdom,Asia Pacific,Active,2023-12-18
+LOC_00032,New Mariotown Warehouse,Warehouse,New Mariotown,Canada,Asia Pacific,Active,2021-08-13
+LOC_00033,Natashaport Distribution Center,Distribution Center,Natashaport,United States,Asia Pacific,Active,2022-04-26
+LOC_00034,New Stacey Headquarters,Headquarters,New Stacey,United Kingdom,Asia Pacific,Active,2021-06-21
+LOC_00035,Cabreraside Distribution Center,Distribution Center,Cabreraside,Sweden,North America,Inactive,2025-03-17
+LOC_00036,Lake Thomas Distribution Center,Distribution Center,Lake Thomas,India,Asia Pacific,Active,2024-01-08
+LOC_00037,Allisonchester Headquarters,Headquarters,Allisonchester,Sweden,North America,Active,2026-04-19
+LOC_00038,Lake Larry Service Center,Service Center,Lake Larry,France,,Active,2026-06-20
+LOC_00039,Samuelhaven Warehouse,Warehouse,,United States,North America,Active,2023-06-25
+LOC_00040,East Caleb Warehouse,Warehouse,East Caleb,Sweden,Latin America,Active,2021-02-12
+LOC_00041,New Jeffrey Warehouse,Warehouse,New Jeffrey,Canada,Asia Pacific,Active,2021-05-23
+LOC_00042,East Carloston Manufacturing Plant,Manufacturing Plant,East Carloston,United States,North America,Active,2025-09-21
+LOC_00043,New Johnfort Warehouse,Warehouse,New Johnfort,Sweden,North America,Active,2022-03-06
+LOC_00044,Lake Selena Distribution Center,Distribution Center,,Japan,Asia Pacific,Active,2024-02-20
+LOC_00045,Sanchezfort Manufacturing Plant,Manufacturing Plant,Sanchezfort,Germany,Europe,Inactive,2025-06-08
+LOC_00046,North Collin Distribution Center,Distribution Center,North Collin,France,Latin America,Active,2023-05-15
+LOC_00047,Jenkinston Service Center,Service Center,Jenkinston,United States,Europe,Inactive,2024-09-12
+LOC_00048,North Richardmouth Distribution Center,Distribution Center,North Richardmouth,France,Asia Pacific,Active,2025-05-25
+LOC_00049,East Jamesside Headquarters,Headquarters,East Jamesside,United States,Latin America,Active,2023-06-19
+LOC_00050,Whitemouth Headquarters,Headquarters,Whitemouth,Canada,,Active,2022-05-17
+LOC_00051,South Lindseyside Manufacturing Plant,Manufacturing Plant,South Lindseyside,United States,North America,Active,2021-07-16
+LOC_00052,North Sarabury Service Center,Service Center,North Sarabury,Sweden,Europe,Active,2021-11-30
+LOC_00053,Olsonfurt Warehouse,Warehouse,Olsonfurt,Sweden,Asia Pacific,Active,2025-12-16
+LOC_00054,South Aaron Manufacturing Plant,Manufacturing Plant,South Aaron,India,Europe,Active,2023-02-23
+LOC_00055,Mitchellside Distribution Center,Distribution Center,Mitchellside,France,Europe,Active,2024-08-20
+LOC_00056,Mooreport Manufacturing Plant,Manufacturing Plant,Mooreport,United States,North America,Active,2022-03-13
+LOC_00057,New Jillton Distribution Center,Distribution Center,New Jillton,United Kingdom,Asia Pacific,Active,2025-02-09
+LOC_00058,North Breannahaven Distribution Center,Distribution Center,North Breannahaven,Germany,Europe,Active,2026-01-19
+LOC_00059,North Susan Manufacturing Plant,Manufacturing Plant,North Susan,Japan,Asia Pacific,Active,2021-06-10
+LOC_00060,North Brooke Service Center,Service Center,North Brooke,Japan,Asia Pacific,Active,2024-09-16
+LOC_00061,South David Manufacturing Plant,Manufacturing Plant,South David,Sweden,North America,Inactive,2025-11-21
+LOC_00062,New Brooke Manufacturing Plant,Manufacturing Plant,New Brooke,France,Europe,Active,2024-05-27
+LOC_00063,Sandovalshire Distribution Center,Distribution Center,Sandovalshire,Canada,Latin America,Active,2023-11-15
+LOC_00064,Jamesmouth Headquarters,Headquarters,Jamesmouth,Canada,North America,Active,2022-04-24
+LOC_00065,Andersonport Distribution Center,Distribution Center,Andersonport,United Kingdom,Latin America,Active,2023-07-07
+LOC_00066,North Stephenshire Warehouse,Warehouse,North Stephenshire,Germany,Asia Pacific,Active,2026-06-22
+LOC_00067,New Jasonview Warehouse,Warehouse,New Jasonview,Japan,Europe,Active,2021-09-23
+LOC_00068,Nicolebury Manufacturing Plant,Manufacturing Plant,Nicolebury,Germany,North America,Active,2023-01-12
+LOC_00069,South Martha Headquarters,Headquarters,South Martha,Sweden,Europe,Active,2024-11-12
+LOC_00070,Lake Lisaport Headquarters,Headquarters,Lake Lisaport,Germany,North America,Active,2026-02-13
+LOC_00071,East Josephville Warehouse,Warehouse,East Josephville,Canada,Europe,Active,2025-01-29
+LOC_00072,West Juan Warehouse,Warehouse,West Juan,United States,Latin America,Active,2022-02-27
+LOC_00073,Jamesview Warehouse,Warehouse,Jamesview,United Kingdom,Latin America,Active,2023-10-11
+LOC_00074,Rebeccaton Warehouse,Warehouse,Rebeccaton,India,Asia Pacific,Active,2021-07-05
+LOC_00075,Calderonton Manufacturing Plant,Manufacturing Plant,Calderonton,Sweden,Asia Pacific,Active,2021-01-08
+LOC_00076,Lake Tina Service Center,Service Center,Lake Tina,France,Europe,Active,2021-11-21
+LOC_00077,Arnoldchester Distribution Center,Distribution Center,Arnoldchester,France,,Active,2024-01-31
+LOC_00078,North Sierraberg Distribution Center,Distribution Center,North Sierraberg,France,North America,Active,2023-12-31
+LOC_00079,Brandiberg Warehouse,Warehouse,Brandiberg,United Kingdom,Latin America,Active,2023-05-13
+LOC_00080,West Michaelton Distribution Center,Distribution Center,West Michaelton,Germany,Latin America,Active,2025-12-09
+LOC_00081,Lake John Service Center,Service Center,Lake John,Sweden,Europe,Inactive,2021-07-26
+LOC_00082,Dicksonberg Headquarters,Headquarters,,Germany,Latin America,Inactive,2026-02-01
+LOC_00083,Port Francisco Service Center,Service Center,Port Francisco,United States,Europe,Inactive,2025-05-24
+LOC_00084,South Angel Manufacturing Plant,Manufacturing Plant,South Angel,United States,Latin America,Active,2025-01-17
+LOC_00085,Kimberlychester Manufacturing Plant,Manufacturing Plant,Kimberlychester,India,North America,Active,2025-05-29
+LOC_00086,West Erik Service Center,Service Center,West Erik,United States,Europe,Active,2024-11-07
+LOC_00087,Brennanfort Headquarters,Headquarters,Brennanfort,Japan,Europe,Active,2022-03-23
+LOC_00088,Baileybury Manufacturing Plant,Manufacturing Plant,Baileybury,France,Asia Pacific,Active,2022-03-24
+LOC_00089,South Mark Warehouse,Warehouse,South Mark,Canada,Europe,Active,2025-09-30
+LOC_00090,Michaelhaven Manufacturing Plant,Manufacturing Plant,Michaelhaven,Germany,,Active,2023-03-13
+LOC_00091,Sheilaville Warehouse,Warehouse,Sheilaville,India,Europe,Active,2025-10-26
+LOC_00092,Gregoryview Distribution Center,Distribution Center,Gregoryview,United Kingdom,Latin America,Active,2021-03-18
+LOC_00093,Reedmouth Distribution Center,Distribution Center,,United Kingdom,Latin America,Active,2023-05-26
+LOC_00094,South Rachelborough Warehouse,Warehouse,South Rachelborough,Japan,Europe,Active,2022-05-26
+LOC_00095,Smithside Headquarters,Headquarters,Smithside,Sweden,Europe,Active,2024-10-09
+LOC_00096,West Ryan Distribution Center,Distribution Center,West Ryan,France,,Active,2026-03-19
+LOC_00097,Cindyville Distribution Center,Distribution Center,Cindyville,United Kingdom,Europe,Active,2024-12-14
+LOC_00098,Williamchester Warehouse,Warehouse,Williamchester,Sweden,Europe,Active,2022-10-17
+LOC_00099,Angelaborough Distribution Center,Distribution Center,Angelaborough,Sweden,North America,Active,2023-04-24
+LOC_00100,Byrdburgh Distribution Center,Distribution Center,Byrdburgh,Sweden,Latin America,Active,2024-05-19
+LOC_00101,Richardtown Distribution Center,Distribution Center,Richardtown,United Kingdom,Latin America,Active,2022-09-02
+LOC_00102,South Kristi Warehouse,Warehouse,South Kristi,India,Latin America,Inactive,2024-05-01
+LOC_00103,Stevenmouth Manufacturing Plant,Manufacturing Plant,Stevenmouth,Sweden,Europe,Active,2024-09-17
+LOC_00104,Leonburgh Distribution Center,Distribution Center,Leonburgh,India,Asia Pacific,Active,2024-08-14
+LOC_00105,Zacharymouth Service Center,Service Center,Zacharymouth,United Kingdom,Europe,Active,2021-07-07
+LOC_00106,Lake Lance Distribution Center,Distribution Center,Lake Lance,United States,Latin America,Active,2025-06-06
+LOC_00107,North Brandon Manufacturing Plant,Manufacturing Plant,North Brandon,United States,Asia Pacific,Active,2026-05-28
+LOC_00108,South Robertshire Warehouse,Warehouse,South Robertshire,Japan,North America,Active,2022-01-26
+LOC_00109,Snyderbury Warehouse,Warehouse,Snyderbury,Japan,North America,Active,2021-10-24
+LOC_00110,Port Michelleville Distribution Center,Distribution Center,Port Michelleville,France,North America,Active,2025-04-11
+LOC_00111,East Linda Warehouse,Warehouse,East Linda,Japan,Asia Pacific,Active,2024-10-27
+LOC_00112,Williamsbury Headquarters,Headquarters,Williamsbury,France,Latin America,Active,2026-01-15
+LOC_00113,South Dennismouth Warehouse,Warehouse,South Dennismouth,France,Europe,Active,2024-09-01
+LOC_00114,Stephaniemouth Distribution Center,Distribution Center,Stephaniemouth,Canada,Europe,Active,2024-05-13
+LOC_00115,Rivasside Distribution Center,Distribution Center,Rivasside,United States,Europe,Active,2023-06-14
+LOC_00116,Lake Michelle Distribution Center,Distribution Center,Lake Michelle,Canada,Europe,Active,2023-06-22
+LOC_00117,Port Dana Distribution Center,Distribution Center,Port Dana,India,Europe,Active,2025-03-17
+LOC_00118,Simsview Warehouse,Warehouse,Simsview,United States,Latin America,Active,2023-06-02
+LOC_00119,Jimmymouth Distribution Center,Distribution Center,Jimmymouth,Japan,Latin America,Active,2022-10-04
+LOC_00120,East Edwardfurt Service Center,Service Center,East Edwardfurt,Japan,Latin America,Active,2024-10-24
+LOC_00121,North Robert Distribution Center,Distribution Center,North Robert,Canada,,Active,2022-10-26
+LOC_00122,Perryborough Service Center,Service Center,Perryborough,Germany,Asia Pacific,Active,2025-07-29
+LOC_00123,Steinshire Service Center,Service Center,Steinshire,United States,Latin America,Active,2026-03-13
+LOC_00124,Port Nicoleshire Manufacturing Plant,Manufacturing Plant,Port Nicoleshire,United Kingdom,Latin America,Active,2023-02-03
+LOC_00125,West Kennethfurt Warehouse,Warehouse,West Kennethfurt,Germany,Europe,Active,2025-09-09
+LOC_00126,Medinaside Warehouse,Warehouse,Medinaside,Japan,North America,Active,2025-05-24
+LOC_00127,South Jeffrey Manufacturing Plant,Manufacturing Plant,South Jeffrey,Canada,Asia Pacific,Active,2023-05-25
+LOC_00128,South Matthewfurt Distribution Center,Distribution Center,South Matthewfurt,United Kingdom,Europe,Active,2024-12-23
+LOC_00129,Calhounside Warehouse,Warehouse,Calhounside,Sweden,North America,Active,2021-02-24
+LOC_00130,Vargastown Warehouse,Warehouse,Vargastown,Canada,North America,Active,2021-06-18
+LOC_00131,Taylormouth Distribution Center,Distribution Center,Taylormouth,United States,Asia Pacific,Active,2021-12-31
+LOC_00132,Nicholasborough Manufacturing Plant,Manufacturing Plant,,India,Latin America,Inactive,2023-07-02
+LOC_00133,Kathleenfurt Distribution Center,Distribution Center,Kathleenfurt,United Kingdom,Latin America,Active,2022-07-13
+LOC_00134,Kingland Manufacturing Plant,Manufacturing Plant,Kingland,United States,Asia Pacific,Inactive,2023-08-02
+LOC_00135,West Jeffreyland Warehouse,Warehouse,West Jeffreyland,France,Latin America,Active,2025-04-17
+LOC_00136,Port Anthonybury Manufacturing Plant,Manufacturing Plant,Port Anthonybury,Germany,,Active,2022-02-04
+LOC_00137,New Elijahberg Headquarters,Headquarters,New Elijahberg,United States,Asia Pacific,Active,2023-08-08
+LOC_00138,New Staciemouth Service Center,Service Center,New Staciemouth,France,Asia Pacific,Active,2024-11-04
+LOC_00139,Garyville Distribution Center,Distribution Center,Garyville,India,Latin America,Active,2025-04-10
+LOC_00140,West Daniel Warehouse,Warehouse,West Daniel,United States,Latin America,Active,2021-02-21
+LOC_00141,Barbarafurt Warehouse,Warehouse,Barbarafurt,India,Latin America,Active,2023-03-07
+LOC_00142,North Brittany Headquarters,Headquarters,North Brittany,Canada,Europe,Active,2025-07-25
+LOC_00143,North Heidi Warehouse,Warehouse,North Heidi,United Kingdom,Asia Pacific,Active,2022-08-28
+LOC_00144,Port Tonyaton Manufacturing Plant,Manufacturing Plant,Port Tonyaton,Canada,Asia Pacific,Active,2022-11-28
+LOC_00145,Stanleyland Manufacturing Plant,Manufacturing Plant,Stanleyland,Sweden,North America,Active,2023-10-12
+LOC_00146,Alexanderchester Headquarters,Headquarters,Alexanderchester,United Kingdom,Latin America,Active,2025-07-08
+LOC_00147,South Susanmouth Headquarters,Headquarters,South Susanmouth,Canada,Europe,Active,2024-11-19
+LOC_00148,Thompsonhaven Manufacturing Plant,Manufacturing Plant,Thompsonhaven,Germany,Latin America,Active,2026-04-21
+LOC_00149,Christinaside Service Center,Service Center,Christinaside,Sweden,North America,Inactive,2025-04-03
+LOC_00150,Grahamshire Manufacturing Plant,Manufacturing Plant,Grahamshire,Sweden,Latin America,Active,2022-06-23
+LOC_00151,Port Sarah Distribution Center,Distribution Center,Port Sarah,United Kingdom,Latin America,Active,2022-07-14
+LOC_00152,Sanchezmouth Manufacturing Plant,Manufacturing Plant,Sanchezmouth,Canada,Asia Pacific,Active,2024-02-18
+LOC_00153,Rogersfort Distribution Center,Distribution Center,Rogersfort,United Kingdom,Europe,Active,2025-09-04
+LOC_00154,South Jason Manufacturing Plant,Manufacturing Plant,South Jason,Sweden,Latin America,Active,2025-05-20
+LOC_00155,Joshuaview Distribution Center,Distribution Center,Joshuaview,United States,Asia Pacific,Inactive,2024-01-20
+LOC_00156,North John Manufacturing Plant,Manufacturing Plant,,India,Latin America,Active,2023-03-27
+LOC_00157,Lake Thomas Service Center,Service Center,Lake Thomas,France,,Active,2024-11-28
+LOC_00158,Mcguireland Headquarters,Headquarters,Mcguireland,Japan,North America,Active,2022-08-14
+LOC_00159,Holtport Service Center,Service Center,Holtport,France,North America,Active,2024-08-24
+LOC_00160,Thomashaven Service Center,Service Center,Thomashaven,Germany,Asia Pacific,Active,2022-11-21
+LOC_00161,Michaelmouth Warehouse,Warehouse,Michaelmouth,United States,North America,Active,2022-06-28
+LOC_00162,Jerryborough Distribution Center,Distribution Center,Jerryborough,United Kingdom,Europe,Inactive,2022-09-25
+LOC_00163,East Javier Manufacturing Plant,Manufacturing Plant,East Javier,United States,Asia Pacific,Inactive,2023-08-30
+LOC_00164,Tinaborough Distribution Center,Distribution Center,Tinaborough,Japan,Europe,Active,2022-08-18
+LOC_00165,Harrytown Manufacturing Plant,Manufacturing Plant,Harrytown,Japan,Europe,Active,2024-11-21
+LOC_00166,West Brandon Distribution Center,Distribution Center,West Brandon,Canada,Latin America,Active,2021-04-20
+LOC_00167,Heidiberg Service Center,Service Center,Heidiberg,United States,Latin America,Active,2024-07-03
+LOC_00168,Garciatown Manufacturing Plant,Manufacturing Plant,Garciatown,United States,Unknown Region,Active,2024-02-26
+LOC_00169,Mendozamouth Manufacturing Plant,Manufacturing Plant,Mendozamouth,Sweden,Latin America,Inactive,2022-01-05
+LOC_00170,West Shelleyfort Service Center,Service Center,West Shelleyfort,United Kingdom,Europe,Active,2021-08-17
+LOC_00171,South Travisshire Distribution Center,Distribution Center,South Travisshire,India,North America,Inactive,2024-06-16
+LOC_00172,East Edwardshire Headquarters,Headquarters,East Edwardshire,Canada,Asia Pacific,Active,2026-03-19
+LOC_00173,East Davidchester Warehouse,Warehouse,East Davidchester,United States,Europe,Inactive,2024-05-01
+LOC_00174,Port Alexandra Distribution Center,Distribution Center,Port Alexandra,United States,Asia Pacific,Active,2023-06-23
+LOC_00175,Evansshire Warehouse,Warehouse,Evansshire,France,Asia Pacific,Active,2026-06-10
+LOC_00176,Ashleyton Distribution Center,Distribution Center,Ashleyton,Canada,North America,Active,2024-05-07
+LOC_00177,Port Jaredborough Warehouse,Warehouse,Port Jaredborough,Japan,Asia Pacific,Active,2022-06-15
+LOC_00178,East Johnside Service Center,Service Center,East Johnside,India,North America,Active,2021-05-31
+LOC_00179,South Shannonfort Service Center,Service Center,South Shannonfort,United Kingdom,North America,Active,2022-08-08
+LOC_00180,West Jasmine Distribution Center,Distribution Center,West Jasmine,United States,North America,Active,2024-11-11
+LOC_00181,Jonesbury Distribution Center,Distribution Center,Jonesbury,Germany,North America,Active,2026-01-28
+LOC_00182,South Danny Distribution Center,Distribution Center,South Danny,United States,Latin America,Active,2022-03-27
+LOC_00183,West Margaret Warehouse,Warehouse,West Margaret,Japan,Asia Pacific,Active,2021-05-24
+LOC_00184,Port Kyle Distribution Center,Distribution Center,Port Kyle,France,Asia Pacific,Active,2025-02-11
+LOC_00185,Scottmouth Distribution Center,Distribution Center,Scottmouth,France,Latin America,Active,2024-10-13
+LOC_00186,Benderhaven Manufacturing Plant,Manufacturing Plant,Benderhaven,United States,North America,Active,2023-12-20
+LOC_00187,Millerton Distribution Center,Distribution Center,Millerton,India,,Active,2025-11-20
+LOC_00188,Cassandratown Manufacturing Plant,Manufacturing Plant,Cassandratown,Germany,Asia Pacific,Active,2021-07-03
+LOC_00189,Port Emilyview Distribution Center,Distribution Center,Port Emilyview,France,Europe,Active,2024-03-01
+LOC_00190,South April Service Center,Service Center,South April,Germany,Asia Pacific,Active,2023-06-07
+LOC_00191,Howardshire Warehouse,Warehouse,Howardshire,France,North America,Active,2023-05-25
+LOC_00192,Costafort Warehouse,Warehouse,Costafort,India,Europe,Inactive,2022-11-30
+LOC_00193,Manuelville Service Center,Service Center,Manuelville,Sweden,Unknown Region,Active,2025-09-17
+LOC_00194,Robertfort Distribution Center,Distribution Center,Robertfort,Sweden,Latin America,Inactive,2022-08-02
+LOC_00195,Cervantesside Manufacturing Plant,Manufacturing Plant,Cervantesside,United Kingdom,Europe,Active,2021-03-15
+LOC_00196,West Johnnyville Headquarters,Headquarters,West Johnnyville,Japan,Asia Pacific,Active,2026-05-01
+LOC_00197,Hancocktown Manufacturing Plant,Manufacturing Plant,Hancocktown,India,Latin America,Active,2024-08-12
+LOC_00198,Gutierrezborough Manufacturing Plant,Manufacturing Plant,Gutierrezborough,Japan,Latin America,Active,2023-11-06
+LOC_00199,Garrettton Distribution Center,Distribution Center,Garrettton,Germany,Latin America,Active,2022-02-13
+LOC_00200,West Samuel Manufacturing Plant,Manufacturing Plant,West Samuel,Canada,North America,Active,2024-11-01
+LOC_00201,North Teresabury Manufacturing Plant,Manufacturing Plant,North Teresabury,United Kingdom,Europe,Active,2024-11-24
+LOC_00202,Andreaside Manufacturing Plant,Manufacturing Plant,Andreaside,United Kingdom,Europe,Active,2023-03-30
+LOC_00203,Port Robin Manufacturing Plant,Manufacturing Plant,Port Robin,Canada,Europe,Active,2023-07-15
+LOC_00204,Lake Marilynfort Headquarters,Headquarters,Lake Marilynfort,United Kingdom,Asia Pacific,Active,2026-02-14
+LOC_00205,Williamview Headquarters,Headquarters,,United States,Europe,Active,2023-04-14
+LOC_00206,Bairdbury Headquarters,Headquarters,Bairdbury,India,Latin America,Active,2023-07-06
+LOC_00207,South James Warehouse,Warehouse,South James,United States,Latin America,Active,2024-04-17
+LOC_00208,Port Chad Manufacturing Plant,Manufacturing Plant,Port Chad,India,Asia Pacific,Active,2025-03-30
+LOC_00209,Morganhaven Manufacturing Plant,Manufacturing Plant,Morganhaven,Canada,Latin America,Active,2022-06-20
+LOC_00210,West Jessicashire Headquarters,Headquarters,West Jessicashire,United Kingdom,Europe,Active,2024-03-09
+LOC_00211,Grimesmouth Warehouse,Warehouse,Grimesmouth,India,Asia Pacific,Active,2023-12-17
+LOC_00212,Martinside Manufacturing Plant,Manufacturing Plant,Martinside,India,Latin America,Active,2023-01-27
+LOC_00213,Mollybury Manufacturing Plant,Manufacturing Plant,Mollybury,Germany,Asia Pacific,Active,2024-02-22
+LOC_00214,Port Kimberly Headquarters,Headquarters,Port Kimberly,United Kingdom,Latin America,Active,2021-03-29
+LOC_00215,Thorntonfurt Manufacturing Plant,Manufacturing Plant,Thorntonfurt,India,Europe,Active,2023-02-14
+LOC_00216,South Tammie Distribution Center,Distribution Center,South Tammie,United States,North America,Active,2021-09-11
+LOC_00217,Mollymouth Distribution Center,Distribution Center,Mollymouth,Germany,North America,Active,2021-07-20
+LOC_00218,Smithberg Distribution Center,Distribution Center,Smithberg,India,Europe,Active,2023-04-03
+LOC_00219,North Terrance Manufacturing Plant,Manufacturing Plant,North Terrance,United States,Latin America,Active,2026-04-29
+LOC_00220,Cindyfurt Distribution Center,Distribution Center,Cindyfurt,France,Latin America,Active,2024-07-27
+LOC_00221,Melissaside Service Center,Service Center,Melissaside,Japan,,Active,2023-02-02
+LOC_00222,Courtneyfort Manufacturing Plant,Manufacturing Plant,Courtneyfort,United States,North America,Active,2025-10-17
+LOC_00223,New Caseyport Manufacturing Plant,Manufacturing Plant,New Caseyport,India,Latin America,Active,2026-06-24
+LOC_00224,South Tiffanyville Manufacturing Plant,Manufacturing Plant,South Tiffanyville,France,Europe,Active,2023-06-10
+LOC_00225,Rebeccaton Distribution Center,Distribution Center,Rebeccaton,India,Asia Pacific,Active,2022-10-13
+LOC_00226,West Michaelchester Manufacturing Plant,Manufacturing Plant,West Michaelchester,Sweden,Latin America,Active,2021-10-20
+LOC_00227,Knightburgh Warehouse,Warehouse,Knightburgh,Sweden,Asia Pacific,Active,2021-12-07
+LOC_00228,New Monicabury Manufacturing Plant,Manufacturing Plant,New Monicabury,United States,Europe,Active,2023-09-26
+LOC_00229,East Steven Distribution Center,Distribution Center,East Steven,United States,Europe,Active,2022-05-25
+LOC_00230,Elizabethmouth Warehouse,Warehouse,Elizabethmouth,Germany,North America,Active,2025-12-13
+LOC_00231,North Scott Distribution Center,Distribution Center,North Scott,France,Latin America,Active,2022-11-25
+LOC_00232,Daniellechester Manufacturing Plant,Manufacturing Plant,Daniellechester,United States,Latin America,Active,2024-10-16
+LOC_00233,Bruceborough Distribution Center,Distribution Center,Bruceborough,Japan,Europe,Active,2026-06-28
+LOC_00234,Rodriguezfurt Distribution Center,Distribution Center,Rodriguezfurt,Sweden,North America,Active,2024-02-22
+LOC_00235,Victoriaport Manufacturing Plant,Manufacturing Plant,Victoriaport,Canada,Latin America,Active,2021-02-14
+LOC_00236,Hillshire Manufacturing Plant,Manufacturing Plant,Hillshire,Sweden,Europe,Active,2025-10-02
+LOC_00237,New Julieport Warehouse,Warehouse,New Julieport,United States,Asia Pacific,Active,2025-04-06
+LOC_00238,New Laurie Distribution Center,Distribution Center,New Laurie,Germany,Asia Pacific,Active,2022-03-16
+LOC_00239,New John Service Center,Service Center,New John,France,Asia Pacific,Active,2025-02-24
+LOC_00240,Lake Colton Manufacturing Plant,Manufacturing Plant,Lake Colton,Sweden,Europe,Active,2024-06-12
+LOC_00241,West Kristinaton Manufacturing Plant,Manufacturing Plant,West Kristinaton,United States,Europe,Active,2024-03-08
+LOC_00242,North Renee Distribution Center,Distribution Center,,Japan,Latin America,Active,2022-10-18
+LOC_00243,Thompsonberg Warehouse,Warehouse,,Japan,Asia Pacific,Active,2025-04-27
+LOC_00244,Alyssaview Manufacturing Plant,Manufacturing Plant,Alyssaview,France,Asia Pacific,Active,2025-07-24
+LOC_00245,Robinfort Distribution Center,Distribution Center,Robinfort,Germany,Europe,Active,2026-04-25
+LOC_00246,Juliemouth Manufacturing Plant,Manufacturing Plant,Juliemouth,United Kingdom,Europe,Active,2025-06-02
+LOC_00247,Mccartyberg Manufacturing Plant,Manufacturing Plant,Mccartyberg,India,Latin America,Active,2025-02-21
+LOC_00248,Port Erica Warehouse,Warehouse,Port Erica,France,North America,Active,2024-09-14
+LOC_00249,Coffeyside Warehouse,Warehouse,Coffeyside,United States,North America,Active,2023-01-04
+LOC_00250,Smithside Service Center,Service Center,Smithside,France,North America,Active,2021-09-05
+LOC_00143,North Heidi Warehouse,Warehouse,North Heidi,United Kingdom,Asia Pacific,Active,2022-08-28
+LOC_00007,Port Matthew Manufacturing Plant,Manufacturing Plant,Port Matthew,Sweden,North America,Active,2021-07-06
+LOC_00098,Williamchester Warehouse,Warehouse,Williamchester,Sweden,Europe,Active,2022-10-17
+LOC_00061,South David Manufacturing Plant,Manufacturing Plant,South David,Sweden,North America,Inactive,2025-11-21
+LOC_00113,South Dennismouth Warehouse,Warehouse,South Dennismouth,France,Europe,Active,2024-09-01
