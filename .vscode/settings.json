@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "./03_Data_Generation/config"
+        "./03_Data_Generation/config",
+        "./04_Data_Quality/profiling"
     ]
 }
