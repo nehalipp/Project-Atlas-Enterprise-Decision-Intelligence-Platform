@@ -396,9 +396,9 @@ One energy measurement per facility/date.
                       |
                       |
 dim_date ---- fact_sales ---- dim_product
-|
-|
-dim_location
+                      |
+                      |
+                 dim_location
 
 dim_date ---- fact_inventory ---- dim_product
 
