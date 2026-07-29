@@ -47,7 +47,7 @@ def profile_sales(df):
 
 
 
-    report["duplicate_records"] = (
+    report["duplicate_records"] = int (
         df.duplicated()
         .sum()
     )
@@ -136,11 +136,14 @@ def profile_sales(df):
     )
 
 
-    report["revenue_mismatch_records"] = (
-        revenue_difference
-        >
-        0.01
-    ).sum()
+    report["revenue_mismatch_records"] = int(
+        (
+            revenue_difference
+            >
+            0.01
+        )
+        .sum()
+    )
 
 
 

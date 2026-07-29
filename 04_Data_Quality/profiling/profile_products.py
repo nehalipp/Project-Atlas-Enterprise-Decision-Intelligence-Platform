@@ -47,7 +47,7 @@ def profile_products(df):
 
     # Duplicate records
 
-    report["duplicate_records"] = (
+    report["duplicate_records"] = int(
         df.duplicated()
         .sum()
     )
