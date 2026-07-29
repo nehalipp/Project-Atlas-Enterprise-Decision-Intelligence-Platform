@@ -1,0 +1,1021 @@
+supplier_id,supplier_name,supplier_category,country,region,performance_rating,contract_status,supplier_since
+SUP_00001,"Rodriguez, Figueroa and Sanchez",Professional Services,India,Latin America,1.73,Expired,2021-10-07
+SUP_00002,Rhodes PLC,Technology Vendor,United Kingdom,Asia Pacific,1.62,Active,2021-06-24
+SUP_00003,Johnson-Davis,Logistics Provider,Japan,North America,1.57,Active,2022-04-12
+SUP_00004,"Johnson, Gonzalez and Santos",Logistics Provider,United Kingdom,Europe,,Active,2023-12-30
+SUP_00005,Cole LLC,Raw Materials,Sweden,North America,2.22,Active,2025-06-12
+SUP_00006,Blake and Sons,Raw Materials,Sweden,North America,3.1,Active,2024-11-01
+SUP_00007,Ramirez-Lewis,Logistics Provider,Japan,Latin America,2.47,Active,2025-03-12
+SUP_00008,Davis Inc,Equipment Supplier,India,Europe,2.53,Pending Renewal,2022-12-22
+SUP_00009,Munoz-Roman,Professional Services,US,Asia Pacific,3.43,Active,2025-01-03
+SUP_00010,"Martinez, Nielsen and Miller",Logistics Provider,India,Europe,4.77,Active,2022-08-12
+SUP_00011,"Montgomery, Hensley and Ray",Technology Vendor,Canada,North America,1.39,Active,2024-11-14
+SUP_00012,Stanley LLC,Logistics Provider,India,Latin America,2.98,Active,2026-05-31
+SUP_00013,Delacruz Group,Logistics Provider,France,North America,1.73,Expired,2022-07-12
+SUP_00014,"Flowers, Martin and Kelly",Maintenance Provider,France,Europe,3.19,Active,2024-09-06
+SUP_00015,"Zuniga, Wong and Lynch",Technology Vendor,India,Europe,2.8,Active,2021-12-10
+SUP_00016,"Sanchez, Ford and Nelson",Maintenance Provider,Sweden,Europe,1.78,Active,2026-01-31
+SUP_00017,"Hawkins, Cohen and Cameron",Professional Services,Japan,North America,2.09,Expired,2025-04-06
+SUP_00018,Underwood LLC,Logistics Provider,Canada,North America,3.43,Active,2023-03-16
+SUP_00019,Clark PLC,Professional Services,UK,Asia Pacific,1.3,Pending Renewal,2025-10-24
+SUP_00020,Lewis-Porter,Logistics Provider,Japan,North America,2.17,Active,2025-11-10
+SUP_00021,"Ellis, Baker and Wright",Equipment Supplier,Germany,North America,4.16,Active,2024-02-01
+SUP_00022,Burgess-Patterson,Technology Vendor,Canada,Asia Pacific,1.46,Expired,2024-03-16
+SUP_00023,Robinson-Bright,Technology Vendor,Japan,Latin America,1.38,Active,2023-10-20
+SUP_00024,Campos Inc,Professional Services,France,Latin America,3.92,Active,2021-11-03
+SUP_00025,Conner Group,Raw Materials,Germany,Asia Pacific,2.53,Pending Renewal,2024-04-11
+SUP_00026,James-Ferrell,Professional Services,Germany,North America,3.25,Expired,2023-11-28
+SUP_00027,"Valencia, Smith and Le",Raw Materials,India,Asia Pacific,3.84,Active,2024-09-29
+SUP_00028,"Potter, Mack and Peterson",Equipment Supplier,Sweden,North America,1.13,Active,2022-08-12
+SUP_00029,Chavez Ltd,Logistics Provider,Sweden,North America,,Active,2025-10-23
+SUP_00030,Stanton-Gill,Equipment Supplier,United Kingdom,Asia Pacific,1.81,Pending Renewal,2023-10-16
+SUP_00031,Harrell LLC,Equipment Supplier,India,Asia Pacific,1.64,Pending Renewal,2025-08-16
+SUP_00032,"Lynch, Hernandez and Farmer",Raw Materials,UK,Europe,1.42,Active,2023-12-18
+SUP_00033,"Sellers, George and Burns",Logistics Provider,Sweden,Latin America,4.57,Active,2021-08-13
+SUP_00034,Koch-Decker,Logistics Provider,Canada,Asia Pacific,2.43,Pending Renewal,2022-09-09
+SUP_00035,Allen PLC,Equipment Supplier,USA,North America,2.71,Expired,2026-03-15
+SUP_00036,Dennis Inc,Maintenance Provider,United States,Asia Pacific,3.04,Active,2026-05-16
+SUP_00037,"Cannon, Anderson and Alvarez",Equipment Supplier,United Kingdom,North America,2.08,Active,2024-01-08
+SUP_00038,Rose-Obrien,Raw Materials,Germany,Europe,,Active,2026-04-19
+SUP_00039,"Campos, Vaughn and Marquez",Logistics Provider,Canada,Latin America,,Active,2023-03-12
+SUP_00040,"Santos, Kim and Holmes",Raw Materials,,North America,4.99,Active,2021-08-31
+SUP_00041,Brown Inc,Logistics Provider,Canada,Europe,1.21,Active,2024-03-26
+SUP_00042,Chapman Inc,Equipment Supplier,United States,North America,3.72,Active,2021-05-23
+SUP_00043,"Brown, Jones and Johnson",Maintenance Provider,Canada,Latin America,1.97,Active,2022-10-25
+SUP_00044,"Young, Caldwell and Lewis",Equipment Supplier,Germany,Latin America,1.97,Expired,2021-09-23
+SUP_00045,"Johnston, Sanchez and Kennedy",Technology Vendor,UK,Latin America,3.53,Active,2023-03-28
+SUP_00046,Davis Group,Raw Materials,Japan,Latin America,1.6,Active,2022-12-12
+SUP_00047,Owens-Daniel,Equipment Supplier,Japan,North America,3.36,Active,2024-09-12
+SUP_00048,"Garcia, Powell and Morgan",Equipment Supplier,Germany,Europe,4.24,Active,2025-09-25
+SUP_00049,Lee PLC,Raw Materials,India,Latin America,3.76,Active,2023-06-19
+SUP_00050,White-Ford,Raw Materials,Canada,Latin America,3.7,Active,2025-10-21
+SUP_00051,Ramos PLC,Maintenance Provider,Canada,Asia Pacific,3.78,Active,2021-07-16
+SUP_00052,"Kidd, Huff and Novak",Raw Materials,Japan,Europe,3.07,Active,2026-02-02
+SUP_00053,Martin Group,Maintenance Provider,United States,Latin America,4.59,Pending Renewal,2023-08-24
+SUP_00054,Barrera-Martin,Raw Materials,Germany,Asia Pacific,2.12,Active,2021-01-05
+SUP_00055,Baker-Bowers,Logistics Provider,,Asia Pacific,4.55,Expired,2023-07-02
+SUP_00056,Horton-Cross,Equipment Supplier,Japan,Latin America,4.74,Expired,2025-04-21
+SUP_00057,"Higgins, Moore and Phillips",Maintenance Provider,Japan,Latin America,1.04,Active,2026-04-28
+SUP_00058,"Fitzgerald, Brown and Edwards",Professional Services,Germany,North America,2.14,Active,2021-04-11
+SUP_00059,Shaw-Farrell,Equipment Supplier,Canada,Europe,3.61,Active,2021-11-12
+SUP_00060,"Miller, Lopez and Larson",Raw Materials,USA,Latin America,10.0,Active,2024-09-16
+SUP_00061,Powell PLC,Equipment Supplier,Japan,Latin America,3.63,Active,2022-05-09
+SUP_00062,"Williams, Miller and Sandoval",Equipment Supplier,Sweden,Asia Pacific,3.55,Active,2024-02-08
+SUP_00063,Donovan-Harris,Maintenance Provider,France,Europe,2.57,Expired,2024-12-07
+SUP_00064,Baker and Sons,Technology Vendor,Germany,Asia Pacific,2.4,Active,2024-09-09
+SUP_00065,Bryant-Hickman,Raw Materials,India,Latin America,1.78,Active,2026-02-21
+SUP_00066,Ellis PLC,Equipment Supplier,Germany,Latin America,4.07,Active,2026-06-22
+SUP_00067,Medina PLC,Maintenance Provider,,Latin America,4.82,Pending Renewal,2022-06-16
+SUP_00068,Ibarra-Suarez,Raw Materials,Germany,Latin America,4.81,Active,2023-01-12
+SUP_00069,Kim PLC,Equipment Supplier,France,North America,4.92,Active,2024-11-12
+SUP_00070,"Riggs, Roman and Rice",Raw Materials,United Kingdom,North America,2.27,Active,2024-09-01
+SUP_00071,"Evans, Alvarado and Mcmillan",Maintenance Provider,United States,Europe,3.78,Active,2021-09-27
+SUP_00072,Preston Ltd,Maintenance Provider,Japan,Europe,,Active,2024-01-15
+SUP_00073,Campbell-Clark,Technology Vendor,Canada,Europe,3.96,Active,2022-11-19
+SUP_00074,"Walters, Baker and Freeman",Professional Services,Germany,Europe,2.19,Active,2025-12-22
+SUP_00075,Davis Group,Professional Services,Canada,North America,1.33,Active,2025-07-22
+SUP_00076,Smith and Sons,Logistics Provider,Sweden,North America,3.6,Active,2024-07-02
+SUP_00077,Martin-Ramos,Logistics Provider,Japan,Europe,4.55,Active,2024-11-16
+SUP_00078,"Smith, Jones and Ware",Maintenance Provider,Canada,Europe,2.31,Active,2025-12-19
+SUP_00079,"Johnson, Wood and Tran",Maintenance Provider,France,North America,3.36,Active,2023-05-13
+SUP_00080,Parker Inc,Maintenance Provider,Sweden,Europe,2.21,Active,2025-12-09
+SUP_00081,Fleming Ltd,Professional Services,UK,North America,2.09,Pending Renewal,2021-07-26
+SUP_00082,"Henson, Russell and Oliver",Maintenance Provider,,Latin America,1.21,Active,2021-11-07
+SUP_00083,Hancock and Sons,Logistics Provider,India,Asia Pacific,1.53,Pending Renewal,2025-11-04
+SUP_00084,White LLC,Equipment Supplier,Canada,Europe,4.18,Active,2025-04-19
+SUP_00085,Pham-Shields,Technology Vendor,,Europe,1.1,Pending Renewal,2025-06-15
+SUP_00086,Moore-Haynes,Raw Materials,India,Asia Pacific,,Active,2023-02-07
+SUP_00087,Garrison and Sons,Technology Vendor,Canada,North America,1.96,Active,2022-02-05
+SUP_00088,Bailey-Hoover,Professional Services,USA,Latin America,2.12,Pending Renewal,2025-10-14
+SUP_00089,Johnson and Sons,Professional Services,India,Latin America,3.45,Active,2023-03-11
+SUP_00090,Lin-Rasmussen,Equipment Supplier,Sweden,Europe,4.03,Active,2022-07-14
+SUP_00091,"Hicks, Frazier and Anthony",Professional Services,France,Latin America,1.38,Active,2022-10-27
+SUP_00092,Wilson LLC,Professional Services,France,Latin America,2.9,Active,2021-12-25
+SUP_00093,Johnson-Carlson,Logistics Provider,Japan,North America,1.69,Active,2022-11-25
+SUP_00094,Graham-Joyce,Technology Vendor,India,Europe,4.8,Expired,2021-08-20
+SUP_00095,"Lee, Williams and Graham",Technology Vendor,Sweden,Asia Pacific,3.5,Active,2023-11-09
+SUP_00096,"Mcdaniel, Bentley and Mclaughlin",Professional Services,US,Latin America,3.74,Active,2022-01-31
+SUP_00097,Jones-Beck,Technology Vendor,Japan,Asia Pacific,1.11,Active,2022-10-25
+SUP_00098,Alvarado-Martinez,Logistics Provider,Germany,Latin America,2.55,Active,2025-12-11
+SUP_00099,"Parker, Ortiz and Powell",Equipment Supplier,US,North America,4.28,Active,2022-08-17
+SUP_00100,Lee Ltd,Technology Vendor,United States,North America,1.83,Active,2026-03-02
+SUP_00101,"Adkins, Thompson and Carroll",Maintenance Provider,Sweden,Asia Pacific,1.07,Active,2023-03-26
+SUP_00102,Torres and Sons,Raw Materials,Germany,Asia Pacific,,Active,2023-05-13
+SUP_00103,"Lawson, Morris and Ramos",Maintenance Provider,Canada,Europe,4.26,Active,2024-09-17
+SUP_00104,"Kennedy, Santana and Flynn",Professional Services,Sweden,Europe,2.39,Pending Renewal,2021-12-07
+SUP_00105,Campbell Ltd,Raw Materials,Japan,Latin America,4.21,Active,2024-06-23
+SUP_00106,Davis-Crane,Raw Materials,Canada,North America,3.27,Active,2022-04-17
+SUP_00107,Walker-Gonzalez,Logistics Provider,Germany,Latin America,2.49,Expired,2021-02-18
+SUP_00108,Riggs PLC,Maintenance Provider,Japan,Asia Pacific,3.25,Active,2025-09-01
+SUP_00109,Gibson Ltd,Raw Materials,India,North America,1.95,Active,2024-02-29
+SUP_00110,"Horton, Snyder and Sanchez",Logistics Provider,USA,Europe,4.31,Active,2024-08-09
+SUP_00111,Stafford Inc,Raw Materials,Germany,Asia Pacific,1.21,Pending Renewal,2025-04-11
+SUP_00112,Thompson Ltd,Raw Materials,Germany,Latin America,2.28,Pending Renewal,2023-11-06
+SUP_00113,Grant Inc,Equipment Supplier,Japan,Latin America,2.97,Active,2023-07-05
+SUP_00114,Contreras-Travis,Logistics Provider,,Asia Pacific,2.31,Active,2024-04-09
+SUP_00115,Salazar-Ball,Raw Materials,Sweden,North America,1.45,Pending Renewal,2023-10-10
+SUP_00116,"Griffin, Moore and Hensley",Maintenance Provider,Canada,Asia Pacific,3.2,Active,2023-06-22
+SUP_00117,Larsen LLC,Equipment Supplier,India,North America,3.82,Pending Renewal,2025-03-17
+SUP_00118,"Washington, Allen and Gonzales",Technology Vendor,US,Europe,3.47,Active,2024-12-02
+SUP_00119,Nelson LLC,Professional Services,India,Europe,1.89,Active,2025-11-27
+SUP_00120,Taylor and Sons,Technology Vendor,Germany,Europe,1.33,Active,2023-02-08
+SUP_00121,Mccarthy Inc,Professional Services,Germany,Latin America,10.0,Expired,2023-04-13
+SUP_00122,Daniels-Perry,Raw Materials,India,Asia Pacific,3.37,Active,2022-02-19
+SUP_00123,Price-Carrillo,Equipment Supplier,Sweden,Asia Pacific,4.11,Active,2026-03-13
+SUP_00124,Gates PLC,Technology Vendor,Germany,Europe,,Active,2023-02-03
+SUP_00125,Bender LLC,Technology Vendor,UK,North America,2.87,Active,2025-02-20
+SUP_00126,Medina-Navarro,Professional Services,Sweden,Latin America,4.29,Active,2025-05-24
+SUP_00127,Freeman LLC,Logistics Provider,Germany,North America,4.85,Active,2023-05-25
+SUP_00128,Price Ltd,Raw Materials,USA,North America,1.89,Pending Renewal,2024-09-24
+SUP_00129,Ramsey-Pittman,Professional Services,Sweden,North America,1.17,Expired,2026-01-19
+SUP_00130,"Ferguson, Meadows and Vargas",Equipment Supplier,France,North America,4.68,Active,2024-08-22
+SUP_00131,Day and Sons,Raw Materials,Germany,Latin America,3.09,Active,2025-10-05
+SUP_00132,Williams Group,Raw Materials,France,Asia Pacific,3.51,Active,2022-10-19
+SUP_00133,Murphy-Juarez,Raw Materials,Japan,Asia Pacific,4.66,Pending Renewal,2023-01-31
+SUP_00134,King-Miller,Maintenance Provider,Japan,Latin America,2.82,Active,2021-02-08
+SUP_00135,"Williams, Crane and Walker",Logistics Provider,Japan,Europe,3.59,Active,2021-05-18
+SUP_00136,"Williams, Johnson and Wright",Logistics Provider,Sweden,Europe,1.31,Pending Renewal,2025-08-11
+SUP_00137,"Hernandez, Martinez and Caldwell",Maintenance Provider,Japan,Asia Pacific,1.13,Active,2024-02-06
+SUP_00138,Marshall LLC,Professional Services,United Kingdom,Latin America,,Active,2025-03-19
+SUP_00139,Obrien Ltd,Professional Services,France,Asia Pacific,,Active,2024-12-12
+SUP_00140,Oconnell Inc,Raw Materials,United Kingdom,Asia Pacific,2.67,Pending Renewal,2024-03-06
+SUP_00141,Johnston-Odonnell,Professional Services,Canada,Asia Pacific,1.66,Active,2023-01-23
+SUP_00142,"Gonzalez, Vargas and Rivas",Technology Vendor,France,North America,,Active,2022-05-03
+SUP_00143,"Barton, Jefferson and Burke",Raw Materials,UK,Europe,4.88,Expired,2021-08-31
+SUP_00144,"Patton, Reed and Patterson",Technology Vendor,United Kingdom,North America,1.15,Active,2023-01-14
+SUP_00145,"Holland, Smith and Fisher",Maintenance Provider,United Kingdom,Latin America,3.77,Active,2023-09-11
+SUP_00146,Yu-Reid,Equipment Supplier,United Kingdom,Europe,3.22,Expired,2025-07-21
+SUP_00147,"Hernandez, Thompson and Boyd",Technology Vendor,UK,Europe,2.51,Active,2024-07-28
+SUP_00148,"Morton, Medina and Webb",Raw Materials,USA,Europe,4.82,Active,2023-05-24
+SUP_00149,"Vargas, Morris and Sanchez",Raw Materials,France,North America,4.03,Active,2026-02-18
+SUP_00150,Keith-Sanchez,Technology Vendor,India,Latin America,2.99,Active,2023-07-22
+SUP_00151,"Barnett, Rogers and Snyder",Technology Vendor,Germany,Asia Pacific,4.41,Active,2022-10-14
+SUP_00152,Lewis-Salinas,Maintenance Provider,UK,Europe,4.17,Active,2022-11-14
+SUP_00153,"Haynes, Hill and Smith",Professional Services,India,Asia Pacific,3.48,Active,2026-03-17
+SUP_00154,Allen Group,Maintenance Provider,Germany,Asia Pacific,3.47,Pending Renewal,2023-09-08
+SUP_00155,Vaughn Ltd,Technology Vendor,Canada,Europe,2.57,Active,2024-11-28
+SUP_00156,Mcguire-Davis,Logistics Provider,India,Europe,,Active,2022-03-21
+SUP_00157,"Sanchez, Beck and Wood",Maintenance Provider,India,Latin America,3.49,Expired,2024-01-16
+SUP_00158,Coleman-Reese,Logistics Provider,United Kingdom,North America,2.84,Expired,2022-10-26
+SUP_00159,"Chavez, Parker and Hall",Logistics Provider,US,Latin America,2.84,Pending Renewal,2024-12-17
+SUP_00160,Wilson-Herrera,Professional Services,United Kingdom,Europe,,Active,2025-03-09
+SUP_00161,Lee Ltd,Raw Materials,Germany,Asia Pacific,2.84,Active,2023-08-30
+SUP_00162,"Lawrence, Wolf and Carlson",Logistics Provider,Germany,Europe,1.73,Active,2026-05-21
+SUP_00163,Phillips LLC,Equipment Supplier,Germany,Latin America,3.06,Pending Renewal,2021-12-26
+SUP_00164,Erickson and Sons,Equipment Supplier,UK,Europe,1.16,Active,2022-07-05
+SUP_00165,Tran Ltd,Professional Services,Sweden,Europe,1.13,Active,2026-03-09
+SUP_00166,"Oneill, Henry and Salas",Logistics Provider,United Kingdom,North America,1.83,Active,2024-02-26
+SUP_00167,Mendoza-Peterson,Professional Services,France,Europe,2.29,Active,2026-04-21
+SUP_00168,Everett-Woods,Maintenance Provider,India,North America,1.33,Expired,2025-07-08
+SUP_00169,Vasquez-Ray,Professional Services,India,Latin America,1.01,Expired,2024-10-09
+SUP_00170,Hernandez PLC,Equipment Supplier,Japan,North America,1.74,Active,2026-03-19
+SUP_00171,Mcknight Inc,Maintenance Provider,India,Latin America,1.94,Expired,2024-01-25
+SUP_00172,Obrien-Gibbs,Technology Vendor,France,Latin America,3.99,Active,2022-03-29
+SUP_00173,"James, Kerr and Evans",Equipment Supplier,Japan,Asia Pacific,4.58,Active,2024-03-26
+SUP_00174,Torres-Oliver,Professional Services,India,Latin America,4.47,Active,2024-05-07
+SUP_00175,"Garcia, Farmer and Garrett",Raw Materials,Germany,Asia Pacific,3.95,Active,2022-06-15
+SUP_00176,Moore and Sons,Raw Materials,India,North America,1.85,Active,2024-01-13
+SUP_00177,Smith Group,Raw Materials,Sweden,North America,2.37,Active,2024-10-14
+SUP_00178,Carter-Hall,Raw Materials,Canada,Asia Pacific,2.99,Active,2024-11-19
+SUP_00179,"Heath, Jones and Hall",Technology Vendor,India,Europe,3.23,Active,2022-06-15
+SUP_00180,"Lawrence, Lara and Gonzalez",Technology Vendor,Sweden,Asia Pacific,2.14,Active,2021-08-19
+SUP_00181,Holland LLC,Technology Vendor,Canada,Latin America,1.98,Active,2025-07-17
+SUP_00182,Brown LLC,Raw Materials,France,North America,1.95,Active,2024-04-08
+SUP_00183,"Morse, Gonzales and Harrison",Logistics Provider,France,Europe,4.4,Active,2022-09-03
+SUP_00184,Bender-Mason,Raw Materials,France,Asia Pacific,1.32,Active,2023-09-18
+SUP_00185,George Group,Logistics Provider,Japan,North America,4.99,Expired,2025-01-13
+SUP_00186,"Wright, Davis and Hayden",Equipment Supplier,Sweden,Latin America,4.46,Expired,2025-08-04
+SUP_00187,"Matthews, Smith and Hubbard",Maintenance Provider,USA,Europe,3.67,Pending Renewal,2025-07-06
+SUP_00188,"Williams, Avila and Ruiz",Technology Vendor,India,Asia Pacific,2.12,Expired,2024-07-30
+SUP_00189,White-Richards,Maintenance Provider,France,Europe,3.84,Active,2024-06-27
+SUP_00190,Costa-Harrison,Logistics Provider,Sweden,North America,1.46,Active,2023-03-31
+SUP_00191,Santiago-Hodge,Professional Services,Japan,Europe,3.02,Pending Renewal,2022-10-24
+SUP_00192,"Simpson, Bates and Morales",Equipment Supplier,UK,Asia Pacific,1.21,Active,2025-03-06
+SUP_00193,Gibson LLC,Technology Vendor,Canada,North America,4.96,Active,2022-05-22
+SUP_00194,Cordova Group,Raw Materials,Canada,Latin America,1.56,Active,2025-10-02
+SUP_00195,Sandoval PLC,Maintenance Provider,US,Asia Pacific,2.65,Active,2023-07-16
+SUP_00196,Lopez LLC,Maintenance Provider,,North America,3.98,Active,2024-06-03
+SUP_00197,Garrett-Wolf,Equipment Supplier,United Kingdom,Latin America,4.75,Active,2022-02-13
+SUP_00198,"Anderson, Roberts and Gilmore",Maintenance Provider,Germany,North America,1.19,Expired,2023-08-31
+SUP_00199,Dudley PLC,Professional Services,Germany,North America,1.81,Active,2025-05-23
+SUP_00200,"Moore, Pierce and Tran",Professional Services,United Kingdom,North America,1.94,Active,2021-07-06
+SUP_00201,Murray Inc,Raw Materials,France,Latin America,4.51,Active,2024-07-23
+SUP_00202,Jimenez Ltd,Maintenance Provider,Japan,Latin America,4.6,Active,2022-08-09
+SUP_00203,"Hill, Davenport and Baird",Raw Materials,US,Asia Pacific,1.93,Expired,2022-05-04
+SUP_00204,"Thomas, Lee and Greene",Maintenance Provider,India,Europe,1.27,Active,2025-02-06
+SUP_00205,Shields LLC,Maintenance Provider,India,Asia Pacific,,Active,2025-03-30
+SUP_00206,Morgan-French,Logistics Provider,Japan,Europe,4.18,Active,2022-06-20
+SUP_00207,Campbell LLC,Equipment Supplier,Sweden,Europe,4.15,Active,2025-08-07
+SUP_00208,"Duarte, Burns and Hernandez",Professional Services,US,North America,4.11,Active,2023-12-17
+SUP_00209,Cook-Hines,Technology Vendor,Sweden,Europe,4.05,Expired,2023-01-27
+SUP_00210,Kane-Pollard,Maintenance Provider,USA,Europe,3.15,Active,2022-04-25
+SUP_00211,Hall-Rowe,Logistics Provider,United Kingdom,Latin America,2.59,Expired,2021-03-29
+SUP_00212,"Kennedy, Mcintyre and James",Logistics Provider,UK,North America,3.89,Active,2026-06-06
+SUP_00213,"Pollard, Simpson and Johnson",Equipment Supplier,India,Asia Pacific,3.26,Active,2023-10-05
+SUP_00214,"Rivera, Garcia and Kirk",Logistics Provider,Germany,North America,1.73,Pending Renewal,2021-07-20
+SUP_00215,Smith-Thomas,Technology Vendor,,Europe,4.79,Active,2025-10-14
+SUP_00216,Jones LLC,Maintenance Provider,UK,Latin America,1.4,Active,2022-11-11
+SUP_00217,"Sanders, Miller and Murphy",Equipment Supplier,Japan,Latin America,4.73,Active,2024-09-14
+SUP_00218,"James, Stewart and Higgins",Professional Services,Sweden,North America,3.83,Active,2025-03-04
+SUP_00219,"Johnson, Jones and Welch",Technology Vendor,Sweden,Asia Pacific,1.28,Active,2026-01-22
+SUP_00220,Francis Group,Raw Materials,France,Latin America,4.7,Active,2026-05-17
+SUP_00221,"Padilla, Garcia and Jackson",Professional Services,France,North America,1.66,Active,2022-08-24
+SUP_00222,Williams Inc,Raw Materials,,North America,4.48,Active,2022-08-12
+SUP_00223,Jordan-Sanchez,Professional Services,Japan,Asia Pacific,2.52,Active,2023-04-07
+SUP_00224,"Sparks, Jackson and Miller",Raw Materials,Canada,Latin America,1.02,Active,2025-10-13
+SUP_00225,"Vega, Jimenez and Aguilar",Raw Materials,India,Latin America,4.45,Pending Renewal,2022-04-11
+SUP_00226,"King, Scott and Smith",Equipment Supplier,India,Europe,3.95,Active,2025-06-03
+SUP_00227,Byrd-Moore,Logistics Provider,Germany,Asia Pacific,4.65,Active,2023-06-06
+SUP_00228,Huerta-Evans,Logistics Provider,US,Asia Pacific,2.68,Pending Renewal,2026-04-14
+SUP_00229,"Wright, Bruce and Gonzalez",Equipment Supplier,USA,North America,3.53,Active,2023-02-11
+SUP_00230,Rodriguez-James,Raw Materials,UK,North America,4.84,Active,2022-12-22
+SUP_00231,Haney-Phillips,Logistics Provider,France,Europe,3.14,Active,2026-05-16
+SUP_00232,"Foster, Smith and Grimes",Professional Services,India,North America,2.59,Active,2025-04-11
+SUP_00233,Lozano Ltd,Maintenance Provider,Japan,Asia Pacific,1.82,Active,2023-09-24
+SUP_00234,Parsons-Hall,Maintenance Provider,,North America,,Active,2025-05-28
+SUP_00235,Fields PLC,Equipment Supplier,US,Europe,2.81,Active,2022-05-18
+SUP_00236,"Saunders, Becker and Taylor",Technology Vendor,,North America,2.99,Expired,2021-07-14
+SUP_00237,"Lucas, Parker and Alexander",Professional Services,Sweden,North America,1.3,Expired,2024-03-08
+SUP_00238,"Anderson, Browning and Murphy",Equipment Supplier,Canada,Europe,3.58,Active,2023-04-14
+SUP_00239,Anderson PLC,Logistics Provider,India,Asia Pacific,4.36,Expired,2025-10-25
+SUP_00240,Schmidt-Mcintyre,Raw Materials,Japan,North America,,Active,2025-07-24
+SUP_00241,Sloan-Raymond,Professional Services,Germany,Asia Pacific,3.38,Active,2026-04-25
+SUP_00242,Francis-Morgan,Equipment Supplier,UK,Asia Pacific,3.61,Active,2021-08-20
+SUP_00243,Taylor and Sons,Maintenance Provider,Canada,Asia Pacific,3.41,Expired,2025-09-22
+SUP_00244,"Craig, Sanders and Singleton",Logistics Provider,Japan,Latin America,,Active,2024-01-23
+SUP_00245,Gibbs Inc,Technology Vendor,India,Asia Pacific,1.05,Active,2022-06-15
+SUP_00246,Gibson Ltd,Equipment Supplier,India,North America,1.49,Expired,2025-02-11
+SUP_00247,Richards-Carson,Technology Vendor,United Kingdom,Latin America,4.57,Expired,2026-03-02
+SUP_00248,Leonard Group,Technology Vendor,Sweden,Asia Pacific,4.3,Active,2021-02-20
+SUP_00249,"Murphy, Bishop and Holland",Logistics Provider,India,Latin America,3.5,Active,2024-06-28
+SUP_00250,Blankenship-Turner,Technology Vendor,France,North America,4.44,Active,2023-03-31
+SUP_00251,Williams Inc,Logistics Provider,Canada,Europe,1.56,Expired,2022-09-03
+SUP_00252,Wilson-Young,Maintenance Provider,Japan,Asia Pacific,2.88,Active,2023-12-15
+SUP_00253,Chavez-Santiago,Raw Materials,Canada,Asia Pacific,2.07,Active,2025-01-30
+SUP_00254,"Barnes, Newton and Moore",Raw Materials,United Kingdom,North America,1.56,Expired,2023-04-13
+SUP_00255,Bass PLC,Technology Vendor,Sweden,Europe,4.6,Active,2023-03-30
+SUP_00256,Johnson-Wood,Maintenance Provider,UK,Asia Pacific,4.66,Active,2023-06-09
+SUP_00257,Foley Inc,Maintenance Provider,,North America,1.27,Active,2026-05-22
+SUP_00258,Stephens-Levine,Logistics Provider,France,Europe,,Active,2022-12-21
+SUP_00259,Hill-Donaldson,Raw Materials,United Kingdom,Asia Pacific,2.07,Active,2026-03-19
+SUP_00260,Davis-Lewis,Professional Services,Canada,Latin America,3.66,Active,2024-07-06
+SUP_00261,Williams LLC,Technology Vendor,United Kingdom,North America,2.62,Expired,2022-05-04
+SUP_00262,Buchanan and Sons,Technology Vendor,France,Latin America,,Active,2021-05-18
+SUP_00263,"Clark, Robinson and Kane",Logistics Provider,Germany,North America,4.08,Active,2022-10-22
+SUP_00264,Kramer PLC,Equipment Supplier,Germany,Latin America,2.42,Active,2021-01-06
+SUP_00265,Huerta PLC,Equipment Supplier,India,Latin America,4.8,Active,2022-05-18
+SUP_00266,Rodriguez Inc,Maintenance Provider,Japan,Europe,3.93,Active,2021-09-22
+SUP_00267,Tyler-Young,Logistics Provider,Sweden,Asia Pacific,1.65,Expired,2022-10-12
+SUP_00268,Baker and Sons,Equipment Supplier,US,Europe,3.39,Active,2025-01-27
+SUP_00269,"Wilson, Brown and West",Professional Services,Canada,Europe,2.38,Active,2022-12-28
+SUP_00270,"Rodriguez, Gordon and Dougherty",Professional Services,United States,North America,3.75,Active,2021-03-28
+SUP_00271,"Boyd, Ellis and Maynard",Equipment Supplier,India,Asia Pacific,1.31,Active,2021-05-03
+SUP_00272,Boone-Simmons,Maintenance Provider,Germany,Europe,3.36,Active,2021-08-05
+SUP_00273,"Browning, Jones and Miller",Equipment Supplier,Sweden,Asia Pacific,4.85,Expired,2024-05-05
+SUP_00274,Martinez PLC,Raw Materials,United States,Asia Pacific,1.74,Active,2024-06-23
+SUP_00275,"Joseph, James and Harper",Professional Services,Japan,Asia Pacific,4.04,Active,2022-08-15
+SUP_00276,"Jacobs, Garcia and Miles",Raw Materials,Japan,Europe,,Active,2025-09-07
+SUP_00277,"Rich, Arnold and Glenn",Raw Materials,Germany,Europe,4.78,Active,2023-05-13
+SUP_00278,Gutierrez Group,Raw Materials,Canada,Latin America,1.72,Active,2023-03-11
+SUP_00279,"Davis, Simmons and Ortega",Maintenance Provider,Canada,Asia Pacific,1.48,Active,2023-01-21
+SUP_00280,Mcdaniel Group,Technology Vendor,Germany,Latin America,2.69,Expired,2021-05-15
+SUP_00281,Davis Inc,Logistics Provider,India,Europe,,Active,2025-02-02
+SUP_00282,Cain-Hawkins,Raw Materials,Canada,Asia Pacific,3.6,Active,2024-03-22
+SUP_00283,"Hoffman, Santiago and Jenkins",Professional Services,Sweden,Latin America,1.31,Active,2025-10-19
+SUP_00284,Parrish-Griffith,Logistics Provider,Japan,Europe,3.29,Expired,2026-04-27
+SUP_00285,"Edwards, Garcia and Romero",Maintenance Provider,Sweden,North America,2.28,Active,2021-11-07
+SUP_00286,Walker-Rodriguez,Technology Vendor,Japan,North America,4.51,Active,2025-08-23
+SUP_00287,Wilson-Ramirez,Technology Vendor,Germany,Europe,1.09,Expired,2022-03-30
+SUP_00288,Bruce-Villegas,Equipment Supplier,UK,Europe,1.28,Active,2025-06-30
+SUP_00289,"Leonard, Hawkins and Lynch",Raw Materials,,Europe,2.61,Active,2024-08-12
+SUP_00290,"Adams, White and Park",Logistics Provider,United States,Latin America,4.94,Expired,2022-09-12
+SUP_00291,Bell-White,Logistics Provider,USA,Asia Pacific,3.95,Active,2021-10-15
+SUP_00292,"Morales, Thomas and Schultz",Maintenance Provider,Germany,North America,2.19,Expired,2021-03-03
+SUP_00293,"Moreno, Bennett and Chavez",Professional Services,Canada,Europe,1.17,Active,2021-11-12
+SUP_00294,Griffith-Frank,Raw Materials,France,Asia Pacific,1.44,Active,2024-02-13
+SUP_00295,Ware and Sons,Equipment Supplier,Sweden,Latin America,4.8,Expired,2021-11-12
+SUP_00296,"Williams, Miller and Ramos",Maintenance Provider,Germany,Latin America,4.93,Expired,2023-05-01
+SUP_00297,"Ramos, Nelson and Fischer",Maintenance Provider,Japan,Asia Pacific,3.45,Active,2021-08-17
+SUP_00298,Rodriguez-Gregory,Equipment Supplier,Sweden,Latin America,2.61,Expired,2024-04-04
+SUP_00299,"Estrada, Williams and Foster",Equipment Supplier,France,North America,,Active,2024-04-17
+SUP_00300,Harris and Sons,Technology Vendor,Canada,North America,1.15,Pending Renewal,2025-03-20
+SUP_00301,Roberts-Wilson,Professional Services,Japan,Europe,1.23,Pending Renewal,2023-09-25
+SUP_00302,Thompson-James,Equipment Supplier,USA,North America,3.39,Active,2024-11-12
+SUP_00303,"Hansen, Barnett and Gomez",Equipment Supplier,Germany,Europe,4.03,Active,2023-03-08
+SUP_00304,"Williams, Smith and Morse",Equipment Supplier,Japan,Asia Pacific,1.9,Active,2025-09-26
+SUP_00305,"Patterson, Sullivan and Bowman",Raw Materials,India,North America,4.58,Expired,2022-08-04
+SUP_00306,Smith-Nguyen,Equipment Supplier,Germany,North America,2.09,Active,2025-05-27
+SUP_00307,"Stevens, Norris and Cox",Technology Vendor,Germany,North America,4.45,Expired,2023-05-27
+SUP_00308,Sanchez PLC,Professional Services,Japan,North America,3.94,Active,2023-03-15
+SUP_00309,Foster LLC,Maintenance Provider,Sweden,Asia Pacific,2.04,Active,2025-02-05
+SUP_00310,Cook and Sons,Maintenance Provider,Canada,Europe,4.85,Active,2021-06-03
+SUP_00311,"Wilson, Hicks and Bullock",Professional Services,Sweden,North America,4.4,Active,2022-12-02
+SUP_00312,"Mullen, Brewer and Hernandez",Professional Services,Japan,Europe,4.63,Active,2021-07-26
+SUP_00313,Gonzalez-Morrison,Equipment Supplier,Japan,Europe,4.46,Active,2025-03-05
+SUP_00314,"Jones, Bean and Burton",Logistics Provider,Japan,Asia Pacific,4.4,Expired,2023-07-20
+SUP_00315,"Wolf, Cole and Glass",Equipment Supplier,US,North America,1.95,Pending Renewal,2024-02-07
+SUP_00316,"Downs, Morris and Maddox",Equipment Supplier,Sweden,Asia Pacific,4.01,Active,2022-09-27
+SUP_00317,Jones-Ramos,Technology Vendor,Germany,North America,2.86,Expired,2022-08-31
+SUP_00318,Vargas-Bell,Equipment Supplier,Canada,Europe,1.91,Pending Renewal,2021-05-29
+SUP_00319,Hayes-Brown,Technology Vendor,Canada,Latin America,4.33,Active,2025-07-27
+SUP_00320,Newman Inc,Professional Services,India,Europe,3.47,Pending Renewal,2024-05-18
+SUP_00321,"Cruz, Carpenter and Best",Technology Vendor,US,Latin America,3.54,Active,2025-01-22
+SUP_00322,Cole PLC,Maintenance Provider,Germany,Latin America,2.13,Active,2024-07-31
+SUP_00323,Jacobs-Mason,Technology Vendor,US,Latin America,2.37,Active,2026-04-06
+SUP_00324,Garcia-Nolan,Professional Services,France,North America,4.16,Active,2022-11-20
+SUP_00325,"Miller, Lucas and Williams",Logistics Provider,Sweden,Europe,2.2,Active,2024-11-20
+SUP_00326,Warren-Bishop,Technology Vendor,France,North America,2.89,Active,2022-12-31
+SUP_00327,Hughes-Schroeder,Technology Vendor,Japan,Asia Pacific,4.49,Pending Renewal,2024-09-23
+SUP_00328,Mccormick Ltd,Logistics Provider,United Kingdom,Latin America,3.59,Active,2022-11-03
+SUP_00329,Davis-Gregory,Professional Services,,Asia Pacific,1.09,Active,2022-07-24
+SUP_00330,"York, Brandt and Morrison",Equipment Supplier,India,Latin America,2.01,Active,2021-10-29
+SUP_00331,Aguilar and Sons,Technology Vendor,Canada,Europe,4.99,Active,2026-01-13
+SUP_00332,Ponce-Hale,Professional Services,United Kingdom,North America,3.77,Active,2023-02-26
+SUP_00333,"Fletcher, Miller and Hansen",Maintenance Provider,Canada,Asia Pacific,1.92,Active,2024-07-14
+SUP_00334,Li-Santiago,Maintenance Provider,Germany,North America,1.6,Active,2025-07-21
+SUP_00335,"Osborn, Gaines and Davis",Professional Services,UK,Asia Pacific,3.55,Active,2024-09-06
+SUP_00336,"Cox, Cox and White",Equipment Supplier,US,North America,2.25,Active,2022-03-06
+SUP_00337,Lee-Cooke,Technology Vendor,France,Asia Pacific,1.85,Active,2021-11-07
+SUP_00338,Richard-Garcia,Logistics Provider,USA,Latin America,,Active,2025-03-27
+SUP_00339,"Stephenson, Johnson and Rogers",Logistics Provider,Germany,Latin America,1.74,Expired,2025-03-18
+SUP_00340,Harper and Sons,Equipment Supplier,United Kingdom,Latin America,4.38,Expired,2021-11-22
+SUP_00341,"Wise, Lamb and Martin",Logistics Provider,Germany,North America,1.13,Pending Renewal,2023-05-28
+SUP_00342,Diaz-Ball,Maintenance Provider,Germany,Latin America,2.85,Active,2026-04-29
+SUP_00343,"Mitchell, Goodman and Cole",Maintenance Provider,India,North America,3.74,Active,2023-12-08
+SUP_00344,Sheppard-Mueller,Raw Materials,France,Latin America,1.64,Active,2025-12-19
+SUP_00345,Richardson PLC,Technology Vendor,United Kingdom,North America,4.19,Active,2026-05-29
+SUP_00346,Hammond-Strickland,Professional Services,United Kingdom,North America,1.29,Active,2023-10-06
+SUP_00347,Burch-Montoya,Maintenance Provider,France,Asia Pacific,2.17,Active,2025-05-27
+SUP_00348,Salas Inc,Maintenance Provider,US,Latin America,4.63,Active,2024-07-10
+SUP_00349,Spencer-Garcia,Raw Materials,Germany,Latin America,1.97,Pending Renewal,2025-08-24
+SUP_00350,Mitchell and Sons,Maintenance Provider,Japan,Asia Pacific,3.47,Active,2022-07-02
+SUP_00351,"Hernandez, Kim and Potts",Technology Vendor,Canada,Latin America,2.31,Active,2022-03-22
+SUP_00352,Wilkerson-Arias,Professional Services,US,North America,10.0,Expired,2023-04-13
+SUP_00353,Shaw-Young,Technology Vendor,,Europe,4.91,Active,2026-06-19
+SUP_00354,Walker-Flores,Technology Vendor,,Europe,1.16,Active,2021-07-18
+SUP_00355,"Santos, Moody and Taylor",Professional Services,Japan,Asia Pacific,3.83,Active,2022-07-30
+SUP_00356,Horton-Taylor,Raw Materials,,North America,3.84,Expired,2024-11-16
+SUP_00357,Gilbert-Bullock,Maintenance Provider,Canada,Latin America,4.13,Active,2021-02-08
+SUP_00358,Conley PLC,Equipment Supplier,India,Asia Pacific,4.58,Active,2026-03-02
+SUP_00359,"Rose, Rodriguez and Roberts",Technology Vendor,Canada,Europe,2.92,Active,2022-08-28
+SUP_00360,Allen Ltd,Maintenance Provider,Sweden,Europe,1.33,Active,2025-05-12
+SUP_00361,Brown-Copeland,Professional Services,India,Latin America,2.92,Active,2023-09-30
+SUP_00362,"Smith, Robertson and Allen",Maintenance Provider,Germany,Asia Pacific,2.35,Active,2021-10-16
+SUP_00363,Smith-Gomez,Equipment Supplier,India,North America,1.65,Active,2024-02-19
+SUP_00364,Beck Inc,Professional Services,Germany,Europe,,Pending Renewal,2023-11-17
+SUP_00365,Jones-Fox,Technology Vendor,Germany,Latin America,2.61,Active,2023-10-15
+SUP_00366,"Spencer, Myers and Harrison",Raw Materials,France,Asia Pacific,4.36,Active,2024-06-29
+SUP_00367,King-Smith,Technology Vendor,UK,Asia Pacific,3.97,Active,2025-05-01
+SUP_00368,Allen-Sandoval,Logistics Provider,Sweden,Latin America,4.07,Active,2021-07-27
+SUP_00369,"Moss, Cook and Williams",Equipment Supplier,Canada,North America,3.31,Active,2024-01-01
+SUP_00370,"Thompson, Maxwell and Marshall",Logistics Provider,UK,Europe,4.49,Pending Renewal,2024-10-26
+SUP_00371,"White, Taylor and Baldwin",Technology Vendor,France,Asia Pacific,4.97,Active,2026-03-08
+SUP_00372,Carter Inc,Equipment Supplier,United Kingdom,Latin America,3.49,Active,2025-05-06
+SUP_00373,Stewart LLC,Equipment Supplier,India,North America,4.1,Active,2023-10-31
+SUP_00374,"Kennedy, Johnson and Lucas",Technology Vendor,France,Asia Pacific,1.95,Pending Renewal,2022-07-28
+SUP_00375,Glenn LLC,Professional Services,India,North America,1.28,Active,2022-07-03
+SUP_00376,Kim-Ross,Professional Services,France,Latin America,2.78,Active,2023-06-02
+SUP_00377,Morgan-Lopez,Technology Vendor,United States,Latin America,1.38,Active,2024-10-20
+SUP_00378,Glass-Stone,Logistics Provider,US,North America,2.03,Active,2025-05-27
+SUP_00379,"Coleman, Jordan and Carney",Logistics Provider,India,North America,1.52,Pending Renewal,2021-12-28
+SUP_00380,Morris-Miller,Equipment Supplier,India,Asia Pacific,4.53,Active,2024-08-18
+SUP_00381,Griffin-Robbins,Professional Services,Japan,Europe,2.35,Expired,2021-12-01
+SUP_00382,Bell-Williams,Logistics Provider,US,North America,3.35,Pending Renewal,2025-10-12
+SUP_00383,Mendez-Graham,Maintenance Provider,US,Latin America,1.67,Active,2024-07-06
+SUP_00384,Jones Ltd,Professional Services,United Kingdom,Asia Pacific,3.13,Expired,2023-03-26
+SUP_00385,"Owen, Shelton and Cisneros",Logistics Provider,Japan,Latin America,4.46,Active,2021-10-14
+SUP_00386,"Gregory, Kim and Martinez",Logistics Provider,Germany,North America,2.08,Active,2022-04-19
+SUP_00387,"Diaz, Reyes and Bradley",Logistics Provider,India,North America,1.21,Active,2024-04-28
+SUP_00388,"Cole, Watson and Wallace",Professional Services,Germany,Europe,4.74,Active,2021-06-04
+SUP_00389,Moreno Group,Maintenance Provider,,Asia Pacific,3.75,Active,2022-09-23
+SUP_00390,Wright-Wilson,Equipment Supplier,Canada,Latin America,1.02,Pending Renewal,2025-01-15
+SUP_00391,Holmes-Mcintyre,Raw Materials,Canada,North America,3.32,Active,2021-08-25
+SUP_00392,Padilla-Lewis,Logistics Provider,,Europe,3.13,Active,2024-05-12
+SUP_00393,"Hendricks, Henry and Martinez",Logistics Provider,France,North America,,Active,2025-09-07
+SUP_00394,Thompson-Reeves,Technology Vendor,India,Latin America,1.75,Active,2026-06-24
+SUP_00395,"Ponce, Downs and Contreras",Maintenance Provider,United Kingdom,Latin America,4.47,Active,2024-11-24
+SUP_00396,"Daniels, Vance and York",Technology Vendor,Canada,North America,2.5,Active,2024-11-28
+SUP_00397,"Little, Leon and Hicks",Technology Vendor,Canada,North America,4.48,Active,2021-09-01
+SUP_00398,Conner and Sons,Raw Materials,Sweden,Asia Pacific,3.76,Active,2025-05-05
+SUP_00399,Ward PLC,Maintenance Provider,Germany,Asia Pacific,2.58,Active,2023-01-11
+SUP_00400,"Anderson, Henson and Jones",Logistics Provider,Canada,Europe,,Active,2023-03-10
+SUP_00401,"Higgins, Fox and Hammond",Raw Materials,India,North America,2.63,Expired,2025-07-10
+SUP_00402,Martinez LLC,Professional Services,USA,North America,2.15,Active,2024-07-12
+SUP_00403,Owens-Holmes,Maintenance Provider,Canada,North America,,Active,2021-09-15
+SUP_00404,"Bowman, White and Burch",Technology Vendor,France,Europe,4.51,Active,2023-05-18
+SUP_00405,Guerra PLC,Raw Materials,UK,Asia Pacific,1.48,Active,2021-11-03
+SUP_00406,Martin Ltd,Raw Materials,,North America,2.47,Active,2022-03-29
+SUP_00407,"Jacobson, Singleton and King",Logistics Provider,UK,Asia Pacific,3.19,Active,2024-06-27
+SUP_00408,"Hill, Weber and Mendez",Equipment Supplier,Japan,North America,1.91,Active,2021-07-07
+SUP_00409,"Jackson, David and Moore",Maintenance Provider,Germany,Latin America,3.57,Expired,2024-08-14
+SUP_00410,"Winters, Morgan and Bradshaw",Professional Services,United States,Asia Pacific,4.45,Active,2021-03-24
+SUP_00411,Miller Ltd,Professional Services,France,Latin America,4.26,Active,2025-03-27
+SUP_00412,Curtis-Wang,Professional Services,UK,Europe,1.98,Active,2023-04-16
+SUP_00413,"Johnson, Small and Gardner",Maintenance Provider,Germany,Latin America,3.99,Active,2024-07-11
+SUP_00414,Webb-Ballard,Professional Services,,North America,1.78,Active,2024-10-06
+SUP_00415,Chavez-Barker,Logistics Provider,India,North America,4.82,Active,2021-11-14
+SUP_00416,Washington-Harris,Logistics Provider,Germany,Asia Pacific,4.74,Active,2024-05-01
+SUP_00417,Hensley-Flores,Professional Services,Canada,Europe,,Active,2026-06-05
+SUP_00418,Hester-Anderson,Professional Services,France,Asia Pacific,,Active,2023-01-14
+SUP_00419,"Rodriguez, Allen and Martinez",Logistics Provider,Japan,Europe,3.87,Active,2023-06-21
+SUP_00420,Davis LLC,Technology Vendor,United Kingdom,Latin America,1.49,Active,2026-03-12
+SUP_00421,"Barnes, Estes and Barrera",Technology Vendor,,Latin America,4.2,Active,2025-06-20
+SUP_00422,"Griffith, Lee and Moore",Raw Materials,India,Latin America,3.27,Active,2026-06-21
+SUP_00423,Jimenez-Parker,Logistics Provider,Sweden,Latin America,1.35,Expired,2021-02-16
+SUP_00424,Wagner-Levy,Professional Services,Sweden,Latin America,3.53,Pending Renewal,2022-03-08
+SUP_00425,Williams-Campbell,Maintenance Provider,India,Europe,3.06,Active,2024-04-13
+SUP_00426,"Chambers, Mitchell and Smith",Technology Vendor,Canada,North America,1.7,Active,2021-08-04
+SUP_00427,Khan Ltd,Raw Materials,Canada,Latin America,1.95,Expired,2023-01-04
+SUP_00428,Diaz-Morales,Equipment Supplier,Canada,Latin America,4.4,Active,2024-02-18
+SUP_00429,Cox LLC,Equipment Supplier,US,Europe,3.5,Active,2021-05-28
+SUP_00430,"Cole, Pierce and Bryan",Raw Materials,Canada,North America,3.95,Expired,2024-06-04
+SUP_00431,"Wilson, Hester and Long",Raw Materials,India,North America,1.71,Active,2025-05-14
+SUP_00432,Grant-Diaz,Equipment Supplier,Germany,Latin America,1.93,Active,2021-10-17
+SUP_00433,"Hicks, Porter and Williams",Maintenance Provider,United Kingdom,North America,1.57,Active,2021-10-02
+SUP_00434,Brock-Stone,Technology Vendor,India,North America,2.62,Active,2021-10-26
+SUP_00435,"Taylor, Velazquez and Flores",Raw Materials,,North America,10.0,Active,2023-02-28
+SUP_00436,"Stevenson, Evans and Rogers",Logistics Provider,France,Asia Pacific,3.9,Active,2025-07-20
+SUP_00437,"Burns, Hart and Wells",Maintenance Provider,India,North America,2.06,Active,2021-02-03
+SUP_00438,Nunez-Whitney,Raw Materials,Sweden,Asia Pacific,2.29,Active,2024-03-16
+SUP_00439,"Wiggins, Soto and Carlson",Logistics Provider,US,Asia Pacific,2.77,Expired,2022-06-17
+SUP_00440,"Patton, Parsons and Lane",Logistics Provider,Sweden,North America,1.93,Active,2024-12-18
+SUP_00441,"Castillo, Warren and Griffith",Technology Vendor,France,Latin America,3.72,Active,2025-04-03
+SUP_00442,Hernandez-Becker,Maintenance Provider,Canada,Asia Pacific,3.68,Pending Renewal,2021-03-05
+SUP_00443,"Rodriguez, Smith and Edwards",Raw Materials,Canada,Europe,4.98,Active,2021-10-31
+SUP_00444,"Harris, Shaw and Carr",Maintenance Provider,Sweden,Latin America,3.25,Pending Renewal,2023-08-05
+SUP_00445,"Luna, Thornton and Stone",Raw Materials,United Kingdom,North America,1.68,Active,2024-01-31
+SUP_00446,"Mendoza, Bennett and Frye",Logistics Provider,France,North America,2.39,Active,2023-07-12
+SUP_00447,"Peterson, Gomez and Ingram",Maintenance Provider,Sweden,Asia Pacific,1.94,Active,2024-12-17
+SUP_00448,"Lara, Baker and Washington",Professional Services,Japan,Europe,3.95,Expired,2026-04-05
+SUP_00449,Grant-Walker,Maintenance Provider,United States,North America,3.08,Active,2026-05-06
+SUP_00450,Wise-Bush,Raw Materials,Canada,Latin America,3.43,Active,2024-10-16
+SUP_00451,Stewart-Bailey,Professional Services,Sweden,Europe,1.14,Active,2026-02-17
+SUP_00452,"Hill, Martinez and Rhodes",Technology Vendor,Canada,North America,2.52,Active,2023-02-01
+SUP_00453,Cardenas-Blevins,Raw Materials,US,North America,2.22,Active,2025-06-03
+SUP_00454,Williams-Moses,Logistics Provider,India,Europe,,Active,2021-06-08
+SUP_00455,Douglas-Burgess,Maintenance Provider,,Asia Pacific,3.27,Active,2022-03-06
+SUP_00456,"Nelson, Hoffman and Nelson",Raw Materials,Sweden,Asia Pacific,1.47,Expired,2021-08-08
+SUP_00457,"Matthews, Sanchez and Santiago",Technology Vendor,Germany,Europe,4.47,Expired,2023-12-02
+SUP_00458,"Hall, Garcia and Rivera",Logistics Provider,Japan,Asia Pacific,4.27,Active,2023-08-06
+SUP_00459,"Townsend, Smith and Pierce",Equipment Supplier,Germany,Europe,3.78,Active,2026-02-07
+SUP_00460,Delgado-Gilmore,Technology Vendor,Sweden,Europe,4.29,Active,2023-08-13
+SUP_00461,"Gonzalez, Maynard and Morris",Logistics Provider,France,North America,3.43,Active,2024-07-19
+SUP_00462,Pearson and Sons,Maintenance Provider,Japan,Europe,,Active,2023-12-10
+SUP_00463,"Jefferson, Johnson and Dorsey",Raw Materials,USA,Europe,3.67,Active,2023-04-19
+SUP_00464,Peck Inc,Logistics Provider,United Kingdom,Europe,1.54,Pending Renewal,2026-06-24
+SUP_00465,French-Lopez,Logistics Provider,Sweden,Latin America,2.25,Active,2025-02-11
+SUP_00466,Mcdowell-Smith,Logistics Provider,Canada,North America,4.41,Active,2024-02-14
+SUP_00467,Hebert LLC,Technology Vendor,Germany,Europe,3.6,Active,2022-07-25
+SUP_00468,"Daniels, Snyder and Mays",Equipment Supplier,Germany,North America,1.77,Active,2025-09-04
+SUP_00469,Nelson-Lamb,Technology Vendor,France,Asia Pacific,1.23,Active,2022-10-26
+SUP_00470,"Stevens, Scott and Lopez",Equipment Supplier,US,Asia Pacific,1.68,Active,2025-01-17
+SUP_00471,Bradley-Todd,Maintenance Provider,Sweden,Europe,1.4,Active,2021-12-19
+SUP_00472,"Prince, Wilcox and Robertson",Logistics Provider,Sweden,North America,3.53,Active,2021-06-23
+SUP_00473,"Davis, Holden and Woods",Logistics Provider,United Kingdom,Asia Pacific,2.23,Active,2026-02-21
+SUP_00474,Green and Sons,Technology Vendor,Sweden,Europe,1.52,Expired,2023-06-16
+SUP_00475,Finley-Turner,Professional Services,France,Latin America,10.0,Active,2024-12-21
+SUP_00476,Green LLC,Professional Services,France,Europe,2.55,Pending Renewal,2024-10-21
+SUP_00477,Contreras Group,Maintenance Provider,India,Europe,2.93,Active,2022-09-08
+SUP_00478,Parks-Leblanc,Technology Vendor,India,North America,3.72,Active,2025-11-16
+SUP_00479,Vaughn-Fowler,Professional Services,UK,North America,1.05,Active,2026-03-02
+SUP_00480,Mendez-Robinson,Technology Vendor,United Kingdom,North America,1.26,Active,2021-09-25
+SUP_00481,Gibson PLC,Raw Materials,USA,Asia Pacific,3.19,Active,2023-01-20
+SUP_00482,"Dunn, Ruiz and Medina",Professional Services,Sweden,Latin America,2.95,Active,2024-08-25
+SUP_00483,Gill Ltd,Logistics Provider,Sweden,Latin America,3.61,Expired,2025-02-23
+SUP_00484,Fox PLC,Professional Services,United Kingdom,Latin America,2.84,Expired,2024-11-12
+SUP_00485,Stark Inc,Raw Materials,United Kingdom,North America,1.41,Active,2021-05-04
+SUP_00486,"Leach, Harris and Herrera",Technology Vendor,,North America,2.75,Active,2021-11-27
+SUP_00487,"Ramos, Frazier and Love",Technology Vendor,Canada,Europe,2.01,Expired,2023-09-08
+SUP_00488,"Griffin, Brown and Anderson",Technology Vendor,Sweden,Asia Pacific,2.55,Active,2023-04-14
+SUP_00489,"Brown, Ford and Roman",Raw Materials,USA,Asia Pacific,1.27,Active,2024-12-21
+SUP_00490,Scott-Smith,Logistics Provider,Germany,North America,3.05,Active,2022-03-14
+SUP_00491,Williams LLC,Raw Materials,UK,Latin America,3.98,Active,2024-11-05
+SUP_00492,"Mcknight, Michael and Jones",Equipment Supplier,Germany,Latin America,1.05,Pending Renewal,2026-02-17
+SUP_00493,Mitchell and Sons,Technology Vendor,United Kingdom,Latin America,2.85,Pending Renewal,2025-03-23
+SUP_00494,"Good, Brewer and Fisher",Equipment Supplier,Sweden,Asia Pacific,3.65,Active,2026-06-15
+SUP_00495,West-Stark,Professional Services,Germany,Europe,3.2,Expired,2023-01-28
+SUP_00496,Vega Ltd,Technology Vendor,Japan,Latin America,1.08,Active,2025-10-21
+SUP_00497,Valdez LLC,Raw Materials,Sweden,North America,4.9,Active,2021-08-26
+SUP_00498,"Long, Anderson and Irwin",Logistics Provider,Germany,North America,3.46,Expired,2025-08-02
+SUP_00499,Good Group,Technology Vendor,US,North America,2.91,Expired,2024-09-13
+SUP_00500,"Coleman, Gray and Hall",Logistics Provider,Canada,North America,2.17,Pending Renewal,2023-07-14
+SUP_00501,Hill Ltd,Professional Services,France,North America,4.68,Active,2025-03-16
+SUP_00502,Pacheco Group,Technology Vendor,Japan,Latin America,1.51,Active,2024-05-18
+SUP_00503,Allen Inc,Raw Materials,Japan,Europe,2.49,Active,2021-07-22
+SUP_00504,Griffin Ltd,Raw Materials,Sweden,Europe,1.65,Active,2024-11-11
+SUP_00505,Sanchez Inc,Logistics Provider,,North America,1.79,Expired,2023-03-18
+SUP_00506,Fernandez Inc,Equipment Supplier,Japan,North America,3.69,Active,2021-10-09
+SUP_00507,Young-Hendricks,Logistics Provider,India,North America,4.68,Active,2024-03-01
+SUP_00508,"Harper, Chambers and Flores",Professional Services,UK,Europe,4.91,Active,2022-08-29
+SUP_00509,Odom PLC,Logistics Provider,France,Asia Pacific,1.22,Active,2022-03-20
+SUP_00510,Hill-Hawkins,Raw Materials,France,Asia Pacific,4.75,Active,2024-04-01
+SUP_00511,"Buck, Garrett and Simmons",Professional Services,Canada,Europe,3.74,Active,2023-09-22
+SUP_00512,David-Powers,Equipment Supplier,Canada,Asia Pacific,,Active,2025-04-26
+SUP_00513,Horton-Russell,Professional Services,France,Asia Pacific,3.36,Active,2022-08-25
+SUP_00514,Webster Group,Equipment Supplier,India,Europe,1.61,Active,2022-04-29
+SUP_00515,Turner Ltd,Raw Materials,Sweden,Asia Pacific,4.04,Active,2021-10-17
+SUP_00516,Melendez-Hart,Raw Materials,Canada,Europe,3.97,Expired,2026-04-26
+SUP_00517,"Moreno, Price and Scott",Equipment Supplier,Sweden,Latin America,2.61,Expired,2022-10-25
+SUP_00518,Nielsen LLC,Technology Vendor,Germany,North America,3.97,Expired,2021-07-05
+SUP_00519,"Calderon, Williams and Bennett",Technology Vendor,Germany,Asia Pacific,2.42,Expired,2024-04-28
+SUP_00520,Russo and Sons,Maintenance Provider,Sweden,Latin America,4.39,Expired,2025-06-03
+SUP_00521,"Ramsey, Hansen and Mendoza",Maintenance Provider,Sweden,North America,1.81,Pending Renewal,2025-10-11
+SUP_00522,Turner-Stout,Equipment Supplier,,Latin America,4.03,Expired,2022-03-01
+SUP_00523,Hayden Inc,Equipment Supplier,France,Latin America,4.99,Active,2025-02-07
+SUP_00524,Rocha-Dominguez,Logistics Provider,UK,Latin America,4.12,Active,2024-11-12
+SUP_00525,Herman-Arnold,Maintenance Provider,Canada,North America,2.65,Active,2025-04-05
+SUP_00526,Owens-Wong,Maintenance Provider,UK,Europe,1.67,Active,2022-09-11
+SUP_00527,Hunt-Crawford,Raw Materials,UK,Latin America,3.35,Active,2021-07-17
+SUP_00528,"Harrison, Franco and Rocha",Professional Services,France,Asia Pacific,3.32,Active,2023-01-14
+SUP_00529,Williams-Shields,Maintenance Provider,Sweden,Latin America,2.95,Active,2025-01-26
+SUP_00530,Green PLC,Logistics Provider,Germany,Asia Pacific,4.3,Active,2024-03-07
+SUP_00531,Phillips-Gonzalez,Maintenance Provider,France,Asia Pacific,3.78,Active,2022-04-07
+SUP_00532,"Whitaker, Porter and Pena",Professional Services,Canada,Europe,4.15,Active,2024-10-05
+SUP_00533,Hines-Burns,Logistics Provider,Japan,North America,1.49,Active,2024-12-22
+SUP_00534,"Henry, Jackson and Norton",Logistics Provider,United States,Europe,1.25,Expired,2021-12-06
+SUP_00535,"Payne, White and Preston",Raw Materials,India,Asia Pacific,4.73,Active,2026-06-10
+SUP_00536,Warren Inc,Logistics Provider,USA,Europe,2.98,Active,2026-03-12
+SUP_00537,"Williams, Smith and Taylor",Maintenance Provider,India,Europe,3.99,Active,2024-06-19
+SUP_00538,Mann Inc,Professional Services,Canada,Latin America,1.74,Active,2022-03-15
+SUP_00539,Brooks-Williamson,Professional Services,Canada,Asia Pacific,3.8,Active,2024-08-30
+SUP_00540,"Durham, Hopkins and Smith",Maintenance Provider,France,North America,3.07,Active,2023-12-04
+SUP_00541,Smith-Moreno,Technology Vendor,UK,Asia Pacific,10.0,Active,2022-07-06
+SUP_00542,Smith-Li,Professional Services,United Kingdom,North America,2.92,Active,2024-09-14
+SUP_00543,Rodriguez Inc,Logistics Provider,Japan,North America,1.53,Active,2023-11-18
+SUP_00544,Lee PLC,Technology Vendor,,Asia Pacific,4.64,Expired,2022-05-22
+SUP_00545,Adams-Sanders,Raw Materials,Sweden,Europe,1.64,Active,2023-01-19
+SUP_00546,Stevens-Sanchez,Logistics Provider,Sweden,North America,3.63,Pending Renewal,2024-10-30
+SUP_00547,Sutton-Abbott,Logistics Provider,France,Latin America,1.18,Active,2024-08-04
+SUP_00548,"Malone, Davis and Gray",Logistics Provider,,Asia Pacific,4.15,Pending Renewal,2024-01-14
+SUP_00549,Walsh Ltd,Technology Vendor,Japan,Europe,4.38,Active,2021-12-10
+SUP_00550,Bruce-Newman,Logistics Provider,United States,North America,1.13,Active,2022-10-27
+SUP_00551,Jacobson Inc,Raw Materials,Canada,Asia Pacific,2.38,Active,2022-04-06
+SUP_00552,"Clay, Alvarez and Williams",Maintenance Provider,Germany,Asia Pacific,4.6,Active,2021-05-30
+SUP_00553,Lam-Elliott,Logistics Provider,Japan,Asia Pacific,1.51,Expired,2021-03-08
+SUP_00554,Smith-Clark,Technology Vendor,United Kingdom,Europe,2.68,Active,2021-10-17
+SUP_00555,"Nicholson, Hickman and Evans",Technology Vendor,US,North America,4.92,Active,2024-02-06
+SUP_00556,"Davenport, Price and Mosley",Professional Services,India,Europe,,Active,2022-10-28
+SUP_00557,"Taylor, Hinton and Ramsey",Logistics Provider,USA,North America,2.4,Active,2023-10-02
+SUP_00558,Brown-Kim,Logistics Provider,Canada,North America,2.67,Active,2025-08-10
+SUP_00559,Jacobs-Austin,Raw Materials,France,Asia Pacific,3.09,Active,2024-04-09
+SUP_00560,Johnson-Nelson,Technology Vendor,Canada,Latin America,3.17,Expired,2026-06-15
+SUP_00561,Perez-Tran,Technology Vendor,US,North America,1.33,Active,2023-01-24
+SUP_00562,Frazier Ltd,Professional Services,United States,Europe,10.0,Active,2023-02-02
+SUP_00563,"Phillips, Wright and Jones",Technology Vendor,US,Europe,2.85,Active,2022-06-22
+SUP_00564,Dawson-Walters,Maintenance Provider,UK,Asia Pacific,2.16,Expired,2025-01-23
+SUP_00565,Ward-Davis,Equipment Supplier,France,Latin America,2.84,Active,2026-03-07
+SUP_00566,Ward-Nelson,Professional Services,India,North America,1.66,Active,2021-09-23
+SUP_00567,Jordan PLC,Maintenance Provider,France,Latin America,1.07,Active,2024-01-18
+SUP_00568,Garcia-Davis,Logistics Provider,India,Europe,4.48,Active,2024-01-17
+SUP_00569,"George, Nguyen and Cruz",Technology Vendor,US,Latin America,4.0,Active,2022-08-09
+SUP_00570,Maxwell-Hardy,Maintenance Provider,Canada,North America,2.37,Active,2024-01-28
+SUP_00571,Armstrong and Sons,Equipment Supplier,Canada,Latin America,1.42,Active,2024-10-06
+SUP_00572,Taylor LLC,Technology Vendor,USA,Asia Pacific,1.37,Active,2022-06-23
+SUP_00573,Brown Group,Logistics Provider,Germany,Latin America,3.09,Active,2022-07-08
+SUP_00574,Washington-Jones,Logistics Provider,Sweden,North America,2.11,Active,2022-05-20
+SUP_00575,Le Group,Maintenance Provider,US,Asia Pacific,3.13,Active,2024-04-06
+SUP_00576,Ellis and Sons,Logistics Provider,Sweden,Europe,1.66,Active,2022-09-04
+SUP_00577,Cook-Oliver,Equipment Supplier,UK,Asia Pacific,2.11,Pending Renewal,2025-06-01
+SUP_00578,Alexander-Jordan,Raw Materials,US,Latin America,1.13,Active,2025-07-11
+SUP_00579,"Mccann, Taylor and Flores",Equipment Supplier,Japan,Latin America,2.25,Expired,2026-03-16
+SUP_00580,Mendoza and Sons,Equipment Supplier,France,Europe,4.53,Expired,2026-04-19
+SUP_00581,Carter-Neal,Raw Materials,France,Asia Pacific,2.67,Pending Renewal,2023-09-12
+SUP_00582,"Casey, Nguyen and Ramirez",Professional Services,UK,Europe,2.29,Pending Renewal,2025-04-26
+SUP_00583,Wilson-Elliott,Equipment Supplier,Canada,Asia Pacific,1.65,Active,2024-04-03
+SUP_00584,"White, Saunders and Johnson",Raw Materials,US,Asia Pacific,1.12,Expired,2024-12-29
+SUP_00585,"Clark, Salinas and Guerra",Maintenance Provider,Canada,Europe,3.93,Active,2021-05-19
+SUP_00586,Chambers-Taylor,Logistics Provider,United Kingdom,North America,4.67,Active,2022-08-31
+SUP_00587,Hopkins-Espinoza,Raw Materials,,Latin America,2.88,Expired,2025-05-02
+SUP_00588,Cole PLC,Professional Services,Sweden,North America,2.02,Expired,2023-08-20
+SUP_00589,Ferguson-Mclean,Maintenance Provider,,Latin America,1.7,Active,2025-10-11
+SUP_00590,Stephens-Gibbs,Maintenance Provider,Japan,Europe,3.88,Active,2022-12-23
+SUP_00591,"Wheeler, Rocha and Rodriguez",Equipment Supplier,Canada,North America,2.8,Active,2022-05-13
+SUP_00592,"Kelly, Holland and Williams",Maintenance Provider,USA,Asia Pacific,3.95,Expired,2026-05-28
+SUP_00593,"Lucas, Rasmussen and Rivera",Equipment Supplier,France,Asia Pacific,3.54,Active,2025-05-17
+SUP_00594,Smith LLC,Technology Vendor,Japan,Europe,2.26,Active,2022-03-22
+SUP_00595,"Stone, Carpenter and Johnston",Maintenance Provider,India,Asia Pacific,4.42,Active,2023-06-14
+SUP_00596,Ford-Frazier,Equipment Supplier,Japan,Asia Pacific,3.78,Active,2024-10-17
+SUP_00597,Cooper Inc,Professional Services,France,Asia Pacific,1.13,Active,2023-08-27
+SUP_00598,Perry-Nixon,Maintenance Provider,France,Latin America,4.61,Active,2021-08-21
+SUP_00599,"Thomas, Collins and Gibson",Logistics Provider,United States,Asia Pacific,3.66,Active,2022-02-19
+SUP_00600,Bailey-Davis,Equipment Supplier,United States,Europe,1.0,Active,2024-12-19
+SUP_00601,Flores-Evans,Maintenance Provider,Canada,Latin America,2.84,Expired,2025-06-14
+SUP_00602,Johnson LLC,Equipment Supplier,Japan,Europe,2.65,Expired,2024-07-23
+SUP_00603,"Marsh, Spears and Yang",Raw Materials,Germany,Latin America,1.17,Active,2023-11-02
+SUP_00604,"Moore, Castro and Mullen",Maintenance Provider,,Europe,4.43,Active,2022-04-11
+SUP_00605,Soto-Lopez,Technology Vendor,Germany,Asia Pacific,3.8,Expired,2024-08-11
+SUP_00606,Johnson-Mendez,Maintenance Provider,United Kingdom,Asia Pacific,3.91,Active,2022-01-31
+SUP_00607,"Jordan, Smith and Lewis",Logistics Provider,India,North America,3.54,Active,2022-07-13
+SUP_00608,"Stokes, Brown and Garcia",Professional Services,Japan,Europe,3.16,Active,2025-10-16
+SUP_00609,Diaz and Sons,Raw Materials,France,North America,2.88,Active,2023-07-07
+SUP_00610,Lambert-Burns,Equipment Supplier,Germany,North America,1.91,Active,2026-04-22
+SUP_00611,Harper-Carr,Equipment Supplier,US,Latin America,4.61,Expired,2024-03-23
+SUP_00612,Bell-Ellis,Maintenance Provider,USA,North America,2.36,Pending Renewal,2021-12-13
+SUP_00613,"Mccarthy, Evans and Mendez",Professional Services,India,Asia Pacific,4.35,Active,2021-06-20
+SUP_00614,Edwards and Sons,Equipment Supplier,Sweden,Asia Pacific,4.98,Expired,2022-09-05
+SUP_00615,Brooks and Sons,Professional Services,India,North America,2.01,Active,2023-10-22
+SUP_00616,Carlson-Andrews,Professional Services,Sweden,North America,1.38,Pending Renewal,2023-04-29
+SUP_00617,Reid-Steele,Raw Materials,Sweden,Asia Pacific,1.26,Pending Renewal,2024-07-18
+SUP_00618,Peters Group,Logistics Provider,Japan,North America,4.64,Active,2022-08-03
+SUP_00619,Edwards Group,Equipment Supplier,India,North America,4.57,Active,2024-05-27
+SUP_00620,Crane-Washington,Equipment Supplier,Japan,North America,2.78,Expired,2022-01-27
+SUP_00621,Maynard-Wagner,Logistics Provider,Germany,Latin America,1.42,Active,2023-09-20
+SUP_00622,"Vasquez, Mckinney and Wallace",Maintenance Provider,UK,Asia Pacific,2.05,Active,2021-12-02
+SUP_00623,"Johnson, Juarez and Carter",Raw Materials,Germany,Asia Pacific,3.03,Active,2022-07-06
+SUP_00624,"Roberts, Norman and Cunningham",Raw Materials,France,Europe,1.01,Active,2025-03-30
+SUP_00625,Dunn-Wilson,Equipment Supplier,France,Europe,1.56,Active,2021-08-18
+SUP_00626,"Morrow, Richardson and Carson",Professional Services,US,North America,2.89,Active,2021-03-25
+SUP_00627,"Alexander, Robinson and Coleman",Professional Services,France,Asia Pacific,2.9,Active,2025-01-16
+SUP_00628,"Potter, Evans and Kidd",Raw Materials,United Kingdom,Europe,1.03,Active,2023-06-22
+SUP_00629,Atkins-Miller,Logistics Provider,Germany,Latin America,2.14,Active,2025-10-02
+SUP_00630,Rowe and Sons,Maintenance Provider,United Kingdom,North America,2.59,Active,2022-02-26
+SUP_00631,"Matthews, Bell and Page",Professional Services,United States,North America,2.14,Expired,2024-06-23
+SUP_00632,Jensen and Sons,Equipment Supplier,UK,Asia Pacific,3.03,Expired,2025-06-20
+SUP_00633,Hudson PLC,Equipment Supplier,UK,Latin America,1.18,Active,2022-07-18
+SUP_00634,"Jackson, Werner and Carter",Professional Services,India,Europe,2.58,Active,2024-02-23
+SUP_00635,"Duke, Shelton and Davis",Professional Services,Sweden,Latin America,3.86,Active,2026-04-16
+SUP_00636,Sellers-Riddle,Professional Services,Japan,North America,3.87,Pending Renewal,2025-10-06
+SUP_00637,Miles and Sons,Raw Materials,United Kingdom,Latin America,3.55,Active,2022-05-16
+SUP_00638,"Morris, Wright and Bridges",Raw Materials,,Asia Pacific,3.42,Active,2023-02-27
+SUP_00639,Ray LLC,Maintenance Provider,Canada,Latin America,4.2,Active,2024-06-13
+SUP_00640,Hayes-Schultz,Logistics Provider,United Kingdom,Asia Pacific,3.2,Pending Renewal,2025-11-01
+SUP_00641,Powell Ltd,Equipment Supplier,Sweden,Europe,2.42,Pending Renewal,2022-07-13
+SUP_00642,Gibson-Freeman,Raw Materials,India,North America,3.59,Expired,2024-03-13
+SUP_00643,"Davis, Stanton and Reid",Maintenance Provider,United Kingdom,Europe,,Pending Renewal,2024-10-30
+SUP_00644,Flynn Group,Logistics Provider,USA,Asia Pacific,1.69,Active,2022-03-13
+SUP_00645,Summers-Simpson,Professional Services,UK,Europe,1.27,Active,2022-10-10
+SUP_00646,Morgan-Lane,Raw Materials,Japan,Europe,3.78,Active,2024-02-10
+SUP_00647,Kramer-Shannon,Professional Services,Germany,North America,2.6,Pending Renewal,2025-03-10
+SUP_00648,Garcia Group,Raw Materials,France,North America,3.92,Active,2021-02-02
+SUP_00649,Alexander Inc,Maintenance Provider,Sweden,North America,4.41,Active,2026-06-13
+SUP_00650,Harris-Barker,Raw Materials,UK,Asia Pacific,2.23,Expired,2021-09-22
+SUP_00651,"Turner, Baxter and Mcdowell",Technology Vendor,Sweden,Latin America,2.54,Active,2021-07-07
+SUP_00652,Wright-Watson,Raw Materials,Sweden,Asia Pacific,2.72,Active,2025-12-19
+SUP_00653,Williams Ltd,Technology Vendor,Japan,Latin America,2.48,Active,2022-09-05
+SUP_00654,"Fischer, Patterson and Davis",Technology Vendor,Sweden,North America,1.67,Active,2021-07-10
+SUP_00655,Woods and Sons,Raw Materials,Sweden,North America,,Active,2024-04-05
+SUP_00656,"Frazier, Smith and Dominguez",Logistics Provider,UK,Europe,2.52,Active,2025-06-28
+SUP_00657,Benson-Woods,Equipment Supplier,India,Asia Pacific,2.64,Active,2022-04-05
+SUP_00658,Cross Inc,Professional Services,France,Latin America,3.12,Expired,2021-07-27
+SUP_00659,Ibarra-Taylor,Maintenance Provider,Japan,Latin America,2.82,Active,2025-04-01
+SUP_00660,May Ltd,Professional Services,United Kingdom,Europe,1.91,Pending Renewal,2021-10-14
+SUP_00661,"Elliott, Bishop and Martin",Professional Services,Germany,Asia Pacific,2.54,Active,2022-12-06
+SUP_00662,Fuller and Sons,Equipment Supplier,France,Asia Pacific,1.64,Active,2026-01-20
+SUP_00663,"Parks, Heath and Miller",Professional Services,Germany,North America,2.16,Pending Renewal,2021-07-21
+SUP_00664,Lawrence Group,Technology Vendor,United Kingdom,North America,2.5,Active,2022-12-07
+SUP_00665,Edwards-Taylor,Technology Vendor,France,Latin America,4.31,Pending Renewal,2022-07-10
+SUP_00666,Wright PLC,Maintenance Provider,,Asia Pacific,2.56,Active,2024-04-18
+SUP_00667,"Mitchell, Pugh and Johnson",Logistics Provider,Japan,Europe,4.92,Active,2025-08-27
+SUP_00668,Harris-Lawson,Professional Services,UK,Europe,4.05,Expired,2022-01-14
+SUP_00669,Phillips-Brown,Technology Vendor,Germany,Asia Pacific,4.31,Active,2025-12-07
+SUP_00670,Simpson Inc,Professional Services,Canada,North America,2.37,Active,2022-04-29
+SUP_00671,"Wheeler, Rice and Levine",Logistics Provider,Sweden,Asia Pacific,2.39,Active,2026-06-03
+SUP_00672,Anderson-Valencia,Equipment Supplier,Japan,North America,1.6,Expired,2024-02-15
+SUP_00673,Payne-Thompson,Professional Services,Sweden,Asia Pacific,4.98,Expired,2023-08-03
+SUP_00674,Smith Inc,Raw Materials,Japan,Europe,4.17,Active,2021-01-28
+SUP_00675,Williams Inc,Logistics Provider,India,North America,4.41,Active,2026-03-19
+SUP_00676,Hunter-Fuller,Equipment Supplier,France,Asia Pacific,4.64,Active,2023-10-03
+SUP_00677,Henderson-Morales,Logistics Provider,United Kingdom,Asia Pacific,1.15,Active,2024-07-08
+SUP_00678,"Jensen, Ramirez and Collins",Professional Services,India,Latin America,4.18,Active,2023-10-23
+SUP_00679,Mccann and Sons,Logistics Provider,France,Europe,4.88,Pending Renewal,2023-12-12
+SUP_00680,Willis-Hines,Logistics Provider,Canada,Latin America,2.93,Expired,2024-07-27
+SUP_00681,"Jones, Hale and Blair",Technology Vendor,India,Asia Pacific,2.97,Active,2025-08-26
+SUP_00682,Sanchez Group,Equipment Supplier,France,Latin America,3.05,Active,2021-08-21
+SUP_00683,"Lynch, Parker and Harmon",Equipment Supplier,Canada,North America,4.58,Active,2025-01-25
+SUP_00684,Smith and Sons,Logistics Provider,Sweden,Asia Pacific,4.23,Active,2024-11-08
+SUP_00685,Crawford LLC,Logistics Provider,India,North America,1.01,Active,2023-11-16
+SUP_00686,"Green, Watson and Brady",Equipment Supplier,United States,Latin America,2.25,Active,2025-10-19
+SUP_00687,"Tanner, Wise and Johnson",Maintenance Provider,UK,North America,,Active,2025-06-08
+SUP_00688,Warren-Baker,Maintenance Provider,Canada,Latin America,3.75,Active,2026-05-10
+SUP_00689,"Jones, Gibson and Ward",Technology Vendor,France,Europe,3.53,Active,2023-09-30
+SUP_00690,"Jackson, Moore and Ayala",Raw Materials,Sweden,Europe,2.12,Active,2025-11-29
+SUP_00691,"Sharp, Perez and Hicks",Equipment Supplier,,Europe,4.99,Active,2021-03-30
+SUP_00692,Sanchez Group,Maintenance Provider,United States,Latin America,1.06,Active,2023-01-01
+SUP_00693,White Inc,Raw Materials,USA,North America,1.28,Active,2024-01-15
+SUP_00694,"Yang, Barnes and Morris",Logistics Provider,Japan,North America,,Expired,2023-04-16
+SUP_00695,"Flores, Mckenzie and Duncan",Technology Vendor,,Asia Pacific,1.42,Active,2021-08-28
+SUP_00696,"Winters, White and Brock",Maintenance Provider,Canada,Europe,2.63,Active,2026-05-23
+SUP_00697,Jones-Marshall,Equipment Supplier,France,Asia Pacific,,Active,2022-07-21
+SUP_00698,Murphy-Tran,Technology Vendor,United Kingdom,North America,1.02,Active,2021-01-16
+SUP_00699,Carter LLC,Technology Vendor,France,Latin America,1.31,Active,2025-01-23
+SUP_00700,Marshall PLC,Maintenance Provider,Canada,Latin America,1.2,Active,2026-05-04
+SUP_00701,Oconnor PLC,Logistics Provider,UK,Latin America,4.45,Active,2025-03-06
+SUP_00702,Hernandez Group,Maintenance Provider,India,Europe,2.06,Active,2021-02-17
+SUP_00703,"Reed, Franco and Wiley",Raw Materials,India,North America,,Active,2026-03-23
+SUP_00704,Blake Group,Equipment Supplier,United Kingdom,North America,2.43,Active,2025-08-31
+SUP_00705,"Parker, Harris and Bird",Raw Materials,,Asia Pacific,3.88,Expired,2023-04-23
+SUP_00706,Kaufman and Sons,Logistics Provider,Canada,Europe,3.5,Active,2024-11-28
+SUP_00707,Williams and Sons,Maintenance Provider,Japan,Europe,2.85,Active,2025-12-05
+SUP_00708,"Gutierrez, Huang and Ellis",Maintenance Provider,United Kingdom,Latin America,3.25,Active,2025-02-09
+SUP_00709,"Davis, Anderson and Wilkins",Technology Vendor,Germany,Asia Pacific,2.61,Active,2021-05-31
+SUP_00710,"Brown, Bates and Anderson",Technology Vendor,Canada,Europe,,Active,2022-08-09
+SUP_00711,Howe-Long,Raw Materials,USA,Asia Pacific,1.0,Active,2025-07-27
+SUP_00712,Stewart-Nelson,Maintenance Provider,Canada,Europe,3.83,Active,2021-05-30
+SUP_00713,Taylor PLC,Raw Materials,Canada,Latin America,2.36,Pending Renewal,2021-08-07
+SUP_00714,Martin Group,Logistics Provider,Japan,North America,,Active,2022-09-22
+SUP_00715,Herrera and Sons,Equipment Supplier,Germany,North America,4.47,Active,2023-06-26
+SUP_00716,Baker-Wilson,Equipment Supplier,Canada,Asia Pacific,2.74,Pending Renewal,2021-11-13
+SUP_00717,"Torres, Bush and Morrison",Logistics Provider,Japan,Latin America,3.7,Active,2022-03-08
+SUP_00718,Hernandez-Dawson,Professional Services,India,Europe,2.55,Active,2026-04-27
+SUP_00719,Palmer-Byrd,Technology Vendor,Japan,Asia Pacific,1.56,Active,2022-06-06
+SUP_00720,Johnson Group,Professional Services,Germany,North America,4.86,Expired,2025-09-11
+SUP_00721,"Adkins, Wright and Murray",Raw Materials,US,Latin America,2.19,Active,2025-06-01
+SUP_00722,Martinez Inc,Logistics Provider,Germany,Asia Pacific,5.0,Active,2025-07-24
+SUP_00723,Anderson Group,Logistics Provider,France,Latin America,4.46,Active,2023-01-17
+SUP_00724,"Pace, Miller and Willis",Maintenance Provider,Japan,Europe,4.08,Active,2026-01-15
+SUP_00725,Johnson Inc,Professional Services,India,North America,2.67,Expired,2022-02-01
+SUP_00726,"Ramos, Anderson and Stein",Raw Materials,India,Europe,3.63,Active,2025-07-22
+SUP_00727,Martinez-Dunlap,Raw Materials,Japan,Europe,4.18,Expired,2021-04-12
+SUP_00728,"Hamilton, Ramsey and Crawford",Raw Materials,UK,Europe,1.55,Active,2023-02-07
+SUP_00729,Thompson-Lewis,Logistics Provider,Canada,Asia Pacific,4.9,Active,2022-01-11
+SUP_00730,Griffin-Hernandez,Maintenance Provider,,Latin America,1.8,Expired,2024-05-16
+SUP_00731,"Sanchez, Phillips and Jenkins",Equipment Supplier,Sweden,Asia Pacific,3.67,Expired,2024-01-10
+SUP_00732,Miller Group,Professional Services,France,Europe,2.07,Expired,2021-10-03
+SUP_00733,Day PLC,Professional Services,France,North America,4.64,Expired,2022-05-15
+SUP_00734,"Norton, Mayo and Casey",Maintenance Provider,US,Latin America,2.65,Active,2022-12-22
+SUP_00735,"Harrington, Cooper and Cunningham",Raw Materials,India,Europe,4.62,Active,2022-10-08
+SUP_00736,White-Flores,Raw Materials,UK,Asia Pacific,4.85,Active,2022-03-16
+SUP_00737,Brown-Frey,Logistics Provider,France,North America,2.82,Active,2023-11-29
+SUP_00738,"Key, Dickson and Garcia",Logistics Provider,United States,Latin America,4.9,Active,2024-08-10
+SUP_00739,Ferguson-Moody,Equipment Supplier,UK,Europe,2.53,Active,2025-01-18
+SUP_00740,Johnston Group,Professional Services,UK,Europe,2.37,Active,2022-12-13
+SUP_00741,Thompson PLC,Raw Materials,India,Latin America,2.49,Active,2022-09-30
+SUP_00742,"Wolfe, Sloan and Johnson",Logistics Provider,Germany,North America,3.19,Expired,2024-11-06
+SUP_00743,"Elliott, Hart and Lopez",Equipment Supplier,Germany,North America,4.32,Active,2026-06-05
+SUP_00744,Weaver-Thompson,Professional Services,Japan,Latin America,2.59,Active,2021-03-18
+SUP_00745,Hall and Sons,Raw Materials,Germany,North America,4.75,Active,2021-02-09
+SUP_00746,Smith-Hardin,Logistics Provider,UK,Asia Pacific,2.9,Active,2022-02-09
+SUP_00747,Peterson and Sons,Raw Materials,Canada,Latin America,1.96,Active,2026-01-18
+SUP_00748,Brown-Hernandez,Equipment Supplier,Sweden,Europe,4.85,Active,2024-11-14
+SUP_00749,Schroeder PLC,Equipment Supplier,USA,North America,3.9,Active,2025-09-23
+SUP_00750,Brooks Ltd,Raw Materials,USA,Europe,4.13,Active,2023-03-05
+SUP_00751,Rogers LLC,Professional Services,Germany,North America,3.11,Pending Renewal,2021-10-01
+SUP_00752,Oconnor Group,Equipment Supplier,India,Latin America,2.04,Active,2025-05-08
+SUP_00753,Banks-Thompson,Maintenance Provider,Sweden,Europe,2.88,Expired,2026-04-28
+SUP_00754,"Preston, Austin and Kelly",Technology Vendor,US,Europe,,Pending Renewal,2024-08-28
+SUP_00755,Gray Ltd,Raw Materials,Sweden,Latin America,2.79,Active,2024-10-13
+SUP_00756,Thompson Inc,Equipment Supplier,Canada,Europe,4.04,Active,2026-03-19
+SUP_00757,"Myers, Gamble and Sanford",Maintenance Provider,Canada,North America,1.3,Active,2021-03-06
+SUP_00758,"Flores, Lamb and Carr",Technology Vendor,France,Europe,3.19,Active,2024-07-07
+SUP_00759,Zuniga and Sons,Equipment Supplier,India,Europe,1.66,Active,2022-10-27
+SUP_00760,Young LLC,Equipment Supplier,Sweden,North America,3.7,Active,2021-12-03
+SUP_00761,Underwood Ltd,Technology Vendor,Germany,North America,4.42,Active,2024-07-06
+SUP_00762,Griffin-Baker,Logistics Provider,France,North America,4.81,Pending Renewal,2022-05-16
+SUP_00763,Bell Inc,Technology Vendor,Japan,Asia Pacific,3.09,Active,2024-12-16
+SUP_00764,Cruz Ltd,Technology Vendor,,North America,3.37,Active,2023-04-22
+SUP_00765,Wilkerson Group,Technology Vendor,France,Europe,1.06,Expired,2025-11-04
+SUP_00766,Payne-Garcia,Professional Services,United Kingdom,Asia Pacific,4.77,Pending Renewal,2023-08-20
+SUP_00767,"Curtis, Mcdaniel and Martin",Technology Vendor,UK,Latin America,4.87,Active,2021-05-28
+SUP_00768,Phillips LLC,Maintenance Provider,Canada,Latin America,3.87,Active,2022-06-08
+SUP_00769,Jones and Sons,Raw Materials,United States,Asia Pacific,1.65,Active,2025-11-17
+SUP_00770,Dennis PLC,Maintenance Provider,France,North America,3.41,Expired,2026-03-05
+SUP_00771,Morgan PLC,Logistics Provider,Sweden,North America,4.7,Active,2025-11-27
+SUP_00772,"Johnson, Dunlap and Martin",Technology Vendor,Germany,North America,2.29,Expired,2025-11-20
+SUP_00773,Brown LLC,Equipment Supplier,Japan,Latin America,2.02,Active,2022-02-17
+SUP_00774,Ortiz PLC,Logistics Provider,UK,Asia Pacific,3.65,Active,2024-12-19
+SUP_00775,"Fernandez, Guerrero and Evans",Equipment Supplier,United States,Europe,,Active,2021-07-12
+SUP_00776,Armstrong-Larsen,Raw Materials,US,North America,3.54,Active,2021-11-05
+SUP_00777,Smith-Miller,Equipment Supplier,France,Asia Pacific,4.8,Active,2025-07-11
+SUP_00778,"Greene, Gonzalez and Johnson",Technology Vendor,France,North America,4.97,Active,2021-12-09
+SUP_00779,Rowland-Wells,Technology Vendor,UK,Asia Pacific,3.63,Active,2021-08-20
+SUP_00780,Ruiz-Jacobson,Professional Services,Canada,Europe,4.9,Active,2022-06-16
+SUP_00781,"Stephens, Lopez and Mcclure",Raw Materials,Germany,Asia Pacific,1.16,Active,2023-01-12
+SUP_00782,Williams-Gonzales,Technology Vendor,USA,Europe,3.72,Active,2022-06-13
+SUP_00783,Elliott-Hernandez,Equipment Supplier,Sweden,North America,3.25,Active,2024-10-29
+SUP_00784,Miller LLC,Equipment Supplier,Sweden,Europe,10.0,Active,2025-06-10
+SUP_00785,Arellano-Lawrence,Technology Vendor,India,Asia Pacific,4.57,Active,2024-01-16
+SUP_00786,Cardenas-Barnes,Technology Vendor,Sweden,Asia Pacific,4.56,Active,2023-12-11
+SUP_00787,Armstrong-Young,Raw Materials,,North America,2.18,Active,2022-08-23
+SUP_00788,Orr-Klein,Maintenance Provider,France,Latin America,1.28,Active,2023-10-05
+SUP_00789,"Mcbride, Byrd and Oliver",Professional Services,India,Asia Pacific,2.84,Active,2021-08-30
+SUP_00790,Thompson-Joyce,Professional Services,Germany,Latin America,3.91,Expired,2026-05-05
+SUP_00791,Martinez Group,Logistics Provider,Japan,Europe,1.61,Expired,2021-06-07
+SUP_00792,"Graham, Osborn and Burton",Logistics Provider,India,North America,2.7,Active,2025-08-01
+SUP_00793,Flores-Acosta,Maintenance Provider,France,North America,3.13,Active,2025-06-08
+SUP_00794,Hughes Group,Maintenance Provider,Sweden,Europe,10.0,Pending Renewal,2024-01-13
+SUP_00795,Stone-Stark,Maintenance Provider,India,Asia Pacific,1.04,Active,2021-01-25
+SUP_00796,"Dean, Mills and Barnes",Maintenance Provider,Japan,Asia Pacific,3.92,Pending Renewal,2023-04-12
+SUP_00797,Knight PLC,Logistics Provider,France,Asia Pacific,3.97,Expired,2025-03-02
+SUP_00798,Buckley PLC,Technology Vendor,India,Europe,4.58,Expired,2025-04-13
+SUP_00799,Dillon-Beard,Equipment Supplier,Japan,Asia Pacific,1.73,Active,2025-10-28
+SUP_00800,Reyes-Washington,Maintenance Provider,Germany,Asia Pacific,2.62,Active,2024-05-06
+SUP_00801,Jackson Group,Maintenance Provider,France,North America,3.36,Active,2021-10-16
+SUP_00802,"Becker, Morales and Foster",Technology Vendor,Germany,Asia Pacific,3.84,Active,2025-10-30
+SUP_00803,"Young, Reese and Mccall",Raw Materials,India,Europe,,Active,2025-12-05
+SUP_00804,Morgan LLC,Raw Materials,France,North America,3.41,Active,2022-09-16
+SUP_00805,Garrison-Cohen,Professional Services,US,Asia Pacific,3.24,Expired,2026-05-05
+SUP_00806,Taylor Ltd,Equipment Supplier,India,North America,2.48,Pending Renewal,2023-06-08
+SUP_00807,Adams-Butler,Equipment Supplier,Japan,Europe,4.21,Active,2024-07-18
+SUP_00808,Alexander Group,Professional Services,Canada,Asia Pacific,4.45,Active,2025-01-26
+SUP_00809,"Camacho, Nicholson and Robertson",Professional Services,Germany,North America,1.57,Active,2021-11-15
+SUP_00810,Mckinney-Powell,Professional Services,Sweden,Latin America,4.43,Active,2025-04-15
+SUP_00811,"Suarez, Johnson and Lee",Professional Services,Sweden,Latin America,,Active,2025-07-29
+SUP_00812,Wright Group,Logistics Provider,Germany,Europe,4.14,Active,2021-04-12
+SUP_00813,Bush-Hill,Equipment Supplier,Canada,North America,4.13,Active,2025-07-10
+SUP_00814,"Sanders, Leblanc and Maldonado",Raw Materials,France,Europe,4.88,Active,2022-05-01
+SUP_00815,Wheeler-Thompson,Equipment Supplier,Sweden,Latin America,3.0,Active,2025-10-13
+SUP_00816,"Arnold, Cooper and Monroe",Equipment Supplier,US,North America,2.72,Active,2022-06-03
+SUP_00817,"Davis, Johnson and Williams",Professional Services,Japan,Europe,4.85,Active,2025-09-09
+SUP_00818,Vincent Ltd,Equipment Supplier,Germany,Latin America,4.52,Expired,2022-03-28
+SUP_00819,Adams Group,Logistics Provider,,Latin America,2.16,Expired,2023-10-27
+SUP_00820,"Smith, Buck and Holland",Professional Services,Germany,North America,,Active,2024-04-20
+SUP_00821,Walker PLC,Technology Vendor,India,Asia Pacific,4.33,Pending Renewal,2025-06-04
+SUP_00822,Marquez-Fletcher,Logistics Provider,Canada,Latin America,1.75,Active,2022-07-07
+SUP_00823,York-Stevens,Professional Services,UK,Asia Pacific,2.41,Active,2022-03-14
+SUP_00824,Byrd-Holloway,Raw Materials,US,North America,4.51,Active,2023-03-08
+SUP_00825,Smith Ltd,Raw Materials,Japan,Asia Pacific,2.14,Active,2026-04-23
+SUP_00826,Hoffman-Wheeler,Professional Services,Germany,Europe,1.29,Active,2022-07-22
+SUP_00827,"Rodriguez, Brown and Mcneil",Raw Materials,India,Latin America,3.57,Active,2024-07-09
+SUP_00828,Green-Dawson,Maintenance Provider,India,Asia Pacific,4.12,Expired,2025-11-26
+SUP_00829,Lopez-Holmes,Logistics Provider,UK,Latin America,2.11,Active,2022-04-28
+SUP_00830,Trujillo PLC,Raw Materials,Canada,North America,1.05,Active,2023-03-22
+SUP_00831,Becker-Griffith,Technology Vendor,Canada,North America,4.88,Active,2024-08-07
+SUP_00832,Green-Barnes,Professional Services,France,North America,1.76,Active,2023-02-18
+SUP_00833,Aguilar PLC,Raw Materials,US,Asia Pacific,2.59,Active,2025-06-25
+SUP_00834,Barber-Walker,Raw Materials,Canada,Europe,3.96,Active,2023-12-09
+SUP_00835,Knox-Powers,Maintenance Provider,Japan,Europe,4.87,Active,2023-10-15
+SUP_00836,Pittman PLC,Professional Services,India,Asia Pacific,4.7,Active,2021-12-30
+SUP_00837,Ruiz Ltd,Logistics Provider,USA,Europe,3.4,Active,2022-06-03
+SUP_00838,"Hines, White and Frazier",Maintenance Provider,India,Europe,3.57,Active,2022-11-05
+SUP_00839,Walker and Sons,Equipment Supplier,France,Asia Pacific,3.7,Active,2025-02-01
+SUP_00840,Fisher-Eaton,Raw Materials,Japan,Europe,3.1,Active,2023-01-16
+SUP_00841,"Carter, York and Ruiz",Logistics Provider,Canada,North America,4.79,Active,2025-10-04
+SUP_00842,"Carpenter, Oliver and Kennedy",Equipment Supplier,Canada,North America,3.95,Expired,2022-01-26
+SUP_00843,Dillon Group,Maintenance Provider,Germany,Latin America,3.5,Active,2023-11-29
+SUP_00844,Brown-Dickerson,Raw Materials,United Kingdom,Latin America,1.06,Active,2021-10-03
+SUP_00845,Cooper PLC,Logistics Provider,US,North America,4.76,Active,2025-11-27
+SUP_00846,Thomas-Huffman,Maintenance Provider,USA,North America,1.75,Active,2021-12-28
+SUP_00847,Freeman Ltd,Raw Materials,Japan,Europe,2.99,Active,2026-06-03
+SUP_00848,Walters-Smith,Logistics Provider,Canada,Asia Pacific,3.99,Pending Renewal,2022-07-03
+SUP_00849,Johnston and Sons,Logistics Provider,Sweden,Asia Pacific,2.74,Active,2023-09-10
+SUP_00850,Anderson Group,Logistics Provider,Canada,Asia Pacific,3.45,Active,2024-06-24
+SUP_00851,Patterson-Woods,Logistics Provider,Canada,Europe,1.82,Active,2021-01-10
+SUP_00852,"Gonzalez, Watson and Smith",Logistics Provider,UK,Asia Pacific,1.05,Active,2022-10-09
+SUP_00853,"Lee, Rhodes and Sims",Professional Services,US,Europe,1.31,Pending Renewal,2022-05-15
+SUP_00854,"Wiley, Collins and Garcia",Technology Vendor,,North America,3.93,Active,2023-10-07
+SUP_00855,Jackson-Colon,Technology Vendor,Germany,Latin America,2.49,Active,2022-08-22
+SUP_00856,Bryant-Meyer,Equipment Supplier,Canada,Europe,2.97,Active,2023-11-18
+SUP_00857,Barron-Cowan,Equipment Supplier,Japan,Europe,3.47,Active,2022-11-19
+SUP_00858,Howard-Lopez,Maintenance Provider,,Asia Pacific,2.17,Expired,2026-03-17
+SUP_00859,Smith-Walker,Professional Services,United States,North America,3.34,Active,2026-05-30
+SUP_00860,Gross PLC,Logistics Provider,USA,Latin America,4.66,Expired,2023-10-10
+SUP_00861,Richardson Ltd,Equipment Supplier,,Latin America,2.82,Active,2025-05-09
+SUP_00862,Mcdowell-Scott,Logistics Provider,,Asia Pacific,4.33,Active,2023-12-09
+SUP_00863,Wheeler Inc,Equipment Supplier,Canada,Latin America,4.75,Active,2024-08-20
+SUP_00864,"Huff, Williams and Wilson",Maintenance Provider,Canada,Asia Pacific,4.14,Active,2023-06-11
+SUP_00865,Kelley Group,Maintenance Provider,UK,Latin America,3.01,Active,2024-11-08
+SUP_00866,Neal Ltd,Logistics Provider,France,Latin America,1.84,Active,2021-01-19
+SUP_00867,Stanley-Bates,Maintenance Provider,Germany,Europe,3.62,Active,2022-06-26
+SUP_00868,"Haynes, Barnes and Roach",Professional Services,France,North America,1.28,Active,2023-10-24
+SUP_00869,"Wilson, Wilson and Rodriguez",Equipment Supplier,UK,Europe,,Active,2022-02-03
+SUP_00870,Strickland PLC,Professional Services,Germany,Latin America,1.03,Pending Renewal,2026-05-07
+SUP_00871,Warner-Phillips,Technology Vendor,Germany,Latin America,3.14,Active,2021-03-21
+SUP_00872,Lozano-Watts,Logistics Provider,India,Europe,4.49,Expired,2023-08-23
+SUP_00873,Smith Ltd,Professional Services,France,Latin America,2.31,Active,2021-06-28
+SUP_00874,Conley Ltd,Raw Materials,Canada,Europe,2.27,Pending Renewal,2023-09-19
+SUP_00875,Chan Inc,Professional Services,France,Asia Pacific,3.01,Active,2024-12-22
+SUP_00876,Conway Ltd,Technology Vendor,France,North America,4.54,Active,2022-04-09
+SUP_00877,Baker-Williams,Maintenance Provider,Japan,Asia Pacific,2.76,Active,2025-06-20
+SUP_00878,Phelps LLC,Professional Services,United Kingdom,Asia Pacific,2.64,Active,2025-05-28
+SUP_00879,Simmons-Wilson,Professional Services,Sweden,Asia Pacific,1.66,Active,2025-09-04
+SUP_00880,Smith and Sons,Maintenance Provider,Canada,North America,4.16,Active,2024-08-23
+SUP_00881,Murphy Group,Maintenance Provider,France,North America,1.08,Active,2026-03-31
+SUP_00882,Johns-Davis,Maintenance Provider,Canada,Asia Pacific,1.49,Active,2025-06-23
+SUP_00883,Wilson Group,Technology Vendor,Germany,Latin America,3.08,Active,2026-04-15
+SUP_00884,Houston-Vaughn,Maintenance Provider,France,Asia Pacific,2.07,Active,2023-08-18
+SUP_00885,Banks-Robles,Equipment Supplier,France,Latin America,3.23,Active,2021-08-15
+SUP_00886,"Barber, Jarvis and Richard",Equipment Supplier,France,North America,3.72,Active,2021-07-28
+SUP_00887,"Webb, Carroll and Kim",Professional Services,,North America,3.0,Active,2024-05-11
+SUP_00888,Carr-Huffman,Technology Vendor,France,North America,1.09,Pending Renewal,2025-11-01
+SUP_00889,"Mcpherson, Anderson and Knapp",Professional Services,Japan,North America,1.47,Active,2021-08-15
+SUP_00890,Alexander-Brown,Technology Vendor,Japan,Latin America,3.05,Active,2024-08-06
+SUP_00891,Bush Ltd,Equipment Supplier,Canada,North America,1.82,Active,2023-11-19
+SUP_00892,"Ray, Cunningham and Levine",Raw Materials,United Kingdom,North America,3.45,Expired,2024-09-05
+SUP_00893,Stone-Watts,Equipment Supplier,Germany,North America,3.24,Active,2024-05-25
+SUP_00894,Stanley-Wright,Logistics Provider,Japan,Europe,4.53,Active,2022-11-25
+SUP_00895,"Davidson, Hernandez and Serrano",Raw Materials,United States,Latin America,2.86,Expired,2025-11-25
+SUP_00896,"Brown, Schneider and Moore",Logistics Provider,US,Asia Pacific,2.33,Expired,2025-08-30
+SUP_00897,Booth-Jones,Equipment Supplier,France,North America,4.28,Active,2023-09-14
+SUP_00898,Rivera LLC,Equipment Supplier,India,Asia Pacific,1.3,Active,2021-04-12
+SUP_00899,Pierce Group,Equipment Supplier,Japan,Europe,2.12,Active,2023-03-20
+SUP_00900,Miller Group,Maintenance Provider,Japan,Europe,2.56,Active,2025-05-27
+SUP_00901,Miller-Jimenez,Logistics Provider,Sweden,Asia Pacific,3.18,Pending Renewal,2022-09-27
+SUP_00902,Mcgee-Smith,Professional Services,Canada,Europe,4.22,Active,2023-03-21
+SUP_00903,Hawkins Inc,Equipment Supplier,Japan,North America,1.17,Active,2025-07-15
+SUP_00904,"Richmond, Walsh and Wu",Maintenance Provider,Germany,Europe,2.49,Active,2024-02-03
+SUP_00905,"Powers, Clements and Cox",Equipment Supplier,France,Latin America,2.48,Active,2021-04-19
+SUP_00906,Richard LLC,Equipment Supplier,India,Asia Pacific,2.52,Expired,2024-01-29
+SUP_00907,"Greene, Moran and Cox",Raw Materials,Japan,North America,1.02,Expired,2023-06-27
+SUP_00908,Malone and Sons,Raw Materials,UK,Latin America,3.32,Active,2021-01-05
+SUP_00909,Gallegos-Brandt,Professional Services,Canada,North America,2.4,Active,2022-08-09
+SUP_00910,"Brooks, Rodriguez and Prince",Equipment Supplier,,North America,3.68,Active,2023-09-15
+SUP_00911,"Newton, Ortiz and King",Logistics Provider,UK,Asia Pacific,1.78,Expired,2022-01-29
+SUP_00912,Conrad Group,Raw Materials,United Kingdom,Europe,2.03,Active,2022-03-09
+SUP_00913,Love Inc,Technology Vendor,United Kingdom,Latin America,4.56,Active,2025-02-27
+SUP_00914,House Ltd,Technology Vendor,France,Europe,2.23,Active,2024-03-27
+SUP_00915,Ellis-Lawrence,Equipment Supplier,Germany,Europe,1.74,Active,2023-10-09
+SUP_00916,Smith-Fitzgerald,Maintenance Provider,Canada,Europe,4.63,Active,2024-01-15
+SUP_00917,Roberson-Webb,Raw Materials,India,Latin America,3.34,Active,2023-10-17
+SUP_00918,Holt and Sons,Technology Vendor,Germany,Europe,4.83,Active,2025-01-05
+SUP_00919,Garcia Ltd,Raw Materials,France,Europe,2.06,Pending Renewal,2024-04-19
+SUP_00920,Gordon-Cruz,Raw Materials,France,North America,3.11,Expired,2026-05-19
+SUP_00921,"Farmer, Hill and Stuart",Maintenance Provider,United Kingdom,Europe,1.87,Active,2026-05-01
+SUP_00922,Ballard-Taylor,Professional Services,France,Europe,4.26,Expired,2024-04-23
+SUP_00923,"Hunt, Cameron and Kelley",Maintenance Provider,India,Asia Pacific,4.15,Expired,2022-09-22
+SUP_00924,"Walls, Chen and Harris",Raw Materials,Sweden,Latin America,2.73,Active,2024-06-06
+SUP_00925,Parks-Morse,Maintenance Provider,India,Europe,2.66,Expired,2021-09-24
+SUP_00926,"Santos, Mullen and Gordon",Logistics Provider,India,North America,1.16,Active,2024-10-24
+SUP_00927,Page-Hodges,Maintenance Provider,France,North America,4.55,Active,2024-02-02
+SUP_00928,"Duncan, Contreras and Butler",Professional Services,UK,Asia Pacific,4.3,Expired,2025-02-09
+SUP_00929,"Mitchell, Boone and Stokes",Maintenance Provider,Germany,North America,3.83,Pending Renewal,2023-11-15
+SUP_00930,James Inc,Logistics Provider,Germany,Latin America,2.31,Active,2024-09-06
+SUP_00931,Adams and Sons,Technology Vendor,Japan,North America,1.02,Active,2026-05-27
+SUP_00932,"King, Franco and Vaughn",Professional Services,India,Asia Pacific,2.27,Pending Renewal,2022-08-16
+SUP_00933,"Johnson, Cervantes and Garcia",Professional Services,Germany,Asia Pacific,4.13,Active,2025-10-08
+SUP_00934,"Hoffman, Walker and Holland",Professional Services,India,Latin America,1.93,Active,2023-02-20
+SUP_00935,"Mueller, Lindsey and Roberts",Technology Vendor,France,Latin America,3.82,Active,2024-08-25
+SUP_00936,Hughes-Frye,Equipment Supplier,India,Asia Pacific,1.02,Pending Renewal,2026-05-12
+SUP_00937,Church-Brown,Professional Services,UK,North America,3.35,Active,2025-01-31
+SUP_00938,Oliver Group,Equipment Supplier,United Kingdom,North America,2.77,Active,2025-07-23
+SUP_00939,"Bush, Holland and Fischer",Logistics Provider,Germany,North America,3.28,Expired,2024-01-02
+SUP_00940,"Gonzalez, Hardy and Lee",Technology Vendor,Germany,Europe,2.37,Active,2023-06-20
+SUP_00941,"Jones, Rivers and Moss",Equipment Supplier,Germany,North America,2.77,Active,2021-08-28
+SUP_00942,Patterson PLC,Technology Vendor,France,North America,3.86,Active,2022-06-15
+SUP_00943,Silva LLC,Equipment Supplier,Germany,Latin America,4.33,Active,2021-01-12
+SUP_00944,Mckinney-Moore,Equipment Supplier,France,Europe,,Active,2021-11-05
+SUP_00945,Carlson-Ayala,Raw Materials,US,Asia Pacific,3.59,Active,2024-06-08
+SUP_00946,"Turner, Tyler and Pierce",Logistics Provider,Germany,North America,2.66,Active,2021-05-27
+SUP_00947,"Stewart, Robinson and White",Technology Vendor,France,Europe,3.67,Expired,2021-05-17
+SUP_00948,"Moore, Daniels and Powell",Logistics Provider,France,Europe,3.74,Active,2022-12-02
+SUP_00949,Alvarado LLC,Logistics Provider,Germany,Asia Pacific,2.82,Active,2022-12-25
+SUP_00950,Clements PLC,Logistics Provider,,Asia Pacific,2.95,Active,2023-12-01
+SUP_00951,"Colon, Zavala and Smith",Professional Services,UK,Europe,10.0,Active,2024-09-03
+SUP_00952,Allen-May,Equipment Supplier,France,Europe,3.37,Active,2026-01-17
+SUP_00953,Haley Ltd,Professional Services,France,Latin America,2.69,Active,2025-11-12
+SUP_00954,Moon-Landry,Logistics Provider,Japan,Latin America,1.99,Active,2023-02-14
+SUP_00955,"Ramsey, Johnson and Black",Professional Services,Germany,Asia Pacific,4.9,Active,2025-03-26
+SUP_00956,"Lang, Griffin and Williams",Raw Materials,Germany,North America,4.99,Active,2025-12-07
+SUP_00957,Flores Inc,Raw Materials,Canada,North America,2.86,Expired,2026-03-18
+SUP_00958,Bonilla PLC,Logistics Provider,France,Europe,2.39,Active,2023-12-06
+SUP_00959,"Jones, Santiago and Ayala",Raw Materials,Sweden,North America,4.41,Pending Renewal,2025-10-02
+SUP_00960,Houston-Harris,Equipment Supplier,Germany,Europe,4.16,Active,2025-07-21
+SUP_00961,"Rowe, Lucas and Case",Equipment Supplier,Canada,Europe,2.88,Active,2025-02-07
+SUP_00962,Johnson Ltd,Logistics Provider,Canada,Latin America,2.75,Active,2022-10-28
+SUP_00963,Jones and Sons,Raw Materials,United Kingdom,Europe,4.87,Active,2025-05-13
+SUP_00964,"Jones, Underwood and Bartlett",Equipment Supplier,Japan,Asia Pacific,2.31,Active,2023-03-29
+SUP_00965,Mccoy-Hamilton,Logistics Provider,France,Latin America,4.31,Active,2021-02-03
+SUP_00966,"Wilson, Smith and Cortez",Professional Services,Sweden,North America,1.25,Active,2021-05-07
+SUP_00967,"Richards, Haynes and Jones",Technology Vendor,France,Latin America,2.37,Expired,2026-02-05
+SUP_00968,Roberts Ltd,Maintenance Provider,India,Latin America,2.94,Active,2022-08-28
+SUP_00969,Campbell Group,Maintenance Provider,,Europe,1.55,Active,2023-02-05
+SUP_00970,"Johnson, Moore and Robinson",Maintenance Provider,Japan,Latin America,2.25,Active,2025-02-06
+SUP_00971,"Phillips, Walters and Evans",Raw Materials,Sweden,Europe,2.77,Pending Renewal,2025-11-15
+SUP_00972,"Wong, Bernard and Smith",Technology Vendor,Canada,North America,2.13,Active,2025-10-21
+SUP_00973,Martinez Inc,Raw Materials,France,North America,3.3,Active,2024-02-23
+SUP_00974,Medina-Arroyo,Technology Vendor,Japan,North America,2.26,Active,2022-09-04
+SUP_00975,"Figueroa, Swanson and Lewis",Raw Materials,India,North America,4.06,Pending Renewal,2025-12-22
+SUP_00976,"Thomas, White and Jensen",Professional Services,Canada,Asia Pacific,2.96,Active,2022-05-23
+SUP_00977,White PLC,Logistics Provider,India,Latin America,3.75,Active,2025-09-06
+SUP_00978,"Murray, Dunn and Roberts",Technology Vendor,US,Asia Pacific,1.49,Active,2021-05-16
+SUP_00979,Gonzalez PLC,Maintenance Provider,Germany,North America,4.61,Expired,2023-09-05
+SUP_00980,Howard-Lambert,Maintenance Provider,,North America,3.27,Active,2022-04-16
+SUP_00981,Harvey-Mccullough,Maintenance Provider,Canada,Europe,1.92,Active,2022-09-30
+SUP_00982,Murphy-Hopkins,Equipment Supplier,USA,North America,1.56,Active,2024-10-23
+SUP_00983,Cunningham LLC,Maintenance Provider,Sweden,North America,4.42,Active,2025-06-09
+SUP_00984,Jackson-Edwards,Maintenance Provider,France,Europe,3.42,Active,2025-04-26
+SUP_00985,"Singh, Graham and Larsen",Maintenance Provider,India,Latin America,1.57,Active,2021-09-27
+SUP_00986,"Rivera, Castillo and Griffin",Equipment Supplier,Germany,Europe,,Active,2025-04-04
+SUP_00987,Arnold-Thompson,Professional Services,Germany,Asia Pacific,4.18,Active,2024-05-01
+SUP_00988,Trevino-Taylor,Raw Materials,United States,Asia Pacific,2.01,Active,2023-12-17
+SUP_00989,Gross-Sims,Maintenance Provider,Sweden,Asia Pacific,4.01,Active,2024-12-30
+SUP_00990,Atkinson Ltd,Raw Materials,Canada,Europe,,Expired,2021-03-04
+SUP_00991,"Riley, Hammond and Lewis",Raw Materials,France,Latin America,3.22,Active,2021-03-15
+SUP_00992,Stephens-Lutz,Technology Vendor,Japan,Europe,4.79,Pending Renewal,2023-08-06
+SUP_00993,Diaz and Sons,Equipment Supplier,Japan,Latin America,1.95,Pending Renewal,2025-11-24
+SUP_00994,"Quinn, Carter and Marshall",Raw Materials,India,North America,4.09,Active,2023-10-21
+SUP_00995,Cox-Smith,Maintenance Provider,India,Europe,2.72,Active,2022-04-25
+SUP_00996,"Sutton, Todd and Taylor",Technology Vendor,India,North America,2.59,Expired,2021-11-16
+SUP_00997,"Fry, Hopkins and Faulkner",Professional Services,United Kingdom,Asia Pacific,4.05,Active,2025-01-16
+SUP_00998,Crosby-Williams,Equipment Supplier,USA,Latin America,3.46,Pending Renewal,2025-03-08
+SUP_00999,Brown LLC,Professional Services,Canada,Latin America,1.2,Active,2022-04-15
+SUP_01000,"Clark, Velez and Ward",Logistics Provider,USA,North America,4.71,Pending Renewal,2023-08-01
+SUP_00522,Turner-Stout,Equipment Supplier,,Latin America,4.03,Expired,2022-03-01
+SUP_00738,"Key, Dickson and Garcia",Logistics Provider,United States,Latin America,4.9,Active,2024-08-10
+SUP_00741,Thompson PLC,Raw Materials,India,Latin America,2.49,Active,2022-09-30
+SUP_00661,"Elliott, Bishop and Martin",Professional Services,Germany,Asia Pacific,2.54,Active,2022-12-06
+SUP_00412,Curtis-Wang,Professional Services,UK,Europe,1.98,Active,2023-04-16
+SUP_00679,Mccann and Sons,Logistics Provider,France,Europe,4.88,Pending Renewal,2023-12-12
+SUP_00627,"Alexander, Robinson and Coleman",Professional Services,France,Asia Pacific,2.9,Active,2025-01-16
+SUP_00514,Webster Group,Equipment Supplier,India,Europe,1.61,Active,2022-04-29
+SUP_00860,Gross PLC,Logistics Provider,USA,Latin America,4.66,Expired,2023-10-10
+SUP_00137,"Hernandez, Martinez and Caldwell",Maintenance Provider,Japan,Asia Pacific,1.13,Active,2024-02-06
+SUP_00812,Wright Group,Logistics Provider,Germany,Europe,4.14,Active,2021-04-12
+SUP_00077,Martin-Ramos,Logistics Provider,Japan,Europe,4.55,Active,2024-11-16
+SUP_00637,Miles and Sons,Raw Materials,United Kingdom,Latin America,3.55,Active,2022-05-16
+SUP_00974,Medina-Arroyo,Technology Vendor,Japan,North America,2.26,Active,2022-09-04
+SUP_00939,"Bush, Holland and Fischer",Logistics Provider,Germany,North America,3.28,Expired,2024-01-02
+SUP_00900,Miller Group,Maintenance Provider,Japan,Europe,2.56,Active,2025-05-27
+SUP_00281,Davis Inc,Logistics Provider,India,Europe,,Active,2025-02-02
+SUP_00884,Houston-Vaughn,Maintenance Provider,France,Asia Pacific,2.07,Active,2023-08-18
+SUP_00762,Griffin-Baker,Logistics Provider,France,North America,4.81,Pending Renewal,2022-05-16
+SUP_00320,Newman Inc,Professional Services,India,Europe,3.47,Pending Renewal,2024-05-18
