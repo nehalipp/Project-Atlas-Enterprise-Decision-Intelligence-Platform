@@ -4,16 +4,15 @@ Project Atlas: Enterprise Decision Intelligence Platform
 Synthetic Data Generation Configuration
 
 Purpose:
-Centralized configuration parameters used by all
-synthetic enterprise data generators.
+Centralized configuration parameters used by all synthetic enterprise data generators.
 """
+
+from datetime import date
 
 
 # ==============================
 # Dataset Volume Configuration
 # ==============================
-
-# Master data entities
 
 CUSTOMER_COUNT = 50000
 
@@ -27,8 +26,6 @@ LOCATION_COUNT = 250
 
 MACHINE_COUNT = 1500
 
-
-# Transactional datasets
 
 SALES_TRANSACTION_COUNT = 500000
 
@@ -45,9 +42,9 @@ ENERGY_RECORD_COUNT = 150000
 # Date Configuration
 # ==============================
 
-START_DATE = "2021-01-01"
+START_DATE = date(2021, 1, 1)
 
-END_DATE = "2026-06-30"
+END_DATE = date(2026, 6, 30)
 
 
 # ==============================
