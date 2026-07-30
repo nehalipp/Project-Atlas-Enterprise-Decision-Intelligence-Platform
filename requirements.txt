@@ -1,0 +1,30 @@
+# ==========================================
+# Project Atlas
+# Enterprise Decision Intelligence Platform
+# Python Dependencies
+# ==========================================
+
+# Data Processing
+pandas
+numpy
+
+# Data Generation
+faker
+
+# Database Connectivity
+sqlalchemy
+psycopg2-binary
+
+# Environment Configuration
+python-dotenv
+
+# Data Validation
+great-expectations
+
+# Visualization
+matplotlib
+plotly
+
+# Jupyter / Development
+jupyter
+ipykernel
