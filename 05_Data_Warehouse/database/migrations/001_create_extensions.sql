@@ -1,0 +1,10 @@
+/*
+==========================================================
+Project Atlas
+PostgreSQL Extensions
+==========================================================
+*/
+
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
