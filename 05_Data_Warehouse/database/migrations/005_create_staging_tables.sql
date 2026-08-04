@@ -23,7 +23,8 @@ CREATE TABLE IF NOT EXISTS staging.customers_clean
     country VARCHAR(100),
     region VARCHAR(100),
     customer_since DATE,
-    cleaned_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    transformation_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    record_source VARCHAR(50) DEFAULT 'Project Atlas Staging'
 );
 
 
@@ -38,43 +39,57 @@ CREATE TABLE IF NOT EXISTS staging.products_clean
     unit_price NUMERIC(12,2),
     product_status VARCHAR(50),
     launch_date DATE,
-    cleaned_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    transformation_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    record_source VARCHAR(50) DEFAULT 'Project Atlas Staging'
 );
 
 
 
 CREATE TABLE IF NOT EXISTS staging.suppliers_clean
 (
-    supplier_id VARCHAR(20),
+    supplier_id VARCHAR(50),
     supplier_name VARCHAR(200),
-    supplier_country VARCHAR(100),
-    supplier_rating NUMERIC(3,2),
-    cleaned_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    supplier_category VARCHAR(100),
+    country VARCHAR(100),
+    region VARCHAR(100),
+    performance_rating NUMERIC(5,2),
+    contract_status VARCHAR(50),
+    supplier_since DATE,
+    transformation_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    record_source VARCHAR(50) DEFAULT 'Project Atlas Staging'
 );
 
 
 
 CREATE TABLE IF NOT EXISTS staging.locations_clean
 (
-    location_id VARCHAR(20),
+    location_id VARCHAR(50),
+    facility_name VARCHAR(200),
+    location_type VARCHAR(100),
     city VARCHAR(100),
-    state VARCHAR(100),
     country VARCHAR(100),
     region VARCHAR(100),
-    cleaned_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    operating_status VARCHAR(50),
+    opening_date DATE,
+    transformation_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    record_source VARCHAR(50) DEFAULT 'Project Atlas Staging'
 );
 
 
 
 CREATE TABLE IF NOT EXISTS staging.employees_clean
 (
-    employee_id VARCHAR(20),
+    employee_id VARCHAR(50),
     employee_name VARCHAR(200),
     department VARCHAR(100),
-    designation VARCHAR(100),
-    manager VARCHAR(200),
+    job_title VARCHAR(150),
+    location_id VARCHAR(50),
     hire_date DATE,
-    cleaned_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    employment_status VARCHAR(50),
+    salary_band VARCHAR(50),
+    manager_id VARCHAR(50),
+    transformation_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    record_source VARCHAR(50) DEFAULT 'Project Atlas Staging'
 );
 
 
@@ -91,5 +106,6 @@ CREATE TABLE IF NOT EXISTS staging.sales_transactions_clean
     discount_percentage NUMERIC(5,2),
     revenue NUMERIC(14,2),
     sales_channel VARCHAR(50),
-    cleaned_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    transformation_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    record_source VARCHAR(50) DEFAULT 'Project Atlas Staging'
 );

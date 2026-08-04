@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+from sqlalchemy import create_engine
 
 load_dotenv()
 
@@ -10,4 +11,8 @@ DATABASE_URL = (
     f"{os.getenv('POSTGRES_HOST')}:"
     f"{os.getenv('POSTGRES_PORT')}/"
     f"{os.getenv('POSTGRES_DATABASE')}"
+)
+
+engine = create_engine(
+    DATABASE_URL
 )

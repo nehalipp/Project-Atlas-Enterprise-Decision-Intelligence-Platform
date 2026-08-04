@@ -3,32 +3,26 @@
 Project Atlas
 Database Migration Runner
 
-Features:
+Features
+--------
 - Executes migrations in order
+- Bootstraps metadata schema automatically
 - Tracks completed migrations
 - Prevents duplicate execution
 ==========================================================
 """
 
-
 import os
 import time
-
 from pathlib import Path
 
 from dotenv import load_dotenv
-
-from sqlalchemy import (
-    create_engine,
-    text
-)
-
+from sqlalchemy import create_engine, text
 
 load_dotenv()
 
-
 DATABASE_URL = (
-    "postgresql+psycopg2://"
+    f"postgresql+psycopg2://"
     f"{os.getenv('POSTGRES_USER')}:"
     f"{os.getenv('POSTGRES_PASSWORD')}@"
     f"{os.getenv('POSTGRES_HOST')}:"
@@ -36,31 +30,48 @@ DATABASE_URL = (
     f"{os.getenv('POSTGRES_DATABASE')}"
 )
 
-
-engine = create_engine(
-    DATABASE_URL,
-    future=True
-)
-
+engine = create_engine(DATABASE_URL, future=True)
 
 migration_folder = Path(__file__).parent / "migrations"
 
-
-migration_files = sorted(
-    migration_folder.glob("*.sql")
-)
-
+migration_files = sorted(migration_folder.glob("*.sql"))
 
 print("=" * 60)
 print("PROJECT ATLAS MIGRATION RUNNER")
 print("=" * 60)
 
-
+BOOTSTRAP = {
+    "001_create_extensions.sql",
+    "002_create_schemas.sql",
+    "003_create_metadata_schema.sql",
+}
 
 with engine.begin() as connection:
 
+    # -------------------------------------------------------
+    # Bootstrap migrations
+    # -------------------------------------------------------
 
-    # Check already executed migrations
+    for migration in migration_files:
+
+        if migration.name not in BOOTSTRAP:
+            continue
+
+        print(f"\nExecuting {migration.name}")
+
+        sql = migration.read_text(encoding="utf-8")
+
+        start = time.time()
+
+        connection.execute(text(sql))
+
+        duration = round(time.time() - start, 2)
+
+        print(f"SUCCESS ({duration}s)")
+
+    # -------------------------------------------------------
+    # Read migration history
+    # -------------------------------------------------------
 
     executed = connection.execute(
         text(
@@ -72,50 +83,32 @@ with engine.begin() as connection:
         )
     )
 
+    completed = {row[0] for row in executed.fetchall()}
 
-    completed = {
-        row[0]
-        for row in executed.fetchall()
-    }
-
-
+    # -------------------------------------------------------
+    # Remaining migrations
+    # -------------------------------------------------------
 
     for migration in migration_files:
 
+        if migration.name in BOOTSTRAP:
+            continue
 
         if migration.name in completed:
 
-            print(
-                f"SKIPPING {migration.name}"
-            )
+            print(f"SKIPPING {migration.name}")
 
             continue
 
+        print(f"\nExecuting {migration.name}")
 
-
-        print(
-            f"\nExecuting {migration.name}"
-        )
-
+        sql = migration.read_text(encoding="utf-8")
 
         start = time.time()
 
+        connection.execute(text(sql))
 
-        sql = migration.read_text(
-            encoding="utf-8"
-        )
-
-
-        connection.execute(
-            text(sql)
-        )
-
-
-        duration = round(
-            time.time() - start,
-            2
-        )
-
+        duration = round(time.time() - start, 2)
 
         connection.execute(
             text(
@@ -126,7 +119,6 @@ with engine.begin() as connection:
                     execution_status,
                     execution_duration_seconds
                 )
-
                 VALUES
                 (
                     :name,
@@ -137,15 +129,10 @@ with engine.begin() as connection:
             ),
             {
                 "name": migration.name,
-                "duration": duration
-            }
+                "duration": duration,
+            },
         )
 
-
-        print(
-            f"SUCCESS ({duration}s)"
-        )
-
-
+        print(f"SUCCESS ({duration}s)")
 
 print("\nMigration process completed.")

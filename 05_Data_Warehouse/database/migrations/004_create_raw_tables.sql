@@ -54,12 +54,17 @@ CREATE TABLE IF NOT EXISTS raw.products
 
 CREATE TABLE IF NOT EXISTS raw.suppliers
 (
-    supplier_id         VARCHAR(20),
-    supplier_name       VARCHAR(200),
-    supplier_country    VARCHAR(100),
-    supplier_rating     NUMERIC(3,2),
-    source_system       VARCHAR(50) DEFAULT 'Project Atlas',
-    ingestion_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    supplier_id VARCHAR(20),
+    supplier_name VARCHAR(200),
+    supplier_category VARCHAR(100),
+    country VARCHAR(100),
+    region VARCHAR(100),
+    performance_rating NUMERIC(5,2),
+    contract_status VARCHAR(50),
+    supplier_since DATE,
+    source_system VARCHAR(100) DEFAULT 'Project Atlas',
+    ingestion_timestamp TIMESTAMP
+        DEFAULT CURRENT_TIMESTAMP
 );
 
 ----------------------------------------------------------
@@ -68,12 +73,15 @@ CREATE TABLE IF NOT EXISTS raw.suppliers
 
 CREATE TABLE IF NOT EXISTS raw.locations
 (
-    location_id         VARCHAR(20),
-    city                VARCHAR(100),
-    state               VARCHAR(100),
-    country             VARCHAR(100),
-    region              VARCHAR(100),
-    source_system       VARCHAR(50) DEFAULT 'Project Atlas',
+    location_id VARCHAR(50),
+    facility_name VARCHAR(200),
+    location_type VARCHAR(100),
+    city VARCHAR(100),
+    country VARCHAR(100),
+    region VARCHAR(100),
+    operating_status VARCHAR(50),
+    opening_date DATE,
+    source_system VARCHAR(100) DEFAULT 'Project Atlas',
     ingestion_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -83,13 +91,16 @@ CREATE TABLE IF NOT EXISTS raw.locations
 
 CREATE TABLE IF NOT EXISTS raw.employees
 (
-    employee_id         VARCHAR(20),
-    employee_name       VARCHAR(200),
-    department          VARCHAR(100),
-    designation         VARCHAR(100),
-    manager             VARCHAR(200),
-    hire_date           DATE,
-    source_system       VARCHAR(50) DEFAULT 'Project Atlas',
+    employee_id VARCHAR(50),
+    employee_name VARCHAR(200),
+    department VARCHAR(100),
+    job_title VARCHAR(150),
+    location_id VARCHAR(50),
+    hire_date DATE,
+    employment_status VARCHAR(50),
+    salary_band VARCHAR(50),
+    manager_id VARCHAR(50),
+    source_system VARCHAR(100) DEFAULT 'Project Atlas',
     ingestion_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
