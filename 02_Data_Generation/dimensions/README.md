@@ -300,7 +300,9 @@ Example:
 
 ```bash
 python3 customers/generate_customers.py
+```
 
 Generate all datasets:
-
+```bash
 python3 ../run_all_generators.py
+```

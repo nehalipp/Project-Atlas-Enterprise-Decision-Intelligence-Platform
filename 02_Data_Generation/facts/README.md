@@ -363,7 +363,10 @@ Example:
 
 ```bash
 python3 sales/generate_sales.py
+```
 
 Generate all datasets:
 
+```bash
 python3 ../run_all_generators.py
+```

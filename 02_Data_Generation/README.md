@@ -104,6 +104,7 @@ Tools used:
 From this directory:
 ```bash
 python3 run_all_generators.py
+```
 
 ---
 
