@@ -1,22 +1,32 @@
-# Environment Variables
-.env
-
 # Python
 __pycache__/
 *.pyc
 
-# macOS
-.DS_Store
+# Jupyter
+.ipynb_checkpoints/
 
-# Virtual Environment
-.venv/
+# Environment
+.env
 venv/
+.venv/
 
-# VS Code
-.vscode/
+# Mac
+.DS_Store
 
 # Logs
 *.log
 
-# Jupyter
-.ipynb_checkpoints/
+# Database
+*.sqlite
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# Generated Data
+02_Data_Generation/**/output/*.csv
+03_Data_Generation/output/*.csv
+
+# Python cache
+.pytest_cache/
