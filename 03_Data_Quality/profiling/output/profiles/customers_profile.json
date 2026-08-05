@@ -1,0 +1,37 @@
+{
+    "dataset": "customers",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/dimensions/customers/output/raw_customers.csv",
+    "rows": 51000,
+    "columns": 7,
+    "missing_percentage": 2.14,
+    "duplicate_percentage": 1.96,
+    "quality_score": 100,
+    "data_types": {
+        "customer_id": "object",
+        "customer_name": "object",
+        "industry": "object",
+        "customer_segment": "object",
+        "country": "object",
+        "region": "object",
+        "customer_since": "object"
+    },
+    "missing_values": {
+        "customer_id": 0,
+        "customer_name": 0,
+        "industry": 2545,
+        "customer_segment": 2550,
+        "country": 2547,
+        "region": 0,
+        "customer_since": 0
+    },
+    "unique_values": {
+        "customer_id": 50000,
+        "customer_name": 37054,
+        "industry": 8,
+        "customer_segment": 4,
+        "country": 10,
+        "region": 3,
+        "customer_since": 2006
+    },
+    "numeric_statistics": {}
+}

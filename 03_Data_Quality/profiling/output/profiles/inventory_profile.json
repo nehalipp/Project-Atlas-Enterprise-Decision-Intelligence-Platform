@@ -1,0 +1,59 @@
+{
+    "dataset": "inventory",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/inventory/output/raw_inventory.csv",
+    "rows": 250000,
+    "columns": 8,
+    "missing_percentage": 0.0,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "inventory_id": "object",
+        "date": "object",
+        "product_id": "object",
+        "location_id": "object",
+        "inventory_quantity": "int64",
+        "unit_cost": "float64",
+        "inventory_value": "float64",
+        "stock_status": "object"
+    },
+    "missing_values": {
+        "inventory_id": 0,
+        "date": 0,
+        "product_id": 0,
+        "location_id": 0,
+        "inventory_quantity": 0,
+        "unit_cost": 0,
+        "inventory_value": 0,
+        "stock_status": 0
+    },
+    "unique_values": {
+        "inventory_id": 250000,
+        "date": 2006,
+        "product_id": 5000,
+        "location_id": 250,
+        "inventory_quantity": 5000,
+        "unit_cost": 196839,
+        "inventory_value": 249925,
+        "stock_status": 3
+    },
+    "numeric_statistics": {
+        "inventory_quantity": {
+            "min": 0.0,
+            "max": 4999.0,
+            "mean": 2502.09,
+            "median": 2507.0
+        },
+        "unit_cost": {
+            "min": 10.04,
+            "max": 4999.96,
+            "mean": 2504.84,
+            "median": 2504.93
+        },
+        "inventory_value": {
+            "min": 0.0,
+            "max": 24941632.18,
+            "mean": 6269620.6,
+            "median": 4700075.61
+        }
+    }
+}

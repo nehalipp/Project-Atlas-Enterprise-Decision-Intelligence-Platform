@@ -1,0 +1,41 @@
+{
+    "dataset": "waste",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/waste/output/raw_waste.csv",
+    "rows": 100000,
+    "columns": 6,
+    "missing_percentage": 0.0,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "waste_id": "object",
+        "measurement_date": "object",
+        "location_id": "object",
+        "waste_type": "object",
+        "quantity_tons": "float64",
+        "disposal_method": "object"
+    },
+    "missing_values": {
+        "waste_id": 0,
+        "measurement_date": 0,
+        "location_id": 0,
+        "waste_type": 0,
+        "quantity_tons": 0,
+        "disposal_method": 0
+    },
+    "unique_values": {
+        "waste_id": 100000,
+        "measurement_date": 2006,
+        "location_id": 250,
+        "waste_type": 4,
+        "quantity_tons": 43156,
+        "disposal_method": 4
+    },
+    "numeric_statistics": {
+        "quantity_tons": {
+            "min": 0.1,
+            "max": 499.99,
+            "mean": 250.4,
+            "median": 250.97
+        }
+    }
+}

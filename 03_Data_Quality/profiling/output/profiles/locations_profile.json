@@ -1,0 +1,62 @@
+{
+    "dataset": "locations",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/dimensions/locations/output/raw_locations.csv",
+    "rows": 255,
+    "columns": 11,
+    "missing_percentage": 0.43,
+    "duplicate_percentage": 1.96,
+    "quality_score": 100,
+    "data_types": {
+        "location_id": "object",
+        "facility_name": "object",
+        "location_type": "object",
+        "city": "object",
+        "state": "object",
+        "country": "object",
+        "region": "object",
+        "latitude": "float64",
+        "longitude": "float64",
+        "operating_status": "object",
+        "opening_date": "object"
+    },
+    "missing_values": {
+        "location_id": 0,
+        "facility_name": 0,
+        "location_type": 0,
+        "city": 0,
+        "state": 0,
+        "country": 0,
+        "region": 12,
+        "latitude": 0,
+        "longitude": 0,
+        "operating_status": 0,
+        "opening_date": 0
+    },
+    "unique_values": {
+        "location_id": 250,
+        "facility_name": 137,
+        "location_type": 5,
+        "city": 38,
+        "state": 38,
+        "country": 10,
+        "region": 3,
+        "latitude": 38,
+        "longitude": 38,
+        "operating_status": 3,
+        "opening_date": 228
+    },
+    "numeric_statistics": {
+        "latitude": {
+            "min": -37.8136,
+            "max": 59.3293,
+            "mean": 39.35,
+            "median": 48.14
+        },
+        "longitude": {
+            "min": -123.1207,
+            "max": 153.0251,
+            "mean": 17.44,
+            "median": 5.12
+        }
+    }
+}

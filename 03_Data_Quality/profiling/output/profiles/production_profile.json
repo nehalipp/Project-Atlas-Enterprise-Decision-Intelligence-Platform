@@ -1,0 +1,74 @@
+{
+    "dataset": "production",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/production/output/raw_production.csv",
+    "rows": 306000,
+    "columns": 11,
+    "missing_percentage": 0.45,
+    "duplicate_percentage": 1.96,
+    "quality_score": 100,
+    "data_types": {
+        "production_id": "object",
+        "production_date": "object",
+        "machine_id": "object",
+        "product_id": "object",
+        "location_id": "object",
+        "shift": "object",
+        "units_produced": "int64",
+        "defect_count": "int64",
+        "defect_rate": "float64",
+        "production_hours": "float64",
+        "production_status": "object"
+    },
+    "missing_values": {
+        "production_id": 0,
+        "production_date": 0,
+        "machine_id": 0,
+        "product_id": 0,
+        "location_id": 0,
+        "shift": 0,
+        "units_produced": 0,
+        "defect_count": 0,
+        "defect_rate": 0,
+        "production_hours": 0,
+        "production_status": 15305
+    },
+    "unique_values": {
+        "production_id": 300000,
+        "production_date": 2006,
+        "machine_id": 1500,
+        "product_id": 5000,
+        "location_id": 250,
+        "shift": 3,
+        "units_produced": 450,
+        "defect_count": 24,
+        "defect_rate": 461,
+        "production_hours": 1001,
+        "production_status": 3
+    },
+    "numeric_statistics": {
+        "units_produced": {
+            "min": 50.0,
+            "max": 499.0,
+            "mean": 274.56,
+            "median": 274.0
+        },
+        "defect_count": {
+            "min": 0.0,
+            "max": 23.0,
+            "mean": 6.13,
+            "median": 5.0
+        },
+        "defect_rate": {
+            "min": 0.0,
+            "max": 0.0479,
+            "mean": 0.02,
+            "median": 0.02
+        },
+        "production_hours": {
+            "min": 2.0,
+            "max": 12.0,
+            "mean": 7.0,
+            "median": 6.99
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "dataset": "sales",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/sales/output/raw_sales_transactions.csv",
+    "rows": 510000,
+    "columns": 10,
+    "missing_percentage": 0.5,
+    "duplicate_percentage": 1.96,
+    "quality_score": 100,
+    "data_types": {
+        "transaction_id": "object",
+        "customer_id": "object",
+        "product_id": "object",
+        "location_id": "object",
+        "transaction_date": "object",
+        "quantity": "int64",
+        "unit_price": "float64",
+        "discount_percentage": "int64",
+        "revenue": "float64",
+        "sales_channel": "object"
+    },
+    "missing_values": {
+        "transaction_id": 0,
+        "customer_id": 25485,
+        "product_id": 0,
+        "location_id": 0,
+        "transaction_date": 0,
+        "quantity": 0,
+        "unit_price": 0,
+        "discount_percentage": 0,
+        "revenue": 0,
+        "sales_channel": 0
+    },
+    "unique_values": {
+        "transaction_id": 500000,
+        "customer_id": 49995,
+        "product_id": 4999,
+        "location_id": 249,
+        "transaction_date": 2006,
+        "quantity": 20,
+        "unit_price": 392798,
+        "discount_percentage": 5,
+        "revenue": 483809,
+        "sales_channel": 4
+    },
+    "numeric_statistics": {
+        "quantity": {
+            "min": -1.0,
+            "max": 19.0,
+            "mean": 9.95,
+            "median": 10.0
+        },
+        "unit_price": {
+            "min": 100.0,
+            "max": 9999.96,
+            "mean": 5047.77,
+            "median": 5039.55
+        },
+        "discount_percentage": {
+            "min": 0.0,
+            "max": 20.0,
+            "mean": 10.01,
+            "median": 10.0
+        },
+        "revenue": {
+            "min": 81.05,
+            "max": 189992.97,
+            "mean": 45456.48,
+            "median": 34548.98
+        }
+    }
+}

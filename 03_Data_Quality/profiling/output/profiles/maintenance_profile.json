@@ -1,0 +1,53 @@
+{
+    "dataset": "maintenance",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/maintenance/output/raw_maintenance.csv",
+    "rows": 100000,
+    "columns": 8,
+    "missing_percentage": 0.62,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "maintenance_id": "object",
+        "maintenance_date": "object",
+        "machine_id": "object",
+        "maintenance_type": "object",
+        "technician": "object",
+        "downtime_hours": "float64",
+        "repair_cost": "float64",
+        "maintenance_status": "object"
+    },
+    "missing_values": {
+        "maintenance_id": 0,
+        "maintenance_date": 0,
+        "machine_id": 0,
+        "maintenance_type": 0,
+        "technician": 5000,
+        "downtime_hours": 0,
+        "repair_cost": 0,
+        "maintenance_status": 0
+    },
+    "unique_values": {
+        "maintenance_id": 100000,
+        "maintenance_date": 2006,
+        "machine_id": 1500,
+        "maintenance_type": 3,
+        "technician": 68365,
+        "downtime_hours": 4751,
+        "repair_cost": 98052,
+        "maintenance_status": 3
+    },
+    "numeric_statistics": {
+        "downtime_hours": {
+            "min": 0.5,
+            "max": 48.0,
+            "mean": 24.23,
+            "median": 24.16
+        },
+        "repair_cost": {
+            "min": 100.52,
+            "max": 24999.45,
+            "mean": 12557.67,
+            "median": 12571.85
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "dataset": "suppliers",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/dimensions/suppliers/output/raw_suppliers.csv",
+    "rows": 1000,
+    "columns": 7,
+    "missing_percentage": 0.71,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "supplier_id": "object",
+        "supplier_name": "object",
+        "supplier_category": "object",
+        "country": "object",
+        "region": "object",
+        "performance_rating": "float64",
+        "supplier_status": "object"
+    },
+    "missing_values": {
+        "supplier_id": 0,
+        "supplier_name": 0,
+        "supplier_category": 50,
+        "country": 0,
+        "region": 0,
+        "performance_rating": 0,
+        "supplier_status": 0
+    },
+    "unique_values": {
+        "supplier_id": 1000,
+        "supplier_name": 974,
+        "supplier_category": 5,
+        "country": 10,
+        "region": 3,
+        "performance_rating": 357,
+        "supplier_status": 3
+    },
+    "numeric_statistics": {
+        "performance_rating": {
+            "min": 1.01,
+            "max": 4.99,
+            "mean": 3.03,
+            "median": 3.04
+        }
+    }
+}

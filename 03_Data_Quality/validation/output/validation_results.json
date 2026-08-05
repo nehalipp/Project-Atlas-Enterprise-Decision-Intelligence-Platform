@@ -1,0 +1,94 @@
+[
+    {
+        "dataset": "accounts",
+        "checks": [
+            "account_id completeness"
+        ],
+        "issues": []
+    },
+    {
+        "dataset": "customers",
+        "checks": [
+            "customer_id completeness"
+        ],
+        "issues": [
+            "Duplicate customer_id: 1000"
+        ]
+    },
+    {
+        "dataset": "employees",
+        "checks": [
+            "employee_id completeness"
+        ],
+        "issues": []
+    },
+    {
+        "dataset": "locations",
+        "checks": [
+            "location_id completeness"
+        ],
+        "issues": [
+            "Duplicate location_id: 5"
+        ]
+    },
+    {
+        "dataset": "machines",
+        "checks": [
+            "machine_id completeness"
+        ],
+        "issues": []
+    },
+    {
+        "dataset": "products",
+        "checks": [
+            "product_id completeness"
+        ],
+        "issues": []
+    },
+    {
+        "dataset": "suppliers",
+        "checks": [
+            "supplier_id completeness"
+        ],
+        "issues": []
+    },
+    {
+        "dataset": "sales",
+        "issues": [
+            "Invalid quantity records: 2544",
+            "Revenue calculation mismatch: 408984"
+        ]
+    },
+    {
+        "dataset": "inventory",
+        "issues": []
+    },
+    {
+        "dataset": "production",
+        "issues": []
+    },
+    {
+        "dataset": "maintenance",
+        "issues": []
+    },
+    {
+        "dataset": "finance",
+        "issues": []
+    },
+    {
+        "dataset": "budget",
+        "issues": []
+    },
+    {
+        "dataset": "energy",
+        "issues": []
+    },
+    {
+        "dataset": "emissions",
+        "issues": []
+    },
+    {
+        "dataset": "waste",
+        "issues": []
+    }
+]

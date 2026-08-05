@@ -1,0 +1,47 @@
+{
+    "dataset": "energy",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/energy/output/raw_energy_consumption.csv",
+    "rows": 150000,
+    "columns": 6,
+    "missing_percentage": 0.83,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "energy_id": "object",
+        "measurement_date": "object",
+        "location_id": "object",
+        "energy_source": "object",
+        "consumption_kwh": "float64",
+        "energy_cost": "float64"
+    },
+    "missing_values": {
+        "energy_id": 0,
+        "measurement_date": 0,
+        "location_id": 0,
+        "energy_source": 7500,
+        "consumption_kwh": 0,
+        "energy_cost": 0
+    },
+    "unique_values": {
+        "energy_id": 150000,
+        "measurement_date": 2006,
+        "location_id": 250,
+        "energy_source": 4,
+        "consumption_kwh": 147817,
+        "energy_cost": 137419
+    },
+    "numeric_statistics": {
+        "consumption_kwh": {
+            "min": 500.11,
+            "max": 49999.29,
+            "mean": 25274.43,
+            "median": 25336.1
+        },
+        "energy_cost": {
+            "min": 26.31,
+            "max": 12477.34,
+            "mean": 3791.34,
+            "median": 3199.56
+        }
+    }
+}

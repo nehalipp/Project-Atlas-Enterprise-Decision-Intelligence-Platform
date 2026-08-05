@@ -1,0 +1,50 @@
+{
+    "dataset": "budget",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/budgets/output/raw_budget.csv",
+    "rows": 5000,
+    "columns": 7,
+    "missing_percentage": 0.0,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "budget_id": "object",
+        "fiscal_year": "int64",
+        "department": "object",
+        "account_type": "object",
+        "budget_amount": "float64",
+        "approved_by": "object",
+        "budget_status": "object"
+    },
+    "missing_values": {
+        "budget_id": 0,
+        "fiscal_year": 0,
+        "department": 0,
+        "account_type": 0,
+        "budget_amount": 0,
+        "approved_by": 0,
+        "budget_status": 0
+    },
+    "unique_values": {
+        "budget_id": 5000,
+        "fiscal_year": 4,
+        "department": 9,
+        "account_type": 5,
+        "budget_amount": 5000,
+        "approved_by": 4819,
+        "budget_status": 3
+    },
+    "numeric_statistics": {
+        "fiscal_year": {
+            "min": 2023.0,
+            "max": 2026.0,
+            "mean": 2024.5,
+            "median": 2024.0
+        },
+        "budget_amount": {
+            "min": 50868.8,
+            "max": 4999092.76,
+            "mean": 2543519.86,
+            "median": 2545067.52
+        }
+    }
+}

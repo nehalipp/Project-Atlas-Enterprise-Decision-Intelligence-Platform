@@ -1,83 +1,142 @@
 """
-Project Atlas
+Project Atlas: Enterprise Decision Intelligence Platform
 
-Enterprise Data Quality Profiling Orchestrator
+Run Complete Data Profiling Pipeline
 
-Purpose:
-Execute all dataset profiling modules from a single script.
+Profiles every dataset registered
+in quality_config.py
 """
 
 
-from profile_customers import (
-    load_customer_data,
-    profile_customers
-)
+import os
+import json
+import sys
 
-from profile_products import (
-    load_product_data,
-    profile_products
-)
 
-from profile_sales import (
-    load_sales_data,
-    profile_sales
+# Add 03_Data_Quality root to Python path
+
+CURRENT_DIR = os.path.dirname(
+    os.path.abspath(__file__)
 )
 
 
+QUALITY_ROOT = os.path.abspath(
+    os.path.join(
+        CURRENT_DIR,
+        ".."
+    )
+)
 
-def run_all_profiles():
+
+sys.path.append(
+    QUALITY_ROOT
+)
+
+from config import quality_config as config
+
+from profiling.profiler import profile_dataset
 
 
-    print("\n================================")
-    print("PROJECT ATLAS DATA QUALITY RUN")
-    print("================================\n")
+# -----------------------------------------------------
+# Run Profiling
+# -----------------------------------------------------
+
+def run_profiling():
 
 
-    # Customer profiling
+    print("="*70)
 
-    customers = load_customer_data()
-
-    customer_report = profile_customers(
-        customers
+    print(
+        "PROJECT ATLAS DATA QUALITY PROFILING PIPELINE"
     )
 
-
-    print("\nCUSTOMER DATASET")
-    print("----------------")
-    print(customer_report)
+    print("="*70)
 
 
 
-    # Product profiling
-
-    products = load_product_data()
-
-    product_report = profile_products(
-        products
-    )
-
-
-    print("\nPRODUCT DATASET")
-    print("----------------")
-    print(product_report)
+    results = []
 
 
 
-    # Sales profiling
-
-    sales = load_sales_data()
-
-    sales_report = profile_sales(
-        sales
-    )
+    for dataset_name, file_path in config.DATASETS.items():
 
 
-    print("\nSALES DATASET")
-    print("----------------")
-    print(sales_report)
+        try:
 
 
+            profile = profile_dataset(
+                dataset_name,
+                file_path
+            )
+
+
+            results.append(profile)
+
+
+
+            output_file = os.path.join(
+
+                config.PROFILE_OUTPUT_PATH,
+
+                f"{dataset_name}_profile.json"
+
+            )
+
+
+
+            os.makedirs(
+
+                config.PROFILE_OUTPUT_PATH,
+
+                exist_ok=True
+
+            )
+
+
+
+            with open(
+                output_file,
+                "w"
+            ) as f:
+
+
+                json.dump(
+                    profile,
+                    f,
+                    indent=4
+                )
+
+
+
+            print(
+                f"SUCCESS: {dataset_name}"
+            )
+
+
+
+        except Exception as e:
+
+
+            print(
+                f"FAILED: {dataset_name}"
+            )
+
+
+            print(e)
+
+
+
+
+    return results
+
+
+
+
+# -----------------------------------------------------
+# Main
+# -----------------------------------------------------
 
 if __name__ == "__main__":
 
-    run_all_profiles()
+
+    run_profiling()

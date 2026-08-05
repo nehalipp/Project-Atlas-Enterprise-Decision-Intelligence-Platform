@@ -1,0 +1,50 @@
+{
+    "dataset": "finance",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/finance/output/raw_financial_transactions.csv",
+    "rows": 510000,
+    "columns": 9,
+    "missing_percentage": 0.55,
+    "duplicate_percentage": 1.96,
+    "quality_score": 100,
+    "data_types": {
+        "transaction_id": "object",
+        "transaction_date": "object",
+        "account_id": "object",
+        "department": "object",
+        "transaction_type": "object",
+        "amount": "float64",
+        "currency": "object",
+        "vendor": "object",
+        "payment_status": "object"
+    },
+    "missing_values": {
+        "transaction_id": 0,
+        "transaction_date": 0,
+        "account_id": 0,
+        "department": 0,
+        "transaction_type": 0,
+        "amount": 0,
+        "currency": 0,
+        "vendor": 25456,
+        "payment_status": 0
+    },
+    "unique_values": {
+        "transaction_id": 500000,
+        "transaction_date": 2006,
+        "account_id": 500,
+        "department": 9,
+        "transaction_type": 5,
+        "amount": 482564,
+        "currency": 4,
+        "vendor": 276473,
+        "payment_status": 3
+    },
+    "numeric_statistics": {
+        "amount": {
+            "min": 100.42,
+            "max": 99999.75,
+            "mean": 33829.72,
+            "median": 30343.84
+        }
+    }
+}

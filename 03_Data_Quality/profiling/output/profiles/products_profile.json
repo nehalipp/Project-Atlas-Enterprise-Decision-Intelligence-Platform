@@ -1,0 +1,47 @@
+{
+    "dataset": "products",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/dimensions/products/output/raw_products.csv",
+    "rows": 5000,
+    "columns": 6,
+    "missing_percentage": 0.0,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "product_id": "object",
+        "product_name": "object",
+        "category": "object",
+        "unit_cost": "float64",
+        "unit_price": "float64",
+        "product_status": "object"
+    },
+    "missing_values": {
+        "product_id": 0,
+        "product_name": 0,
+        "category": 0,
+        "unit_cost": 0,
+        "unit_price": 0,
+        "product_status": 0
+    },
+    "unique_values": {
+        "product_id": 5000,
+        "product_name": 4991,
+        "category": 7,
+        "unit_cost": 4965,
+        "unit_price": 4983,
+        "product_status": 3
+    },
+    "numeric_statistics": {
+        "unit_cost": {
+            "min": 50.26,
+            "max": 4999.25,
+            "mean": 2496.58,
+            "median": 2514.31
+        },
+        "unit_price": {
+            "min": 100.24,
+            "max": 7999.41,
+            "mean": 4026.84,
+            "median": 3943.74
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "dataset": "emissions",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/facts/emissions/output/raw_emissions.csv",
+    "rows": 150000,
+    "columns": 6,
+    "missing_percentage": 0.0,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "emission_id": "object",
+        "measurement_date": "object",
+        "location_id": "object",
+        "emission_type": "object",
+        "scope": "object",
+        "carbon_emission_tons": "float64"
+    },
+    "missing_values": {
+        "emission_id": 0,
+        "measurement_date": 0,
+        "location_id": 0,
+        "emission_type": 0,
+        "scope": 0,
+        "carbon_emission_tons": 0
+    },
+    "unique_values": {
+        "emission_id": 150000,
+        "measurement_date": 2006,
+        "location_id": 250,
+        "emission_type": 3,
+        "scope": 3,
+        "carbon_emission_tons": 148895
+    },
+    "numeric_statistics": {
+        "carbon_emission_tons": {
+            "min": 100.22,
+            "max": 99998.94,
+            "mean": 50172.85,
+            "median": 50246.49
+        }
+    }
+}

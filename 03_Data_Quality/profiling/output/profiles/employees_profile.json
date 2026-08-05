@@ -1,0 +1,59 @@
+{
+    "dataset": "employees",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/dimensions/employees/output/raw_employees.csv",
+    "rows": 10000,
+    "columns": 10,
+    "missing_percentage": 0.5,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "employee_id": "object",
+        "employee_name": "object",
+        "department": "object",
+        "job_title": "object",
+        "location_id": "object",
+        "manager_id": "object",
+        "hire_date": "object",
+        "salary": "float64",
+        "employment_status": "object",
+        "performance_rating": "float64"
+    },
+    "missing_values": {
+        "employee_id": 0,
+        "employee_name": 0,
+        "department": 500,
+        "job_title": 0,
+        "location_id": 0,
+        "manager_id": 0,
+        "hire_date": 0,
+        "salary": 0,
+        "employment_status": 0,
+        "performance_rating": 0
+    },
+    "unique_values": {
+        "employee_id": 10000,
+        "employee_name": 9362,
+        "department": 9,
+        "job_title": 10,
+        "location_id": 250,
+        "manager_id": 6314,
+        "hire_date": 1985,
+        "salary": 9994,
+        "employment_status": 3,
+        "performance_rating": 401
+    },
+    "numeric_statistics": {
+        "salary": {
+            "min": 45001.14,
+            "max": 179933.69,
+            "mean": 112571.86,
+            "median": 112856.47
+        },
+        "performance_rating": {
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.0,
+            "median": 3.01
+        }
+    }
+}

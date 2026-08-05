@@ -1,0 +1,50 @@
+{
+    "dataset": "machines",
+    "file": "/Users/nehaliparulekar/BI_Projects/Project-Atlas-Enterprise-Decision-Intelligence-Platform/02_Data_Generation/dimensions/machines/output/raw_machines.csv",
+    "rows": 1500,
+    "columns": 9,
+    "missing_percentage": 0.0,
+    "duplicate_percentage": 0.0,
+    "quality_score": 100,
+    "data_types": {
+        "machine_id": "object",
+        "machine_name": "object",
+        "machine_type": "object",
+        "manufacturer": "object",
+        "location_id": "object",
+        "purchase_date": "object",
+        "warranty_expiry": "object",
+        "expected_life_years": "int64",
+        "machine_status": "object"
+    },
+    "missing_values": {
+        "machine_id": 0,
+        "machine_name": 0,
+        "machine_type": 0,
+        "manufacturer": 0,
+        "location_id": 0,
+        "purchase_date": 0,
+        "warranty_expiry": 0,
+        "expected_life_years": 0,
+        "machine_status": 0
+    },
+    "unique_values": {
+        "machine_id": 1500,
+        "machine_name": 1500,
+        "machine_type": 5,
+        "manufacturer": 6,
+        "location_id": 250,
+        "purchase_date": 1087,
+        "warranty_expiry": 1087,
+        "expected_life_years": 20,
+        "machine_status": 4
+    },
+    "numeric_statistics": {
+        "expected_life_years": {
+            "min": 5.0,
+            "max": 24.0,
+            "mean": 14.54,
+            "median": 14.0
+        }
+    }
+}
