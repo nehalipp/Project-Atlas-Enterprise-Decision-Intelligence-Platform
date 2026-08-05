@@ -1,376 +1,456 @@
 # Project Atlas: Enterprise Decision Intelligence Platform
 
-## Overview
-
-Project Atlas is an end-to-end analytics engineering project designed to transform raw operational sales data into trusted business insights.
-
-The project simulates a real-world enterprise analytics environment where transactional data is generated, cleaned, validated, modeled into a dimensional data warehouse, and analyzed through business intelligence dashboards.
-
-The primary goal is to demonstrate practical skills in:
-
-- Data Engineering
-- SQL Development
-- Data Warehousing
-- Data Quality Management
-- Business Intelligence
-- Analytics
+![Project Status](https://img.shields.io/badge/Status-In%20Development-blue)
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Database](https://img.shields.io/badge/Architecture-Star%20Schema-green)
+![BI](https://img.shields.io/badge/Analytics-Power%20BI-yellow)
 
 ---
 
-# Business Problem
+# Overview
 
-Organizations often struggle to make timely decisions because business data is distributed across multiple systems, contains quality issues, and requires significant manual preparation before analysis.
+**Project Atlas** is an end-to-end **Enterprise Decision Intelligence Platform** designed to simulate a real-world analytics ecosystem.
 
-Project Atlas addresses this challenge by creating a centralized analytics platform that:
+The project demonstrates how organizations transform raw operational data into trusted business insights through:
 
-- Consolidates operational sales data
-- Improves data reliability through validation
-- Creates reusable analytical data models
-- Provides business insights through dashboards
+* Data generation
+* Data quality management
+* Data engineering
+* Data warehousing
+* Business intelligence
+* Executive analytics
 
----
-
-# Project Objectives
-
-The project focuses on:
-
-## 1. Data Generation
-
-Create realistic synthetic enterprise datasets representing:
-
-- Customers
-- Products
-- Suppliers
-- Locations
-- Employees
-- Sales Transactions
-
-Technology:
-
-- Python
-- Faker
-- Pandas
+The platform follows modern enterprise analytics architecture patterns used by organizations to support data-driven decision making.
 
 ---
 
-## 2. Data Quality Management
+# Business Objective
 
-Implement automated data quality checks including:
+Organizations generate data across multiple operational systems:
 
-- Missing value detection
-- Duplicate identification
-- Referential integrity validation
-- Business rule validation
+* Customers
+* Products
+* Suppliers
+* Workforce
+* Manufacturing
+* Sales
+* Finance
+* Energy
+* Sustainability
 
-Examples:
+However, raw operational data often contains:
 
-- Revenue cannot be negative
-- Transactions must have valid customers
-- Products must map to valid dimensions
+* Missing values
+* Duplicate records
+* Invalid categories
+* Data inconsistencies
+* Quality issues
 
----
+Project Atlas demonstrates a complete workflow to:
 
-## 3. Data Warehouse Development
-
-Design and implement a PostgreSQL dimensional data warehouse using a star schema.
-
-Warehouse includes:
-
-### Dimension Tables
-
-- dim_customer
-- dim_product
-- dim_supplier
-- dim_location
-- dim_employee
-- dim_date
-
-### Fact Tables
-
-- fact_sales
+1. Generate realistic enterprise datasets
+2. Identify and resolve data quality issues
+3. Build a scalable analytical data warehouse
+4. Create business intelligence solutions
+5. Enable executive decision making
 
 ---
 
-## 4. Business Intelligence
+# Architecture Overview
 
-Develop analytical dashboards using:
+```text
+                         PROJECT ATLAS
+                              |
+                              |
+        +---------------------+---------------------+
+        |                     |                     |
+        v                     v                     v
 
-- Power BI
-- Tableau
+01_Project_Planning   02_Data_Generation    03_Data_Quality
 
-Dashboard areas include:
+                              |
+                              |
+                              v
 
-- Revenue Performance
-- Customer Analysis
-- Product Performance
-- Sales Trends
+                    04_Data_Warehouse
+
+                              |
+                              |
+                              v
+
+                    05_Analytics & BI
+
+                              |
+                              |
+                              v
+
+              Enterprise Decision Intelligence
+```
 
 ---
 
-# Architecture
+# Project Roadmap
 
-The overall data flow:
-Python Faker
-(Synthetic Data Generation)
+| Phase | Description                            | Status    |
+| ----- | -------------------------------------- | --------- |
+| 01    | Project Planning & Architecture Design | Completed |
+| 02    | Synthetic Enterprise Data Generation   | Completed |
+| 03    | Data Quality Framework                 | Completed |
+| 04    | Data Warehouse & Data Modeling         | Planned   |
+| 05    | Analytics & BI Dashboards              | Planned   |
+| 06    | Advanced Analytics & AI Insights       | Planned   |
 
-    |
+---
 
-    v
+# Completed Components
 
-CSV Source Files
+---
 
-    |
+# 01 - Project Planning
 
-    v
+Location:
 
-PostgreSQL Raw Layer
+```text
+01_Project_Planning
+```
 
-    |
+Includes:
 
-    v
+* Business requirements
+* Enterprise architecture design
+* Data model planning
+* Analytics roadmap
+* Project documentation
 
-Staging Layer
+---
 
-(Data Cleaning + Standardization)
+# 02 - Data Generation Framework
 
-    |
+Location:
 
-    v
+```text
+02_Data_Generation
+```
 
-Enterprise Data Warehouse
+Purpose:
 
-(Star Schema)
+Creates realistic synthetic enterprise datasets representing multiple business domains.
 
-    |
+## Generated Dimensions
 
-    v
+| Dimension | Dataset              |
+| --------- | -------------------- |
+| Customer  | Customers            |
+| Product   | Products             |
+| Supplier  | Suppliers            |
+| Employee  | Workforce            |
+| Location  | Facilities           |
+| Machine   | Manufacturing Assets |
+| Account   | Finance Accounts     |
 
-Power BI / Tableau
+---
 
-(Business Insights)
+## Generated Facts
+
+| Fact        | Dataset                |
+| ----------- | ---------------------- |
+| Sales       | Transactions           |
+| Inventory   | Stock Levels           |
+| Production  | Manufacturing Events   |
+| Maintenance | Equipment Maintenance  |
+| Finance     | Financial Transactions |
+| Budget      | Planning Data          |
+| Energy      | Energy Consumption     |
+| Emissions   | Carbon Data            |
+| Waste       | Waste Management       |
+
+---
+
+## Data Generation Features
+
+The framework includes:
+
+* Config-driven generation
+* Reproducible random seeds
+* Synthetic enterprise data
+* Controlled data quality issues
+* Modular Python generators
+
+Example:
+
+```text
+generate_customers.py
+generate_products.py
+generate_sales.py
+generate_production.py
+```
+
+---
+
+# 03 - Data Quality Framework
+
+Location:
+
+```text
+03_Data_Quality
+```
+
+Purpose:
+
+Ensures generated enterprise data meets analytical readiness standards.
+
+The framework performs:
+
+## Profiling
+
+Analyzes:
+
+* Row counts
+* Column statistics
+* Missing values
+* Duplicate records
+* Data distributions
+
+## Validation
+
+Checks:
+
+* Primary key integrity
+* Data completeness
+* Business rules
+* Fact validation
+* Dimension validation
+
+## Reporting
+
+Generates:
+
+### Quality Summary
+
+```text
+quality_summary.csv
+```
+
+### Governance Report
+
+```text
+data_quality_report.md
+```
+
+### Executive Scorecard
+
+```text
+data_quality_scorecard.xlsx
+```
 
 ---
 
 # Technology Stack
 
-## Data Generation
+## Programming
 
-- Python
-- Faker
-- Pandas
+* Python
+* Pandas
+* NumPy
+* Faker
 
-## Database
-
-- PostgreSQL
+---
 
 ## Data Engineering
 
-- SQL
-- ETL Pipelines
-- Dimensional Modeling
+* SQL
+* PostgreSQL
+* ETL Pipelines
+* Data Modeling
+* Star Schema
+
+---
 
 ## Data Quality
 
-- Python Validation Scripts
-- SQL Validation Rules
-
-## Visualization
-
-- Power BI
-- Tableau
-
-## Development Tools
-
-- Git
-- GitHub
-- VS Code
+* Automated Profiling
+* Data Validation
+* Quality Scoring
+* Data Governance Concepts
 
 ---
 
-# Dataset Overview
+## Analytics
 
-The project uses synthetic enterprise data.
+Planned:
 
-Generated datasets include:
-
-| Dataset | Records |
-|---|---:|
-| Customers | 50,000+ |
-| Products | 5,000+ |
-| Suppliers | 1,000+ |
-| Locations | 250+ |
-| Employees | 10,000+ |
-| Sales Transactions | 500,000+ |
+* Power BI
+* Tableau
+* Executive Dashboards
+* KPI Reporting
 
 ---
 
-# Data Warehouse Design
+# Enterprise Data Model
 
-Project Atlas follows dimensional modeling principles.
+The planned warehouse architecture follows a dimensional model.
 
-## Star Schema
-                  dim_date
-                     |
-                     |
-dim_customer --- fact_sales --- dim_product
-                     |
-                     |
-                dim_location
-                     |
-                     |
-                dim_supplier
-                     |
-                     |
+Example:
+
+```text
+                 dim_customer
+
+                       |
+                       |
+                       |
+
+dim_product ---- fact_sales ---- dim_location
+
+                       |
+
+                       |
+
                 dim_employee
+```
 
 ---
 
-# ETL Pipeline
+# Key Business Domains
 
-The pipeline follows these steps:
+Project Atlas covers:
 
-## Step 1: Generate Data
+## Commercial Analytics
 
-Synthetic enterprise data is created using Python Faker.
+* Sales performance
+* Revenue trends
+* Customer behavior
 
----
+## Supply Chain Analytics
 
-## Step 2: Load Raw Data
+* Inventory optimization
+* Supplier performance
+* Production efficiency
 
-Raw datasets are loaded into PostgreSQL without modification.
+## Manufacturing Analytics
 
-Purpose:
+* Machine utilization
+* Maintenance analysis
+* Production quality
 
-- Preserve source data
-- Maintain traceability
+## Financial Analytics
 
----
+* Revenue analysis
+* Expense tracking
+* Budget monitoring
 
-## Step 3: Transform Data
+## ESG Analytics
 
-Staging processes perform:
-
-- Data cleaning
-- Standardization
-- Validation
-- Transformation logic
-
----
-
-## Step 4: Load Warehouse
-
-Cleaned data is loaded into:
-
-- Dimension tables
-- Fact tables
+* Energy consumption
+* Carbon emissions
+* Waste management
 
 ---
 
-## Step 5: Validate Warehouse
+# Data Quality Philosophy
 
-Automated checks validate:
+Project Atlas follows enterprise data governance principles:
 
-- Record counts
-- Duplicate records
-- Missing values
-- Referential integrity
-- Business rules
+* Data must be accurate
+* Data must be complete
+* Data must be consistent
+* Data must be trusted before analytics consumption
 
----
-
-# Data Quality Results
-
-Validation framework confirms:
-
-- Fact table contains expected transaction volumes
-- No duplicate transaction records
-- No missing revenue values
-- Referential integrity checks passed
-- Warehouse revenue reconciles with staging data
+The quality framework ensures analytical datasets are reliable before entering the warehouse layer.
 
 ---
 
-# Project Structure
-Project-Atlas
+# Repository Structure
+
+```text
+Project-Atlas-Enterprise-Decision-Intelligence-Platform
+
 │
-├── data_generation
+├── 01_Project_Planning
 │
-├── data_quality
+├── 02_Data_Generation
+│   ├── dimensions
+│   ├── facts
+│   ├── config
+│   └── common
 │
-├── data_warehouse
+├── 03_Data_Quality
+│   ├── profiling
+│   ├── validation
+│   ├── reports
+│   └── run_quality_pipeline.py
 │
-├── analytics
+├── 04_Data_Warehouse
+│   (Coming Soon)
 │
-├── dashboards
+├── 05_Analytics_BI
+│   (Coming Soon)
 │
-└── documentation
-
-
----
-
-# Key Skills Demonstrated
-
-This project demonstrates:
-
-## Data Engineering
-
-- ETL pipeline development
-- Data ingestion
-- Data transformation
-- Warehouse loading
-
-## SQL Development
-
-- Complex SQL transformations
-- Data validation queries
-- Dimensional modeling
-
-## Analytics Engineering
-
-- Star schema design
-- Fact and dimension modeling
-- Data quality frameworks
-
-## Business Intelligence
-
-- KPI development
-- Dashboard design
-- Business insights
+└── README.md
+```
 
 ---
 
 # Future Enhancements
 
-Potential future improvements:
+Planned additions:
 
-- Add additional business domains
-- Implement dbt transformations
-- Add cloud deployment using Azure
-- Introduce automated orchestration
-- Add machine learning forecasting models
+## Data Warehouse
+
+* PostgreSQL warehouse
+* Staging layer
+* Dimension tables
+* Fact tables
+* Slowly Changing Dimensions
+
+## Analytics Layer
+
+* Power BI semantic model
+* Executive dashboards
+* KPI scorecards
+
+## Advanced Analytics
+
+* Customer segmentation
+* Churn prediction
+* Demand forecasting
+* Predictive maintenance
+* ESG optimization
 
 ---
 
-# Project Status
+# Project Vision
 
-Current Phase:
+The long-term objective of Project Atlas is to demonstrate a complete enterprise analytics lifecycle:
 
-Completed Core Analytics Platform
-
-Completed:
-
-✅ Synthetic data generation  
-✅ Data quality framework  
-✅ PostgreSQL warehouse  
-✅ Star schema implementation  
-✅ ETL pipeline  
-✅ Validation framework  
-✅ BI dashboards  
+```text
+Raw Data
+   |
+   v
+Data Generation
+   |
+   v
+Data Quality
+   |
+   v
+Data Warehouse
+   |
+   v
+Business Intelligence
+   |
+   v
+Decision Intelligence
+```
 
 ---
 
 # Author
 
-Nehali Parulekar
+**Nehali Parulekar**
 
 Data Analyst | Business Intelligence | Analytics Engineering
+
+---
+
+# License
+
+This project is created for educational and portfolio demonstration purposes.
