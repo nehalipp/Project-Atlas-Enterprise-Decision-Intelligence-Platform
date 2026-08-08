@@ -65,12 +65,27 @@ Purpose:
 
 * Clean raw data
 * Normalize string values
+* Preserve NULL values for business and foreign keys
 * Remove duplicate business keys
 * Apply business validations
 * Reject invalid records
 * Add ETL metadata
 
 Staging represents the trusted, transformed dataset used by the warehouse load.
+
+### NULL and UNKNOWN handling
+
+The transformation layer distinguishes between **business keys / foreign keys** and descriptive attributes.
+
+Business keys and foreign keys preserve missing values as `NULL`.
+
+Descriptive attributes with missing values are standardized to:
+
+```text
+UNKNOWN
+```
+
+This prevents invalid synthetic business keys from being introduced into the staging layer.
 
 ---
 
@@ -86,7 +101,8 @@ Purpose:
 
 * Store analytics-ready dimensional data
 * Implement star-schema relationships
-* Resolve surrogate keys
+* Generate surrogate keys
+* Resolve business keys to surrogate keys
 * Support BI reporting and analytical queries
 
 The warehouse contains:
@@ -94,6 +110,8 @@ The warehouse contains:
 * 7 dimensions
 * 9 fact tables
 * 16 total warehouse tables
+
+The warehouse also contains a technical `UNKNOWN` customer dimension member to support fact records whose source customer reference is missing.
 
 ---
 
@@ -152,7 +170,7 @@ The complete pipeline is:
         ↓
 6. Load dimensions
         ↓
-7. Resolve surrogate keys
+7. Resolve business keys to surrogate keys
         ↓
 8. Load facts
         ↓
@@ -233,11 +251,21 @@ Leading and trailing whitespace is removed from string fields.
 
 ### Null normalization
 
-Blank and missing string values are normalized to:
+Blank and missing values are normalized according to field type.
+
+For descriptive attributes:
 
 ```text
-UNKNOWN
+NULL / blank → UNKNOWN
 ```
+
+For business keys and foreign keys:
+
+```text
+NULL / blank → NULL
+```
+
+This distinction is intentional because `UNKNOWN` is a dimension member, not a valid source business key.
 
 ### Duplicate removal
 
@@ -292,11 +320,89 @@ The warehouse loader:
 
 1. Clears the existing warehouse load.
 2. Loads all dimensions.
-3. Resolves business keys to surrogate keys.
-4. Loads all fact tables.
-5. Reports inserted row counts.
+3. Generates warehouse surrogate keys.
+4. Resolves source business keys to dimension surrogate keys.
+5. Normalizes source key formats during lookup where required.
+6. Handles missing customer references through the `UNKNOWN` customer member.
+7. Loads all fact tables.
+8. Reports inserted row counts.
 
 The load order is important because facts depend on dimension surrogate keys.
+
+---
+
+# Business-Key Normalization
+
+Some source business keys use a different representation from the warehouse dimension keys.
+
+The warehouse load therefore performs **lookup-time normalization** without modifying the trusted staging data.
+
+### Location example
+
+Source/staging sales records may contain:
+
+```text
+LOC_0197
+```
+
+while the location dimension stores:
+
+```text
+LOC_00197
+```
+
+The warehouse lookup normalizes the numeric portion and resolves the correct dimension member:
+
+```text
+LOC_0197
+    ↓
+LOC_00197
+    ↓
+dim_location.location_key
+```
+
+This approach preserves the original staging value while ensuring correct surrogate-key resolution in the warehouse.
+
+---
+
+# UNKNOWN Dimension Members
+
+The warehouse uses technical default dimension members when a source foreign-key reference is unavailable.
+
+Currently:
+
+```text
+dim_customer
+```
+
+contains:
+
+```text
+customer_id = UNKNOWN
+customer_name = Unknown Customer
+```
+
+Missing or blank customer references in sales transactions are resolved to this member during fact loading.
+
+Therefore:
+
+```text
+staging.stg_sales_transactions.customer_id
+        │
+        │ NULL / blank
+        ▼
+UNKNOWN
+        │
+        ▼
+warehouse.dim_customer.customer_key
+        │
+        ▼
+warehouse.fact_sales.customer_key
+```
+
+This allows the fact record to remain in the warehouse without inventing an invalid customer business key or dropping the transaction.
+
+The `UNKNOWN` member is a **technical warehouse record** and is therefore excluded from business-entity row-count reconciliation.
 
 ---
 
@@ -358,7 +464,7 @@ pipeline_validation.sql
 
 # Row Count Validation
 
-The row-count validation compares:
+The row-count validation reconciles:
 
 ```text
 raw
@@ -376,11 +482,33 @@ staging_count <= raw_count
 
 because transformation may remove duplicates or invalid records.
 
-For a successful warehouse load:
+For standard dimensions and facts:
 
 ```text
 warehouse_count = staging_count
 ```
+
+For dimensions containing technical default members, the default members are excluded from business-entity reconciliation.
+
+For example:
+
+```text
+raw.customers                         51,000
+staging.stg_customers                 50,000
+warehouse.dim_customer               50,001
+warehouse real customers             50,000
+warehouse UNKNOWN member                  1
+```
+
+Therefore, customer validation compares:
+
+```text
+staging customer count
+        =
+warehouse customer count excluding customer_id = 'UNKNOWN'
+```
+
+This prevents technical warehouse members from being incorrectly reported as ETL failures.
 
 ---
 
@@ -424,6 +552,10 @@ fact_sales.location_key
 dim_location.location_key
 ```
 
+The validation framework also verifies that populated foreign keys do not reference nonexistent dimension members.
+
+Missing source foreign keys are intentionally handled according to the warehouse design rather than being silently discarded.
+
 ---
 
 # Business Rule Validation
@@ -432,7 +564,7 @@ Business rules verify that warehouse-ready data does not contain known invalid v
 
 Examples include:
 
-* Missing business keys
+* Missing business keys where a business key is required
 * Negative quantities
 * Negative monetary values
 * Invalid prices
@@ -458,7 +590,7 @@ PASS
 FAIL
 ```
 
-This makes the output suitable for:
+The validation framework is designed to support:
 
 * Manual QA
 * ETL troubleshooting
@@ -562,24 +694,38 @@ The generated dataset is intentionally large enough to demonstrate realistic ETL
 
 Representative volumes include:
 
-| Dataset                | Raw Records | Staging Records |
-| ---------------------- | ----------: | --------------: |
-| Accounts               |         500 |             500 |
-| Customers              |      51,000 |          50,000 |
-| Products               |       5,000 |           5,000 |
-| Suppliers              |       1,000 |           1,000 |
-| Locations              |         255 |             250 |
-| Employees              |      10,000 |          10,000 |
-| Machines               |       1,500 |           1,500 |
-| Sales                  |     510,000 |         497,500 |
-| Production             |     306,000 |         300,000 |
-| Maintenance            |     100,000 |         100,000 |
-| Financial Transactions |     510,000 |         500,000 |
-| Budget                 |       5,000 |           5,000 |
-| Energy Consumption     |     150,000 |         150,000 |
-| Emissions              |     150,000 |         150,000 |
-| Waste                  |     100,000 |         100,000 |
-| Inventory              |     250,000 |         250,000 |
+| Dataset                | Raw Records | Staging Records | Warehouse Business Records |
+| ---------------------- | ----------: | --------------: | -------------------------: |
+| Accounts               |         500 |             500 |                        500 |
+| Customers              |      51,000 |          50,000 |                     50,000 |
+| Products               |       5,000 |           5,000 |                      5,000 |
+| Suppliers              |       1,000 |           1,000 |                      1,000 |
+| Locations              |         255 |             250 |                        250 |
+| Employees              |      10,000 |          10,000 |                     10,000 |
+| Machines               |       1,500 |           1,500 |                      1,500 |
+| Sales                  |     510,000 |         497,500 |                    497,500 |
+| Production             |     306,000 |         300,000 |                    300,000 |
+| Maintenance            |     100,000 |         100,000 |                    100,000 |
+| Financial Transactions |     510,000 |         500,000 |                    500,000 |
+| Budget                 |       5,000 |           5,000 |                      5,000 |
+| Energy Consumption     |     150,000 |         150,000 |                    150,000 |
+| Emissions              |     150,000 |         150,000 |                    150,000 |
+| Waste                  |     100,000 |         100,000 |                    100,000 |
+| Inventory              |     250,000 |         250,000 |                    250,000 |
+
+For `dim_customer`, the physical warehouse row count is:
+
+```text
+50,001
+```
+
+because the warehouse contains:
+
+```text
+50,000 business customers
++
+1 UNKNOWN technical member
+```
 
 The difference between raw and staging counts is intentional and represents duplicate/invalid records removed during transformation.
 
@@ -609,22 +755,26 @@ Each execution:
 2. Rebuilds the staging load.
 3. Truncates warehouse tables.
 4. Reloads dimensions.
-5. Reloads facts.
-6. Runs validation checks.
+5. Adds required technical default members.
+6. Resolves business keys to surrogate keys.
+7. Reloads facts.
+8. Runs validation checks.
 
-Therefore, repeated pipeline executions should **not accumulate duplicate warehouse records**.
+The warehouse load executes inside a database transaction. If a warehouse dimension or fact load fails, the warehouse transaction is rolled back.
+
+Therefore, repeated successful pipeline executions should **not accumulate duplicate warehouse records**.
 
 The expected behavior is:
 
 ```text
 Run 1
-Warehouse = current staging dataset
+Warehouse = current staging dataset + required technical members
 
 Run 2
-Warehouse = current staging dataset
+Warehouse = current staging dataset + required technical members
 
 Run 3
-Warehouse = current staging dataset
+Warehouse = current staging dataset + required technical members
 ```
 
 rather than:
@@ -685,15 +835,23 @@ The Data Warehouse layer currently implements:
 * Raw layer
 * Staging layer
 * Data cleaning
+* NULL and UNKNOWN handling
 * Duplicate handling
 * Business validation
 * Rejected-record logging
 * Dimension loading
 * Fact loading
+* Surrogate key generation
+* Business-key normalization
 * Surrogate key resolution
+* UNKNOWN dimension member handling
 * Row-count validation
 * Duplicate validation
 * Referential integrity validation
 * Business rule validation
 * End-to-end ETL orchestration
+* Full-refresh warehouse loading
+* Transactional warehouse loading
 * ETL documentation and metadata
+
+The current end-to-end pipeline executes successfully with the warehouse and validation layers reconciled according to the defined ETL rules.
