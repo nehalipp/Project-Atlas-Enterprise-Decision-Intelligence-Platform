@@ -622,33 +622,52 @@ These files provide visibility into why source records did not reach staging.
 # Directory Structure
 
 ```text
-04_Data_Warehouse_NEW/
+04_Data_Warehouse/
 │
 ├── config/
+│   └── database_config.py
 │
 ├── database/
+│   ├── create_database.sql
+│   ├── create_schemas.sql
+│   ├── raw/
+│   │   └── create_raw_tables.sql
 │   ├── staging/
+│   │   └── create_staging_tables.sql
 │   └── warehouse/
+│       ├── create_dimensions.sql
+│       └── create_facts.sql
 │
 ├── diagrams/
 │   └── star_schema.md
 │
 ├── etl/
+│   ├── __init__.py
+│   ├── database_connection.py
 │   ├── extract/
+│   │   ├── __init__.py
 │   │   ├── config/
+│   │   │   ├── __init__.py
 │   │   │   └── source_config.py
-│   │   └── extract_csv_to_raw.py
+│   │   ├── extract_csv_to_raw.py
+│   │   └── run_extract.py
 │   │
 │   ├── transform/
-│   │   └── raw_to_staging.py
+│   │   ├── __init__.py
+│   │   ├── raw_to_staging.py
+│   │   └── run_transform.py
 │   │
 │   ├── load/
-│   │   └── staging_to_warehouse.py
+│   │   ├── __init__.py
+│   │   ├── staging_to_warehouse.py
+│   │   └── run_load.py
 │   │
-│   ├── database_connection.py
 │   └── run_pipeline.py
 │
 ├── logs/
+│   ├── extract/
+│   ├── load/
+│   ├── pipeline.log
 │   └── transform/
 │       └── rejected_records/
 │
@@ -658,11 +677,11 @@ These files provide visibility into why source records did not reach staging.
 │
 ├── sql/
 │   └── validation/
-│       ├── pipeline_validation.sql
-│       ├── row_count_validation.sql
+│       ├── business_rule_validation.sql
 │       ├── duplicate_validation.sql
-│       ├── referential_integrity_validation.sql
-│       └── business_rule_validation.sql
+│       ├── pipeline_validation.sql
+│       ├── referential_integrity.sql
+│       └── row_count_validation.sql
 │
 ├── README.md
 └── requirements.txt
