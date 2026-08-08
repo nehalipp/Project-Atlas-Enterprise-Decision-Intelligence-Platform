@@ -1,0 +1,6 @@
+location_id,facility_name,location_type,city,state,country,region,latitude,longitude,operating_status,opening_date
+LOC_00143,Calgary Warehouse,Warehouse,Calgary,Quebec,Canada,North America,51.0447,-114.0719,Active,2022-06-16
+LOC_00007,Stockholm Research Facility,Research Facility,Stockholm,Skane,Sweden,Europe,59.3293,18.0686,Active,2025-11-25
+LOC_00098,Rotterdam Distribution Center,Distribution Center,Rotterdam,South Holland,Netherlands,Europe,51.9244,4.4777,Active,2023-11-28
+LOC_00061,Cologne Manufacturing Plant,Manufacturing Plant,Cologne,Hesse,Germany,Europe,50.9375,6.9603,Active,2026-06-08
+LOC_00113,Lyon Research Facility,Research Facility,Lyon,Occitanie,France,Europe,45.764,4.8357,Active,2023-10-02
