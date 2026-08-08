@@ -5,6 +5,7 @@
 
 | Dataset | File | Records | Purpose |
 |---|---|---|---|
+| Accounts | raw_accounts.csv | 500 | Account master |
 | Customers | raw_customers.csv | 51,000 | Customer master |
 | Products | raw_products.csv | 5,100 | Product catalog |
 | Suppliers | raw_suppliers.csv | 1,020 | Supplier master |
@@ -25,3 +26,4 @@
 | Energy | raw_energy_consumption.csv | 153,000 | ESG analytics |
 | Emissions | raw_emissions.csv | 153,000 | Carbon reporting |
 | Waste | raw_waste.csv | 102,000 | Sustainability analytics |
+| Inventory | raw_inventory.csv | 250,000 | Inventory analytics |
